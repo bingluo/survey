@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+ "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="USER">
+	<!-- 为类型定义别名 -->
+	<typeAlias alias="user" type="cn.edu.seu.cse.survey.entity.User" />
+	<!-- 定义resultMap,将query结果映射为bean -->
+	<resultMap id="UserResultMap" class="user">
+		<result property="id" column="ID"/>
+		<result property="nickname" column="NICKNAME"/>
+		<result property="email" column="EMAIL"/>
+		<result property="password" column="PASSWORD"/>
+	</resultMap>
+	
+	<select id="selectUserById" resultMap="UserResultMap" parameterClass="int">
+		<![CDATA[
+    		SELECT * 
+    		FROM user
+    		WHERE id = #id#
+		]]>
+	</select>
+	
+	<select id="selectUserByEmailAndPswd" resultMap="UserResultMap" parameterClass="java.util.Map">
+		<![CDATA[
+    		SELECT * 
+    		FROM user
+    		WHERE email = #email# AND password = #password#
+		]]>
+	</select>
+	
+	<select id="selectUserByEmail" resultMap="UserResultMap" parameterClass="java.lang.String">
+		<![CDATA[
+    		SELECT * 
+    		FROM user
+    		WHERE email = #email#
+		]]>
+	</select>
+	
+	<select id="selectUserByNickname" resultMap="UserResultMap" parameterClass="java.lang.String">
+		<![CDATA[
+    		SELECT * 
+    		FROM user
+    		WHERE nickname = #nickname#
+		]]>
+	</select>
+	
+	<insert id="insertUser" parameterClass="user">
+		<![CDATA[
+    		INSERT INTO USER
+    		(nickname,email,password)
+    		VALUES (#nickname#,#email#,#password#)
+		]]>
+	</insert>
+	
+	<update id="updateUser" parameterClass="user">
+		<![CDATA[
+    		UPDATE USER
+    		SET nickname = #nickname#,
+			email = #email#,
+			password = #password#)
+		]]>
+	</update>
+</sqlMap>
