@@ -31,7 +31,6 @@ public class PageController extends AbstractController {
 	SubmitDetailService submitDetailService;
 
 	@SuppressWarnings("unchecked")
-	@Autowired
 	@RequestMapping(value = "/next-page", method = RequestMethod.GET)
 	public void nextPage(HttpServletResponse response, HttpSession session) {
 		Questionnaire questionnaire = null;

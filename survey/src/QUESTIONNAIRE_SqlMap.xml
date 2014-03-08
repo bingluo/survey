@@ -24,25 +24,25 @@
 	
 	<select id="selectQuestionnaireById" resultMap="QuestionnaireResultMap" parameterClass="int">
 		<![CDATA[
-    		SELECT id, catalog_id, title, pageName, priority
+    		SELECT id, catalog_id, title, page_name, priority
     		FROM questionnaire
     		WHERE id = #value#
 		]]>
 	</select>
 	<select id="selectAllQuestionnairesByUserId" resultMap="QuestionnairePojoResultMap" parameterClass="int">		
 		<![CDATA[
-    		SELECT a.id, a.catalog_id, a.title, a.pageName, a.priority, b.content
+    		SELECT a.id, a.catalog_id, a.title, a.page_name, a.priority, b.content
     		FROM questionnaire a, submit_detail b , catalog c
-    		WHERE a.catalog_id = c.id, a.id = b.questionnaire_id AND b.user_id = #value#
-			ORDER BY c.priority, a.priority
+    		WHERE a.catalog_id = c.id AND a.id = b.questionnaire_id AND b.user_id = #value#
+			ORDER BY c.priority ASC, a.priority ASC
 		]]>
     </select>
 	<select id="selectQuestionnairesByCatalogIdAndUserId" resultMap="QuestionnairePojoResultMap" parameterClass="java.util.Map">
 		<![CDATA[
-    		SELECT a.id, a.catalog_id, a.title, a.pageName, a.priority, b.content
+    		SELECT a.id, a.catalog_id, a.title, a.page_name, a.priority, b.content
     		FROM questionnaire a, submit_detail b
     		WHERE a.id = b.questionnaire_id AND b.user_id = #userId# AND a.catalog_id = #catalogId#
-			ORDER a.priority ASC
+			ORDER BY a.priority ASC
 		]]>
 	</select>
 </sqlMap>
