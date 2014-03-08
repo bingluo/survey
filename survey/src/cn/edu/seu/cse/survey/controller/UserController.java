@@ -19,6 +19,7 @@ public class UserController extends AbstractController {
 	@Autowired
 	UserService userService;
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/sign-in", method = RequestMethod.POST)
 	public void signIn(HttpServletResponse response, HttpSession session,
 			@RequestParam("email") String email,
@@ -39,6 +40,7 @@ public class UserController extends AbstractController {
 		ajaxResponse(response, object.toJSONString());
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/sign-in", method = RequestMethod.GET)
 	public void signInget(HttpServletResponse response, HttpSession session,
 			@RequestParam("email") String email,
@@ -59,6 +61,7 @@ public class UserController extends AbstractController {
 		ajaxResponse(response, object.toJSONString());
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/sign-up", method = RequestMethod.POST)
 	public void signUp(HttpServletResponse response, HttpSession session,
 			@RequestParam("nickname") String nickname,
@@ -78,6 +81,7 @@ public class UserController extends AbstractController {
 		ajaxResponse(response, object.toJSONString());
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/log-out", method = RequestMethod.GET)
 	public void logOut(HttpServletResponse response, HttpSession session) {
 		session.setAttribute("userId", null);
@@ -87,6 +91,7 @@ public class UserController extends AbstractController {
 		ajaxResponse(response, object.toJSONString());
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/current-user", method = RequestMethod.GET)
 	public void currentUser(HttpServletResponse response, HttpSession session) {
 		Integer userId = (Integer) session.getAttribute("userId");

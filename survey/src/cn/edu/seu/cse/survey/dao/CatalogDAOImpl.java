@@ -19,6 +19,7 @@ public class CatalogDAOImpl extends SqlMapClientDaoSupport implements
 		setSqlMapClient(sqlMapClient);
 	}
 
+	@SuppressWarnings("unchecked")
 	@Override
 	public List<CatalogPojo> getAllCatalogs() {
 		return getSqlMapClientTemplate().queryForList(
