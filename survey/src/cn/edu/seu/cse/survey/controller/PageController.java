@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import cn.edu.seu.cse.survey.entity.Questionnaire;
 import cn.edu.seu.cse.survey.entity.User;
 import cn.edu.seu.cse.survey.service.QuestionnaireService;
+import cn.edu.seu.cse.survey.service.SubmitDetailService;
 import cn.edu.seu.cse.survey.service.UserService;
 
 @Controller
@@ -21,14 +22,17 @@ public class PageController extends AbstractController {
 	QuestionnaireService questionnaireService;
 	@Autowired
 	UserService userService;
+	@Autowired
+	SubmitDetailService submitDetailService;
 
+	@Autowired
 	@RequestMapping(value = "/next-page", method = RequestMethod.GET)
 	public void nextPage(HttpServletResponse response, HttpSession session) {
 		Questionnaire questionnaire = null;
 		Integer userId = (Integer) session.getAttribute("userId");
 		int status;
 		JSONObject object = new JSONObject();
-		if (userId == null) {
+		if (userId != null) {
 			User user = userService.getUserById(userId);
 			if (user != null) {
 				questionnaire = questionnaireService
@@ -52,4 +56,28 @@ public class PageController extends AbstractController {
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());
 	}
+
+	// @RequestMapping(value = "/get-answer", method = RequestMethod.GET)
+	// public void getAnswer(HttpServletResponse response, HttpSession session,
+	// @RequestParam("questionnaireId") int questionnaireId) {
+	//
+	// SubmitDetail submitDetail;
+	// int status;
+	// Integer userId = (Integer) session.getAttribute("userId");
+	// JSONObject object = new JSONObject();
+	//
+	// if (userId == null) {
+	// User user = userService.getUserById(userId);
+	// if (user != null) {
+	// submitDetail = submitDetailService.getSubmitDetail(
+	// questionnaireId, userId);
+	// if (submitDetail != null) {
+	// object.put("questionnaireId",
+	// submitDetail.getQuestionnaireId());
+	// object.put("content", submitDetail.getContent());
+	// object.put("submitTime", submitDetail.getSubmitTime());
+	// }
+	// }
+	// }
+	// }
 }
