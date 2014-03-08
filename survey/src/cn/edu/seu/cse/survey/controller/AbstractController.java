@@ -7,15 +7,16 @@ import javax.servlet.http.HttpServletResponse;
 
 public class AbstractController {
 	protected void ajaxResponse(HttpServletResponse response, String str) {
-		response.setContentType("text/xml;charset=UTF-8");
+		response.setContentType("application/json;charset=UTF-8");
 		response.setCharacterEncoding("UTF-8");
 		response.setHeader("Cache-Control", "no-cache");
 
 		PrintWriter out;
 		try {
 			out = response.getWriter();
-			out.print(str);
+			out.write(str);
 			out.flush();
+			out.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

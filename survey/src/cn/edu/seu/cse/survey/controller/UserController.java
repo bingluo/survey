@@ -39,6 +39,26 @@ public class UserController extends AbstractController {
 		ajaxResponse(response, object.toJSONString());
 	}
 
+	@RequestMapping(value = "/sign-in", method = RequestMethod.GET)
+	public void signInget(HttpServletResponse response, HttpSession session,
+			@RequestParam("email") String email,
+			@RequestParam("password") String password) {
+		JSONObject object = new JSONObject();
+
+		User user = userService.signIn(email, password);
+		int status;
+		if (user != null) {
+			session.setAttribute("userId", user.getId());
+			status = 0;
+			object.put("email", user.getEmail());
+			object.put("nickname", user.getNickname());
+		} else {
+			status = 1;
+		}
+		object.put("status", status);
+		ajaxResponse(response, object.toJSONString());
+	}
+
 	@RequestMapping(value = "/sign-up", method = RequestMethod.POST)
 	public void signUp(HttpServletResponse response, HttpSession session,
 			@RequestParam("nickname") String nickname,
