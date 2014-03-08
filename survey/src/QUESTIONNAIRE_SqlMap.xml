@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+ "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="QUESTIONNAIRE">
+	<!-- 为类型定义别名 -->
+	<typeAlias alias="questionnaire" type="cn.edu.seu.cse.survey.entity.Questionnaire" />
+	<typeAlias alias="questionnairePojo" type="cn.edu.seu.cse.survey.entity.QuestionnairePojo" />
+	<!-- 定义resultMap,将query结果映射为bean -->
+	<resultMap id="QuestionnaireResultMap" class="questionnaire">
+		<result property="id" column="ID"/>
+		<result property="catalogId" column="CATALOG_ID"/>
+		<result property="title" column="PAGE_NAME"/>
+		<result property="pageName" column="PAGE_NAME"/>
+		<result property="priority" column="PRIORITY"/>
+	</resultMap>
+	<resultMap id="QuestionnairePojoResultMap" class="questionnairePojo">
+		<result property="id" column="ID"/>
+		<result property="catalogId" column="CATALOG_ID"/>
+		<result property="title" column="PAGE_NAME"/>
+		<result property="pageName" column="PAGE_NAME"/>
+		<result property="priority" column="PRIORITY"/>
+		<result property="submitContent" column="CONTENT"/>
+	</resultMap>
+	
+	<select id="selectQuestionnaireById" resultMap="QuestionnaireResultMap" parameterClass="int">
+		<![CDATA[
+    		SELECT id, catalog_id, title, pageName, priority
+    		FROM questionnaire
+    		WHERE id = #value#
+		]]>
+	</select>
+	<select id="selectAllQuestionnairesByUserId" resultMap="QuestionnairePojoResultMap" parameterClass="int">		
+		<![CDATA[
+    		SELECT a.id, a.catalog_id, a.title, a.pageName, a.priority, b.content
+    		FROM questionnaire a, submit_detail b , catalog c
+    		WHERE a.catalog_id = c.id, a.id = b.questionnaire_id AND b.user_id = #value#
+			ORDER BY c.priority, a.priority
+		]]>
+    </select>
+	<select id="selectQuestionnairesByCatalogIdAndUserId" resultMap="QuestionnairePojoResultMap" parameterClass="java.util.Map">
+		<![CDATA[
+    		SELECT a.id, a.catalog_id, a.title, a.pageName, a.priority, b.content
+    		FROM questionnaire a, submit_detail b
+    		WHERE a.id = b.questionnaire_id AND b.user_id = #userId# AND a.catalog_id = #catalogId#
+			ORDER a.priority ASC
+		]]>
+	</select>
+</sqlMap>

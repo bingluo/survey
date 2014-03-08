@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"
+ "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap namespace="CATALOG">
+	<!-- 为类型定义别名 -->
+	<typeAlias alias="catalogPojo" type="cn.edu.seu.cse.survey.entity.CatalogPojo" />
+	<!-- 定义resultMap,将query结果映射为bean -->
+	<resultMap id="CatalogPojoResultMap" class="catalogPojo">
+		<result property="id" column="ID"/>
+		<result property="title" column="TITLE"/>
+		<result property="priority" column="PRIORITY"/>
+	</resultMap>
+	
+	<select id="selectAllQuestionnairesInOrder" resultMap="CatalogPojoResultMap">
+		<![CDATA[
+    		SELECT *
+    		FROM catalog
+			ORDER BY priority ASC
+		]]>
+	</select>
+</sqlMap>
