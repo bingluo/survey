@@ -8,10 +8,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import cn.edu.seu.cse.survey.entity.Questionnaire;
+import cn.edu.seu.cse.survey.entity.SubmitDetail;
 import cn.edu.seu.cse.survey.entity.User;
 import cn.edu.seu.cse.survey.service.QuestionnaireService;
+import cn.edu.seu.cse.survey.service.SubmitDetailService;
 import cn.edu.seu.cse.survey.service.UserService;
 
 @Controller
@@ -21,14 +24,17 @@ public class PageController extends AbstractController {
 	QuestionnaireService questionnaireService;
 	@Autowired
 	UserService userService;
+	@Autowired
+	SubmitDetailService submitDetailService;
 
+	@Autowired
 	@RequestMapping(value = "/next-page", method = RequestMethod.GET)
 	public void nextPage(HttpServletResponse response, HttpSession session) {
 		Questionnaire questionnaire = null;
 		Integer userId = (Integer) session.getAttribute("userId");
 		int status;
 		JSONObject object = new JSONObject();
-		if (userId == null) {
+		if (userId != null) {
 			User user = userService.getUserById(userId);
 			if (user != null) {
 				questionnaire = questionnaireService
@@ -49,6 +55,39 @@ public class PageController extends AbstractController {
 			status = 2;// 用户未登录
 		}
 
+		object.put("status", status);
+		ajaxResponse(response, object.toJSONString());
+	}
+
+	@RequestMapping(value = "/get-answer", method = RequestMethod.GET)
+	public void getAnswer(HttpServletResponse response, HttpSession session,
+			@RequestParam("questionnaireId") int questionnaireId) {
+
+		SubmitDetail submitDetail;
+		int status;
+		Integer userId = (Integer) session.getAttribute("userId");
+		JSONObject object = new JSONObject();
+
+		if (userId != null) {
+			User user = userService.getUserById(userId);
+			if (user != null) {
+				submitDetail = submitDetailService.getSubmitDetail(
+						questionnaireId, userId);
+				if (submitDetail != null) {
+					object.put("questionnaireId",
+							submitDetail.getQuestionnaireId());
+					object.put("content", submitDetail.getContent());
+					object.put("submitTime", submitDetail.getSubmitTime());
+					status = 0;
+				} else {
+					status = 1;// 未曾答题
+				}
+			} else {
+				status = 3;// 用户不存在
+			}
+		} else {
+			status = 2;// 用户未登录
+		}
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());
 	}
