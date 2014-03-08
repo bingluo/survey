@@ -1,0 +1,126 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>职业健康调查表</title>
+<link rel="stylesheet" type="text/css" href="assets/css/survey.main.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery.pnotify.default.css"/>
+<link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery-ui.css" />
+<script type="text/javascript" language="javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" language="javascript" src="assets/js/jquery-scrolltofixed-min.js"></script>
+<script type="text/javascript" language="javascript" src="assets/js/jquery.pnotify.min.js"></script>
+</head>
+<body>
+    <div id="survey-wrapper">
+        <div id="survey-header">
+            <div id="survey-logo-seu"></div>
+            <div id="survey-logo-cdcc"></div>
+            <div id="survey-title">职业健康调查表</div>
+            <div class="survey-clear"></div>
+        </div>
+        <div id="survey-container">
+            <div id="survey-userinfo" class="shadow border">
+                <ul id="survey-userinfo-list">
+                    <li id="survey-userinfo-list-image"><img id="survey-user-image" src="assets/images/user.png" /></li>
+                    <li class="before-login"><input id="survey-email" class="line" type="text" placeholder="您的邮箱地址..."/></li>
+                    <li class="before-login"><input id="survey-password" class="line" type="password" placeholder="您的密码..."/></li>
+                    <li class="before-login"><a id="survey-login" href="#">登录</a></li>
+                    <li class="before-login"><a id="survey-register" href="#">注册</a></li>
+                    <li class="after-login"><div id="survey-userlogin-info"></div></li>
+                    <li class="after-login"><a id="survey-logout" href="#">退出登录</a></li>
+                </ul>
+            </div>
+            <div>
+                <div id="survey-introduction" class="shadow border">
+                    <h1>致用户的一封信</h1>
+                    <hr />
+                    <p>尊敬的女士/先生：</p>
+                    <p>您好！</p>
+                    <p>&nbsp;&nbsp;随着生活节奏的加快和工作竞争的加剧，如何应对工作压力，缓解职业紧张，提高生活质量成为人们普遍关注的话题。本调查旨在全面、准确地评估您现阶段的职业心理和生理健康状况以及在人群中所处的水平。希望您按照近三个月来的真实感受完成本次调查。</p>
+                    <p>&nbsp;&nbsp;完整填写后可查看职业卫生专家对您职业健康的建议。您可以按照专家建议调整三个月后再次进行填写，与上次健康状况评估进行对比。若您存有疑问，职业卫生专家将为您免费提供咨询服务。</p>
+                    <p>&nbsp;&nbsp;本研究工作人员已全部签订保密协议，对您所填写的任何内容我们均严格保密，不会对您个人产生任何负面影响，请放心作答。 </p>
+                    <p class="survey-introduction-right">东南大学公共卫生学院</p>
+                    <p class="survey-introduction-right">扬中市疾病预防控制中心</p>
+                    <p class="survey-introduction-right">2012年6月</p>
+                    <div class="survey-clear"></div>
+                    <hr />
+                </div>
+                <div id="survey-instruction" class="shadow border">
+                    <h1>使用说明</h1>
+                    <hr />
+                    <div class="important">请下拉页面，即可开始答题，答题过程中答案将自动提交。</div>
+                    <hr />
+                </div>
+                <div id="survey-content">
+
+                </div>
+                <div id="survey-menu"></div>
+                <div class="survey-clear"></div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" language="javascript">
+    var isLogin = false;
+    $(document).ready(function () {
+        $('#survey-userinfo').scrollToFixed();
+        $('#survey-menu').scrollToFixed({ marginTop: 65 });
+        $.pnotify.defaults.styling = "jqueryui";
+        $(".after-login").hide();
+        $.get("http://localhost:8088/current-user", function (data) {
+            if (data.status == 0) {
+                userLogin(data.email);
+            }
+        });
+    });
+    $('#survey-login').click(function () {
+        var email = $('#survey-email').val();
+        var password = $('#survey-password').val();
+        if (email == "") {
+            $.pnotify({
+                title: '登录失败...',
+                text: '请填写您的邮箱地址...',
+                icon: false,
+                type: 'error'
+            });
+            return;
+        } else if (password == "") {
+            $.pnotify({
+                title: '登录失败...',
+                text: '请填写您的密码...',
+                icon: false,
+                type: 'error'
+            });
+            return;
+        }
+        $.get("http://localhost:8088/sign-in", { email: email, password: password }, function(data) {
+            if (data.status == 0) {
+                userLogin(data.email);
+            } else {
+                $.pnotify({
+                    title: '登录失败...',
+                    text: '请填写正确的邮箱地址以及密码...',
+                    icon: false,
+                    type: 'error'
+                });
+            }
+        }, "json");
+    });
+    $('#survey-logout').click(function () {
+        $.get("http://localhost:8088/log-out", function (data) {
+            if (data.status == 0) {
+                isLogin = false;
+                $(".after-login").hide();
+                $('.before-login').show();
+                $('#survey-password').val('');
+            }
+        });
+    });
+    function userLogin(email) {
+        isLogin = true;
+        $('#survey-userlogin-info').html("当前用户：" + email);
+        $('.before-login').hide();
+        $(".after-login").show();
+    }
+</script>
+</body>
+</html>

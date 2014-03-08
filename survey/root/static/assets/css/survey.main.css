@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Microsoft YaHei UI';
+    font-size: 25px;
+    color: #39863b;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: 'Microsoft YaHei';
+    font-size: 15px;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    border-bottom: 2px solid #8abe64;
+}
+
+.survey-clear {
+    clear: both;
+}
+
+#survey-wrapper {
+    width: 1000px;
+    text-align: left;
+    margin: auto;
+}
+
+#survey-logo-seu {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-image: url("../images/seu.jpg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+}
+
+#survey-logo-cdcc {
+    margin-left: 25px;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-image: url("../images/cdcc.jpg");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    float: left;
+}
+
+#survey-title {
+    margin-left: 50px;
+    margin-top: 24px;
+    font-family: 'Microsoft YaHei UI';
+    font-size: 25pt;
+    float: left;
+}
+
+.shadow {
+    -moz-box-shadow: 3px 3px 4px #f1f1f1;
+    -webkit-box-shadow: 3px 3px 4px #f1f1f1;
+    box-shadow: 3px 3px 4px #f1f1f1;
+}
+
+.border {
+    border-style: solid;
+    border-top-width: 2px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 2px;
+    border-color: #e3e3e3;
+}
+
+#survey-container {
+    margin-top: 20px;
+    min-height: 2000px;
+}
+
+#survey-userinfo {
+    background-color: #ffffff;
+}
+
+#survey-userinfo-list {
+    padding: 0 0 0 15px;
+    height: 30px;
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+
+    #survey-userinfo-list li {
+        display: block;
+        list-style: none;
+        padding: 0;
+        margin: 0 20px 0px 0;
+        height: 30px;
+        float: left;
+    }
+    #survey-userinfo-list li a {
+        font-family:'Microsoft YaHei';
+        font-size: 15px;
+        text-decoration: none;
+        color: #000000;
+    }
+    #survey-userinfo-list li a:hover {
+        color: #8abe64;
+    }
+    #survey-userlogin-info {
+        font-family:'Microsoft YaHei';
+        font-size: 15px;
+    }
+
+#survey-user-image {
+    width: 20px;
+}
+
+#survey-introduction {
+    margin-top: 10px;
+    padding: 10px 30px 30px 30px;
+}
+
+    #survey-introduction .survey-introduction-right {
+        text-align: right;
+    }
+
+#survey-instruction {
+    margin-top: 10px;
+    padding: 10px 30px 30px 30px;
+}
+
+.important {
+    margin:30px 30px 30px 30px;
+    text-align:center;
+    font-family:'Microsoft YaHei UI';
+    font-size: 24px;
+}
+
+#survey-content {
+    width: 800px;
+    float: left;
+}
+
+#survey-menu {
+    width: 200px;
+    float: right;
+}
+
+#survey-menu-list {
+    height: inherit;
+}
+
+.line {
+    display: block;
+    border: none;
+    color: #333;
+    background: transparent;
+    border-bottom: 1px dotted black;
+    padding: 5px 2px 0 2px;
+}
+ 
+.line:focus {
+    outline: none;
+    border-color: #51CBEE;
+}
+.ui-pnotify-title {
+    margin-top: 5px;
+    display: inline;
+    text-align:left;
+    font-family:'Microsoft YaHei';
+    font-size: 15px;
+}
+.ui-pnotify-text {
+    text-align: left;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+}

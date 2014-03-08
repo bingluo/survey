@@ -27,5 +27,7 @@
 	<classpathentry kind="lib" path="root/WEB-INF/lib/spring-oxm-3.2.0.RC1.jar"/>
 	<classpathentry kind="lib" path="root/WEB-INF/lib/spring-test-3.2.0.RC1.jar"/>
 	<classpathentry kind="lib" path="javaee.jar"/>
+	<classpathentry kind="lib" path="root/WEB-INF/lib/json_simple-1.1.jar"/>
+	<classpathentry kind="lib" path="root/WEB-INF/lib/spring-tx-3.2.0.RC1.jar"/>
 	<classpathentry kind="output" path="root/WEB-INF/classes"/>
 </classpath>

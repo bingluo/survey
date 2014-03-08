@@ -18,7 +18,7 @@ public class UserController extends AbstractController {
 
 	@Autowired
 	UserService userService;
-
+	
 	@RequestMapping(value = "/sign-in", method = RequestMethod.POST)
 	public void signIn(HttpServletResponse response, HttpSession session,
 			@RequestParam("email") String email,
