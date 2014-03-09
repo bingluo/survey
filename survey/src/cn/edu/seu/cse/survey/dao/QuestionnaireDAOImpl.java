@@ -36,6 +36,6 @@ public class QuestionnaireDAOImpl extends SqlMapClientDaoSupport implements
 	@Override
 	public List<QuestionnairePojo> getAllQuestionnaires() {
 		return getSqlMapClientTemplate().queryForList(
-				"QUESTIONNAIRE.selectAllQuestionnairesByUserId");
+				"QUESTIONNAIRE.selectAllQuestionnaires");
 	}
 }

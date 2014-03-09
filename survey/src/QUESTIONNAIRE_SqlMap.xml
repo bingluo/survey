@@ -19,12 +19,11 @@
 		<result property="title" column="PAGE_NAME"/>
 		<result property="pageName" column="PAGE_NAME"/>
 		<result property="priority" column="PRIORITY"/>
-		<result property="submitContent" column="CONTENT"/>
 	</resultMap>
 	
 	<select id="selectQuestionnaireById" resultMap="QuestionnaireResultMap" parameterClass="int">
 		<![CDATA[
-    		SELECT id, catalog_id, title, pageName, priority
+    		SELECT id, catalog_id, title, page_name, priority
     		FROM questionnaire
     		WHERE id = #value#
 		]]>
@@ -34,15 +33,15 @@
     		SELECT *
     		FROM questionnaire a, catalog b
     		WHERE a.catalog_id = b.id
-			ORDER BY a.priority, a.priority
+			ORDER BY b.priority, a.priority ASC
 		]]>
     </select>
-	<select id="selectQuestionnairesByCatalogIdAndUserId" resultMap="QuestionnairePojoResultMap" parameterClass="java.util.Map">
+	<select id="selectQuestionnairesByCatalogId" resultMap="QuestionnairePojoResultMap" parameterClass="int">
 		<![CDATA[
-    		SELECT a.id, a.catalog_id, a.title, a.pageName, a.priority, b.content
-    		FROM questionnaire a, submit_detail b
-    		WHERE a.id = b.questionnaire_id AND b.user_id = #userId# AND a.catalog_id = #catalogId#
-			ORDER a.priority ASC
+    		SELECT a.id, a.catalog_id, a.title, a.page_name, a.priority
+    		FROM questionnaire a, catalog b
+    		WHERE a.catalog_id = b.id AND b.id = #value#
+			ORDER BY b.priority, a.priority ASC
 		]]>
 	</select>
 </sqlMap>

@@ -11,7 +11,7 @@
 		<result property="priority" column="PRIORITY"/>
 	</resultMap>
 	
-	<select id="selectAllQuestionnairesInOrder" resultMap="CatalogPojoResultMap">
+	<select id="selectAllCatalogs" resultMap="CatalogPojoResultMap">
 		<![CDATA[
     		SELECT *
     		FROM catalog
