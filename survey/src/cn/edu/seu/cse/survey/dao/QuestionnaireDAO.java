@@ -8,8 +8,7 @@ import cn.edu.seu.cse.survey.entity.QuestionnairePojo;
 public interface QuestionnaireDAO {
 	Questionnaire getQuestionnaireById(int id);
 
-	List<QuestionnairePojo> getQuestionnairesByCatalogIdAndUserId(
-			int catalogId, int userId);
+	List<QuestionnairePojo> getQuestionnairesByCatalogId(int catalogId);
 
-	List<QuestionnairePojo> getAllQuestionnairesByUserId(int userId);
+	List<QuestionnairePojo> getAllQuestionnaires();
 }

@@ -1,8 +1,6 @@
 package cn.edu.seu.cse.survey.dao;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
@@ -14,6 +12,7 @@ import cn.edu.seu.cse.survey.entity.QuestionnairePojo;
 import com.ibatis.sqlmap.client.SqlMapClient;
 
 @Component
+@SuppressWarnings("unchecked")
 public class QuestionnaireDAOImpl extends SqlMapClientDaoSupport implements
 		QuestionnaireDAO {
 
@@ -29,19 +28,14 @@ public class QuestionnaireDAOImpl extends SqlMapClientDaoSupport implements
 	}
 
 	@Override
-	public List<QuestionnairePojo> getQuestionnairesByCatalogIdAndUserId(
-			int catalogId, int userId) {
-		Map<String, Object> map = new HashMap<String, Object>();
-		map.put("catalogId", catalogId);
-		map.put("userId", userId);
+	public List<QuestionnairePojo> getQuestionnairesByCatalogId(int catalogId) {
 		return getSqlMapClientTemplate().queryForList(
-				"QUESTIONNAIRE.selectAllQuestionnairesByCatalogIdAndUserId",
-				map);
+				"QUESTIONNAIRE.selectAllQuestionnairesByCatalogId", catalogId);
 	}
 
 	@Override
-	public List<QuestionnairePojo> getAllQuestionnairesByUserId(int userId) {
+	public List<QuestionnairePojo> getAllQuestionnaires() {
 		return getSqlMapClientTemplate().queryForList(
-				"QUESTIONNAIRE.selectAllQuestionnairesByUserId", userId);
+				"QUESTIONNAIRE.selectAllQuestionnairesByUserId");
 	}
 }

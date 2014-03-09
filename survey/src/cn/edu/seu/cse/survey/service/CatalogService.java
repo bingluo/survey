@@ -7,7 +7,9 @@ import org.springframework.stereotype.Service;
 
 import cn.edu.seu.cse.survey.dao.CatalogDAO;
 import cn.edu.seu.cse.survey.dao.QuestionnaireDAO;
+import cn.edu.seu.cse.survey.dao.SubmitDetailDAO;
 import cn.edu.seu.cse.survey.entity.CatalogPojo;
+import cn.edu.seu.cse.survey.entity.QuestionnairePojo;
 
 @Service
 public class CatalogService {
@@ -16,13 +18,20 @@ public class CatalogService {
 	CatalogDAO catalogDAOImpl;
 	@Autowired
 	QuestionnaireDAO questionnaireDAOImpl;
+	@Autowired
+	SubmitDetailDAO submitDetailDAOImpl;
 
 	List<CatalogPojo> getAllCatalogsWithAnswerStep(int userId) {
 		List<CatalogPojo> catalogs = catalogDAOImpl.getAllCatalogs();
 		for (CatalogPojo catalog : catalogs) {
-			catalog.setQuestionnaires(questionnaireDAOImpl
-					.getQuestionnairesByCatalogIdAndUserId(catalog.getId(),
-							userId));
+			List<QuestionnairePojo> questionnairePojos = questionnaireDAOImpl
+					.getQuestionnairesByCatalogId(catalog.getId());
+			for (QuestionnairePojo questionnairePojo : questionnairePojos) {
+				questionnairePojo.setSubmitDetail(submitDetailDAOImpl
+						.getSubmitDetailByQuestionnaireIdAndUserId(
+								questionnairePojo.getId(), userId));
+			}
+			catalog.setQuestionnaires(questionnairePojos);
 		}
 		return catalogs;
 	}
