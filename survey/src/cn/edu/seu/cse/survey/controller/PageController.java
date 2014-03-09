@@ -44,7 +44,7 @@ public class PageController extends AbstractController {
 						.getNextQuestionnaire(userId);
 				if (questionnaire != null) {
 					status = 0;
-					object.put("id", questionnaire.getId());
+					object.put("questionnaireId", questionnaire.getId());
 					object.put("catalogId", questionnaire.getCatalogId());
 					object.put("title", questionnaire.getTitle());
 					object.put("pageName", questionnaire.getPageName());
@@ -77,7 +77,8 @@ public class PageController extends AbstractController {
 			if (user != null) {
 				submitDetail = submitDetailService.getSubmitDetail(
 						questionnaireId, userId);
-				if (submitDetail != null) {
+				if (submitDetail != null && submitDetail.getContent() != null
+						&& !submitDetail.getContent().equals("")) {
 					object.put("questionnaireId",
 							submitDetail.getQuestionnaireId());
 					object.put("content", submitDetail.getContent());
@@ -106,44 +107,16 @@ public class PageController extends AbstractController {
 		if (userId != null) {
 			User user = userService.getUserById(userId);
 			if (user != null) {
-
+				String menuString = catalogService.getMenuString(userId);
+				object.put("menu", menuString);
 				status = 0;
 			} else {
-				status = 3;// 用户不存在
+				status = 2;// 用户不存在
 			}
 		} else {
-			status = 2;// 用户未登录
+			status = 1;// 用户未登录
 		}
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());
-		// <ul id="survey-menu-list">
-		// <li>
-		// <p>基本情况</p>
-		// <ul class="survey-menu-inner-list">
-		// <li></li>
-		// </ul>
-		// </li>
-		// <li>
-		// <p>第一部分</p>
-		// </li>
-		// <li>
-		// <p>第二部分</p>
-		// </li>
-		// <li>
-		// <p>第三部分</p>
-		// </li>
-		// <li>
-		// <p>第四部分</p>
-		// </li>
-		// <li>
-		// <p>第五部分</p>
-		// </li>
-		// <li>
-		// <p>第六部分</p>
-		// </li>
-		// <li>
-		// <p>第七部分</p>
-		// </li>
-		// </ul>
 	}
 }

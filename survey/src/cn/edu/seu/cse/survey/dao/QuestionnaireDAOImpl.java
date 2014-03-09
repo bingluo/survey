@@ -30,7 +30,7 @@ public class QuestionnaireDAOImpl extends SqlMapClientDaoSupport implements
 	@Override
 	public List<QuestionnairePojo> getQuestionnairesByCatalogId(int catalogId) {
 		return getSqlMapClientTemplate().queryForList(
-				"QUESTIONNAIRE.selectAllQuestionnairesByCatalogId", catalogId);
+				"QUESTIONNAIRE.selectQuestionnairesByCatalogId", catalogId);
 	}
 
 	@Override

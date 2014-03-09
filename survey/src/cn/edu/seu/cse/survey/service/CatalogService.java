@@ -10,6 +10,7 @@ import cn.edu.seu.cse.survey.dao.QuestionnaireDAO;
 import cn.edu.seu.cse.survey.dao.SubmitDetailDAO;
 import cn.edu.seu.cse.survey.entity.CatalogPojo;
 import cn.edu.seu.cse.survey.entity.QuestionnairePojo;
+import cn.edu.seu.cse.survey.entity.SubmitDetail;
 
 @Service
 public class CatalogService {
@@ -21,7 +22,7 @@ public class CatalogService {
 	@Autowired
 	SubmitDetailDAO submitDetailDAOImpl;
 
-	List<CatalogPojo> getAllCatalogsWithAnswerStep(int userId) {
+	private List<CatalogPojo> getAllCatalogsWithAnswerStep(int userId) {
 		List<CatalogPojo> catalogs = catalogDAOImpl.getAllCatalogs();
 		for (CatalogPojo catalog : catalogs) {
 			List<QuestionnairePojo> questionnairePojos = questionnaireDAOImpl
@@ -34,5 +35,32 @@ public class CatalogService {
 			catalog.setQuestionnaires(questionnairePojos);
 		}
 		return catalogs;
+	}
+
+	public String getMenuString(int userId) {
+		List<CatalogPojo> catalogs = getAllCatalogsWithAnswerStep(userId);
+		StringBuilder sb = new StringBuilder();
+		sb.append("<ul id='survey-menu-list'>");
+		for (int i = 0; i < catalogs.size(); i++) {
+			CatalogPojo catalog = catalogs.get(i);
+			sb.append("<li>");
+			sb.append("<p>").append(catalog.getTitle()).append("</p>");
+			sb.append("<ul class='survey-menu-inner-list'>");
+			for (QuestionnairePojo questionnaire : catalog.getQuestionnaires()) {
+				String didBefore = "";
+				SubmitDetail submitDetail = questionnaire.getSubmitDetail();
+				if (submitDetail != null && submitDetail.getContent() != null
+						&& !submitDetail.getContent().equals("")) {
+					didBefore = " class='done'";
+				}
+				sb.append("<li").append(didBefore).append(">")
+						.append(questionnaire.getTitle()).append("</li>");
+			}
+			sb.append("</ul>");
+			sb.append("</li>");
+		}
+
+		sb.append("</ul>");
+		return sb.toString();
 	}
 }
