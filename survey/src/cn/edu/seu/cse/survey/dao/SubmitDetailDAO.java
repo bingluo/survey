@@ -5,4 +5,8 @@ import cn.edu.seu.cse.survey.entity.SubmitDetail;
 public interface SubmitDetailDAO {
 	SubmitDetail getSubmitDetailByQuestionnaireIdAndUserId(int questionnaireId,
 			int userId);
+
+	void insertSubmitDetail(SubmitDetail submitDetail);
+
+	void updateSubmitDetail(SubmitDetail submitDetail);
 }

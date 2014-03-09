@@ -3,16 +3,8 @@
  "http://ibatis.apache.org/dtd/sql-map-2.dtd">
 <sqlMap namespace="QUESTIONNAIRE">
 	<!-- 为类型定义别名 -->
-	<typeAlias alias="questionnaire" type="cn.edu.seu.cse.survey.entity.Questionnaire" />
 	<typeAlias alias="questionnairePojo" type="cn.edu.seu.cse.survey.entity.QuestionnairePojo" />
 	<!-- 定义resultMap,将query结果映射为bean -->
-	<resultMap id="QuestionnaireResultMap" class="questionnaire">
-		<result property="id" column="ID"/>
-		<result property="catalogId" column="CATALOG_ID"/>
-		<result property="title" column="PAGE_NAME"/>
-		<result property="pageName" column="PAGE_NAME"/>
-		<result property="priority" column="PRIORITY"/>
-	</resultMap>
 	<resultMap id="QuestionnairePojoResultMap" class="questionnairePojo">
 		<result property="id" column="ID"/>
 		<result property="catalogId" column="CATALOG_ID"/>
@@ -21,7 +13,7 @@
 		<result property="priority" column="PRIORITY"/>
 	</resultMap>
 	
-	<select id="selectQuestionnaireById" resultMap="QuestionnaireResultMap" parameterClass="int">
+	<select id="selectQuestionnaireById" resultMap="QuestionnairePojoResultMap" parameterClass="int">
 		<![CDATA[
     		SELECT id, catalog_id, title, page_name, priority
     		FROM questionnaire

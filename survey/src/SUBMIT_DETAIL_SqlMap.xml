@@ -20,4 +20,21 @@
     		WHERE user_id = #userId# AND questionnaire_id = #questionnaireId#
 		]]>
 	</select>
+	
+	<insert id="insertSubmitDetail" parameterClass="submitDetail">
+		<![CDATA[
+			INSERT INTO submit_detail
+			(user_id,questionnaire_id,catalog_id,content,submit_time)
+    		VALUES (#userId#,#questionnaireId#,#catalogId#,#content#,current_timestamp())
+		]]>
+	</insert>
+	
+	<update id="updateSubmitDetail" parameterClass="submitDetail">
+		<![CDATA[
+			UPDATE submit_detail
+			SET content = #content#,
+				submitTime = current_timestamp()
+			WHERE user_id = #userId# AND questionnaire_id = #questionnaireId#
+		]]>
+	</update>
 </sqlMap>

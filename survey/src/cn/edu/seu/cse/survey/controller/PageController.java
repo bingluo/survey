@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import cn.edu.seu.cse.survey.entity.Questionnaire;
+import cn.edu.seu.cse.survey.entity.QuestionnairePojo;
 import cn.edu.seu.cse.survey.entity.SubmitDetail;
 import cn.edu.seu.cse.survey.entity.User;
 import cn.edu.seu.cse.survey.service.CatalogService;
@@ -63,7 +64,7 @@ public class PageController extends AbstractController {
 	}
 
 	@SuppressWarnings("unchecked")
-	@RequestMapping(value = "/get-answer", method = RequestMethod.GET)
+	@RequestMapping(value = "/get-answer", method = RequestMethod.POST)
 	public void getAnswer(HttpServletResponse response, HttpSession session,
 			@RequestParam("questionnaireId") int questionnaireId) {
 
@@ -109,6 +110,36 @@ public class PageController extends AbstractController {
 			if (user != null) {
 				String menuString = catalogService.getMenuString(userId);
 				object.put("menu", menuString);
+				status = 0;
+			} else {
+				status = 2;// 用户不存在
+			}
+		} else {
+			status = 1;// 用户未登录
+		}
+		object.put("status", status);
+		ajaxResponse(response, object.toJSONString());
+	}
+
+	@RequestMapping(value = "/submit-answer", method = RequestMethod.POST)
+	public void submitAnswer(HttpServletResponse response, HttpSession session,
+			@RequestParam("questionnaireId") int questionnaireId,
+			@RequestParam("answer") String answer) {
+		int status;
+		Integer userId = (Integer) session.getAttribute("userId");
+		JSONObject object = new JSONObject();
+
+		QuestionnairePojo questionnaire = questionnaireService
+				.getQuestionnaireById(questionnaireId);
+		if (questionnaire == null) {
+			status = 3;// 问卷不存在
+
+		} else if (userId != null) {
+			User user = userService.getUserById(userId);
+			if (user != null) {
+				SubmitDetail submitDetail = submitDetailService
+						.getSubmitDetail(questionnaireId, userId);
+				submitDetail.setContent(answer);
 				status = 0;
 			} else {
 				status = 2;// 用户不存在

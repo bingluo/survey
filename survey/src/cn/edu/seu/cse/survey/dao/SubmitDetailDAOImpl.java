@@ -30,4 +30,16 @@ public class SubmitDetailDAOImpl extends SqlMapClientDaoSupport implements
 				"SUBMIT_DETAIL.selectSubmitDetailByQuestionnaireIdAndUserId",
 				map);
 	}
+
+	@Override
+	public void insertSubmitDetail(SubmitDetail submitDetail) {
+		getSqlMapClientTemplate().insert("SUBMIT_DETAIL.insertSubmitDetail",
+				submitDetail);
+	}
+
+	@Override
+	public void updateSubmitDetail(SubmitDetail submitDetail) {
+		getSqlMapClientTemplate().update("SUBMIT_DETAIL.updateSubmitDetail",
+				submitDetail);
+	}
 }

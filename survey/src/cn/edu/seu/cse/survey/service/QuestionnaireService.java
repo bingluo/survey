@@ -35,4 +35,10 @@ public class QuestionnaireService {
 		}
 		return null;
 	}
+
+	public QuestionnairePojo getQuestionnaireById(int questionnaireId) {
+		QuestionnairePojo questionnaire = questionnaireDAOImpl
+				.getQuestionnaireById(questionnaireId);
+		return questionnaire;
+	}
 }

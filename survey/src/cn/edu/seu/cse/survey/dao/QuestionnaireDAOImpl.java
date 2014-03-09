@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
 import org.springframework.stereotype.Component;
 
-import cn.edu.seu.cse.survey.entity.Questionnaire;
 import cn.edu.seu.cse.survey.entity.QuestionnairePojo;
 
 import com.ibatis.sqlmap.client.SqlMapClient;
@@ -22,8 +21,8 @@ public class QuestionnaireDAOImpl extends SqlMapClientDaoSupport implements
 	}
 
 	@Override
-	public Questionnaire getQuestionnaireById(int id) {
-		return (Questionnaire) getSqlMapClientTemplate().queryForObject(
+	public QuestionnairePojo getQuestionnaireById(int id) {
+		return (QuestionnairePojo) getSqlMapClientTemplate().queryForObject(
 				"QUESTIONNAIRE.selectQuestionnaireById", id);
 	}
 
