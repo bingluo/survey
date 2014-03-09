@@ -1,14 +1,14 @@
 ﻿<!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>职业健康调查表</title>
-<link rel="stylesheet" type="text/css" href="assets/css/survey.main.css"/>
-<link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery.pnotify.default.css"/>
-<link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery-ui.css" />
-<script type="text/javascript" language="javascript" src="assets/js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" language="javascript" src="assets/js/jquery-scrolltofixed-min.js"></script>
-<script type="text/javascript" language="javascript" src="assets/js/jquery.pnotify.min.js"></script>
+    <meta charset="utf-8">
+    <title>职业健康调查表</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/survey.main.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery.pnotify.default.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery-ui.css" />
+    <script type="text/javascript" language="javascript" src="assets/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" language="javascript" src="assets/js/jquery-scrolltofixed-min.js"></script>
+    <script type="text/javascript" language="javascript" src="assets/js/jquery.pnotify.min.js"></script>
 </head>
 <body>
     <div id="survey-wrapper">
@@ -22,8 +22,8 @@
             <div id="survey-userinfo" class="shadow border">
                 <ul id="survey-userinfo-list">
                     <li id="survey-userinfo-list-image"><img id="survey-user-image" src="assets/images/user.png" /></li>
-                    <li class="before-login"><input id="survey-email" class="line" type="text" placeholder="您的邮箱地址..."/></li>
-                    <li class="before-login"><input id="survey-password" class="line" type="password" placeholder="您的密码..."/></li>
+                    <li class="before-login"><input id="survey-email" class="line" type="text" placeholder="您的邮箱地址..." /></li>
+                    <li class="before-login"><input id="survey-password" class="line" type="password" placeholder="您的密码..." /></li>
                     <li class="before-login"><a id="survey-login" href="#">登录</a></li>
                     <li class="before-login"><a id="survey-register" href="#">注册</a></li>
                     <li class="after-login"><div id="survey-userlogin-info"></div></li>
@@ -51,76 +51,12 @@
                     <div class="important">请下拉页面，即可开始答题，答题过程中答案将自动提交。</div>
                     <hr />
                 </div>
-                <div id="survey-content">
-
-                </div>
+                <div id="survey-content"></div>
                 <div id="survey-menu"></div>
                 <div class="survey-clear"></div>
             </div>
         </div>
     </div>
-<script type="text/javascript" language="javascript">
-    var isLogin = false;
-    $(document).ready(function () {
-        $('#survey-userinfo').scrollToFixed();
-        $('#survey-menu').scrollToFixed({ marginTop: 65 });
-        $.pnotify.defaults.styling = "jqueryui";
-        $(".after-login").hide();
-        $.get("http://localhost:8088/current-user", function (data) {
-            if (data.status == 0) {
-                userLogin(data.email);
-            }
-        });
-    });
-    $('#survey-login').click(function () {
-        var email = $('#survey-email').val();
-        var password = $('#survey-password').val();
-        if (email == "") {
-            $.pnotify({
-                title: '登录失败...',
-                text: '请填写您的邮箱地址...',
-                icon: false,
-                type: 'error'
-            });
-            return;
-        } else if (password == "") {
-            $.pnotify({
-                title: '登录失败...',
-                text: '请填写您的密码...',
-                icon: false,
-                type: 'error'
-            });
-            return;
-        }
-        $.get("http://localhost:8088/sign-in", { email: email, password: password }, function(data) {
-            if (data.status == 0) {
-                userLogin(data.email);
-            } else {
-                $.pnotify({
-                    title: '登录失败...',
-                    text: '请填写正确的邮箱地址以及密码...',
-                    icon: false,
-                    type: 'error'
-                });
-            }
-        }, "json");
-    });
-    $('#survey-logout').click(function () {
-        $.get("http://localhost:8088/log-out", function (data) {
-            if (data.status == 0) {
-                isLogin = false;
-                $(".after-login").hide();
-                $('.before-login').show();
-                $('#survey-password').val('');
-            }
-        });
-    });
-    function userLogin(email) {
-        isLogin = true;
-        $('#survey-userlogin-info').html("当前用户：" + email);
-        $('.before-login').hide();
-        $(".after-login").show();
-    }
-</script>
+    <script type="text/javascript" language="javascript" src="assets/js/survey.main.js"></script>
 </body>
 </html>

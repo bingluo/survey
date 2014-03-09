@@ -76,7 +76,6 @@ hr {
 
 #survey-container {
     margin-top: 20px;
-    min-height: 2000px;
 }
 
 #survey-userinfo {
@@ -140,6 +139,11 @@ hr {
 #survey-content {
     width: 800px;
     float: left;
+}
+
+.survey-questionnaire {
+    margin: 10px 30px 30px 10px;
+    min-height: 400px;
 }
 
 #survey-menu {

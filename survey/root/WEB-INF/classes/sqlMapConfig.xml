@@ -13,5 +13,8 @@
     />
 	
 	<sqlMap resource="USER_SqlMap.xml" />
+	<sqlMap resource="CATALOG_SqlMap.xml" />
+	<sqlMap resource="QUESTIONNAIRE_SqlMap.xml" />
+	<sqlMap resource="SUBMIT_DETAIL_SqlMap.xml" />
 	
 </sqlMapConfig>
