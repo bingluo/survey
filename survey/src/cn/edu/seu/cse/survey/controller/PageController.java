@@ -63,6 +63,37 @@ public class PageController extends AbstractController {
 		ajaxResponse(response, object.toJSONString());
 	}
 
+	@RequestMapping(value = "/get-page", method = RequestMethod.GET)
+	public void getPage(HttpServletResponse response, HttpSession session,
+			@RequestParam("questionnaireId") int questionnaireId) {
+		QuestionnairePojo questionnaire;
+		Integer userId = (Integer) session.getAttribute("userId");
+		int status;
+		JSONObject object = new JSONObject();
+		if (userId != null) {
+			User user = userService.getUserById(userId);
+			if (user != null) {
+				questionnaire = questionnaireService
+						.getQuestionnaireById(questionnaireId);
+				if (questionnaire != null) {
+					status = 0;
+					object.put("questionnaireId", questionnaire.getId());
+					object.put("catalogId", questionnaire.getCatalogId());
+					object.put("title", questionnaire.getTitle());
+					object.put("pageName", questionnaire.getPageName());
+				} else {
+					status = 1;// 问卷不存在
+				}
+			} else {
+				status = 3;// 用户不存在
+			}
+		} else {
+			status = 2;// 用户未登录
+		}
+		object.put("status", status);
+		ajaxResponse(response, object.toJSONString());
+	}
+
 	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/get-answer", method = RequestMethod.POST)
 	public void getAnswer(HttpServletResponse response, HttpSession session,
