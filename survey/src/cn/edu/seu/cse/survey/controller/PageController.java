@@ -121,6 +121,7 @@ public class PageController extends AbstractController {
 		ajaxResponse(response, object.toJSONString());
 	}
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/submit-answer", method = RequestMethod.POST)
 	public void submitAnswer(HttpServletResponse response, HttpSession session,
 			@RequestParam("questionnaireId") int questionnaireId,

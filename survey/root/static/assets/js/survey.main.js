@@ -1,6 +1,12 @@
 ﻿var isInited = false;
 var isLogin = false;
 var isShowLoginFailInfo = false;
+var isFinished = false;
+var questionnaireId = undefined;
+var isShouldGetNextQuestionnaire = true;
+var isShowNotFinishedInfo = false;
+var isSubmittingAnswer = false;
+
 $(document).ready(function () {
     $('#survey-container').css('min-height', $(window).height());
     $('#survey-userinfo').scrollToFixed();
@@ -21,14 +27,58 @@ $(window).resize(function () {
 });
 $(window).scroll(function () {
     var isFetchingData = false
-    if (isInited && !isFetchingData && $(document).scrollTop() + $(window).height() > $(document).height() - 5) {
+    if (isInited && !isFinished && !isFetchingData && $(document).scrollTop() + $(window).height() > $(document).height() - 5) {
         if (isLogin) {
-            isFetchingData = true;
-            $.get("http://localhost:8088/next-page", function (data) {
-                var nextPage = "<div class=\"survey-questionnaire\">" + data + "</div>";
-                $('#survey-content').append(nextPage);
-                isFetchingData = false;
-            });
+            //Here try to submit the current questionnaire
+            if (questionnaireId != undefined) {
+                //submit the questionnaire
+                var submitFunc = "q_" + questionnaireId + "_getAnswer()";
+                var result = eval(submitFunc);
+                if (result.finished == true && !isSubmittingAnswer) {
+                    isSubmittingAnswer = true;
+                    //submit ajax
+                    var answer = result.answer;
+                    $.post("http://localhost:8088/submit-answer",
+                        { questionnaireId: questionnaireId, answer: answer },
+                        function (data) {
+                            if (data.status == 0) {
+                                isShouldGetNextQuestionnaire = true;
+                            } else {
+                                //Exception
+                            }
+                            isSubmittingAnswer = false;
+                        });
+                }
+            }
+            if (isShouldGetNextQuestionnaire) {
+                isShouldGetNextQuestionnaire = false;
+                isFetchingData = true;
+                $.get("http://localhost:8088/next-page", function (data) {
+                    if (data.status == 0) {
+                        questionnaireId = data.questionnaireId;
+                        var questionnaireUrl = "http://localhost:8088/static/questionnaire/" + data.pageName;
+                        getQuestionnaire(questionnaireUrl);
+                    } else if (data.status == 1) {
+                        isFinished = true;
+                    } else {
+                        //Exception
+                        isShouldGetNextQuestionnaire = true;
+                    }
+                });
+            } else {
+                if (!isShowNotFinishedInfo) {
+                    isShowNotFinishedInfo = true;
+                    $.pnotify({
+                        title: '请先完成当前问卷...',
+                        text: '您必须先完成当前问卷才能进行接下来的测试...',
+                        icon: false,
+                        type: 'error',
+                        after_close: function () {
+                            isShowNotFinishedInfo = false;
+                        }
+                    });
+                }
+            }
         } else { 
             if(!isShowLoginFailInfo) {
                 isShowLoginFailInfo = true;
@@ -94,4 +144,22 @@ function userLogin(email) {
     $('#survey-userlogin-info').html("当前用户：" + email);
     $('.before-login').hide();
     $(".after-login").show();
+    updateMenu();
+}
+function getQuestionnaire(url) {
+    $.get(url, function (data) {
+        var nextPage = "<div id= \"" + questionnaireId +"\"class=\"survey-questionnaire\">" + data + "</div>";
+        $('#survey-content').append(nextPage);
+        isFetchingData = false;
+    });
+}
+function updateMenu() {
+    $.get("http://localhost:8088/get-menu", function (data) {
+        if (data.status == 0) {
+            var menuData = data.menu;
+            $('#survey-menu').html(menuData);
+        } else {
+            //Exception
+        }
+    });
 }

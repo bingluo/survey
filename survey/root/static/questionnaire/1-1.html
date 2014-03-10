@@ -1,0 +1,14 @@
+<form>姓名
+	<input id="name" type="text">
+	<input type="button" value="提交">
+</form>
+<script language="javascript" type="text/javascript">
+    function q_1_getAnswer() {
+        var name = $('#name').val();
+        if (name == "") {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: name };
+        }
+    }
+</script>
