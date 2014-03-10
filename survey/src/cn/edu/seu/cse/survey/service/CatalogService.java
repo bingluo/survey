@@ -53,8 +53,10 @@ public class CatalogService {
 						&& !submitDetail.getContent().equals("")) {
 					didBefore = " class='done'";
 				}
-				sb.append("<li").append(didBefore).append(">")
-						.append(questionnaire.getTitle()).append("</li>");
+				sb.append("<li").append(didBefore)
+						.append("><a href='?questionnaireId=")
+						.append(questionnaire.getId()).append("'>")
+						.append(questionnaire.getTitle()).append("</a></li>");
 			}
 			sb.append("</ul>");
 			sb.append("</li>");
