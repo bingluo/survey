@@ -137,9 +137,7 @@ public class PageController extends AbstractController {
 		} else if (userId != null) {
 			User user = userService.getUserById(userId);
 			if (user != null) {
-				SubmitDetail submitDetail = submitDetailService
-						.getSubmitDetail(questionnaireId, userId);
-				submitDetail.setContent(answer);
+				submitDetailService.submit(questionnaireId, userId, answer);
 				status = 0;
 			} else {
 				status = 2;// 用户不存在
