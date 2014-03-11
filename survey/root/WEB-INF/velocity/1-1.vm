@@ -346,7 +346,7 @@
     </table>
 </form>
 <script language="javascript" type="text/javascript">
-    function q_1_getAnswer() {
+    function q_${questionnaireId}_getAnswer() {
         var answer = getAnswer();
         if (answer == undefined) {
             return { finished: false, answer: undefined };
@@ -355,6 +355,11 @@
         }
     }
     function getAnswer() {
-        return 'test';
+        var realName = $('#realName').text();
+        if (realName == '') {
+            return undefined;
+        } else {
+            return realName;
+        }
     }
 </script>

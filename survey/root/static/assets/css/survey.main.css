@@ -137,12 +137,11 @@ hr {
 }
 
 #survey-content {
-    width: 750px;
     float: left;
 }
 
 .survey-questionnaire {
-    margin: 30px 50px 30px 50px;
+    margin: 50px;
     min-height: 400px;
 }
 

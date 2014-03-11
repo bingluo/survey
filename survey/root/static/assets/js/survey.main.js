@@ -1,14 +1,14 @@
-﻿//var isInited = false;
-//var isLogin = false;
-//var isShowLoginFailInfo = false;
-//var isFinished = false;
-//var questionnaireId = undefined;
-//var isShouldGetNextQuestionnaire = true;
-//var isShowNotFinishedInfo = false;
-//var isSubmittingAnswer = false;
-
+﻿//Control System
 var isLogin = false;
+var isInited = false;
 var currentQuestionnaireId = undefined;
+var isFinished = false;
+var isBusy = false;
+var initTop = 0;
+
+//Display Control
+var isShowingLoginFailInfo = false;
+var isShowingSubmitFailInfo = false;
 
 $(document).ready(function () {
     $('#survey-container').css('min-height', $(window).height());
@@ -22,82 +22,42 @@ $(document).ready(function () {
         }
     });
     $('body,html').animate({ scrollTop: 0 }, function () {
-        //isInited = true;
+        isInited = true;
     });
 });
 $(window).resize(function () {
     $('#survey-container').css('min-height', $(window).height());
 });
-//$(window).scroll(function () {
-//    var isFetchingData = false
-//    if (isInited && !isFinished && !isFetchingData && $(document).scrollTop() + $(window).height() > $(document).height() - 5) {
-//        if (isLogin) {
-//            //Here try to submit the current questionnaire
-//            if (questionnaireId != undefined && !isShouldGetNextQuestionnaire) {
-//                //submit the questionnaire
-//                var submitFunc = "q_" + questionnaireId + "_getAnswer()";
-//                var result = eval(submitFunc);
-//                if (result.finished == true && !isSubmittingAnswer) {
-//                    isSubmittingAnswer = true;
-//                    //submit ajax
-//                    var answer = result.answer;
-//                    $.post("http://localhost:8088/submit-answer",
-//                        { questionnaireId: questionnaireId, answer: answer },
-//                        function (data) {
-//                            if (data.status == 0) {
-//                                isShouldGetNextQuestionnaire = true;
-//                            } else {
-//                                //Exception
-//                            }
-//                            isSubmittingAnswer = false;
-//                        });
-//                }
-//            }
-//            if (isShouldGetNextQuestionnaire) {
-//                isShouldGetNextQuestionnaire = false;
-//                isFetchingData = true;
-//                $.get("http://localhost:8088/next-page", function (data) {
-//                    if (data.status == 0) {
-//                        questionnaireId = data.questionnaireId;
-//                        var questionnaireUrl = "http://localhost:8088/static/questionnaire/" + data.pageName;
-//                        getQuestionnaire(questionnaireUrl);
-//                    } else if (data.status == 1) {
-//                        isFinished = true;
-//                    } else {
-//                        //Exception
-//                        isShouldGetNextQuestionnaire = true;
-//                    }
-//                });
-//            } else {
-//                if (!isShowNotFinishedInfo && questionnaireId != undefined) {
-//                    isShowNotFinishedInfo = true;
-//                    $.pnotify({
-//                        title: '请先完成当前问卷...',
-//                        text: '您必须先完成当前问卷才能进行接下来的测试...',
-//                        icon: false,
-//                        type: 'error',
-//                        after_close: function () {
-//                            isShowNotFinishedInfo = false;
-//                        }
-//                    });
-//                }
-//            }
-//        } else { 
-//            if(!isShowLoginFailInfo) {
-//                isShowLoginFailInfo = true;
-//                $.pnotify({
-//                    title: '清先登录...',
-//                    text: '您必须先登录才能开始答题...',
-//                    icon: false,
-//                    type: 'error',
-//                    after_close:function() {
-//                        isShowLoginFailInfo = false;
-//                    }
-//                });
-//            }
-//        }
-//    }
-//});
+
+$(window).scroll(function () {
+    if (isInited && !isFinished && !isBusy 
+        && $(document).scrollTop() + $(window).height() > $(document).height() - 1 
+        && $(document).scrollTop() > initTop) {
+        if (!isLogin) {
+            if (!isShowingLoginFailInfo) {
+                isShowingLoginFailInfo = true;
+                $.pnotify({
+                    title: '请先登录...',
+                    text: '您必须先登录才能开始答题...',
+                    icon: false,
+                    type: 'error',
+                    after_close: function () {
+                        isShowingLoginFailInfo = false;
+                    }
+                });
+            }
+            return;
+        }
+        if (currentQuestionnaireId == undefined) {
+            getNewQuestionnaire();
+            return;
+        }
+        //Update the anchor information
+        submitCurrentQuestionnaire();
+    }
+    initTop = $(document).scrollTop();
+});
+
 $('#survey-login').click(function () {
     var email = $('#survey-email').val();
     var password = $('#survey-password').val();
@@ -131,6 +91,7 @@ $('#survey-login').click(function () {
         }
     }, "json");
 });
+
 $('#survey-logout').click(function () {
     $.get("http://localhost:8088/log-out", function (data) {
         if (data.status == 0) {
@@ -142,35 +103,35 @@ $('#survey-logout').click(function () {
         }
     });
 });
+
 function userLogin(email) {
     isLogin = true;
+    updateMenu();
     $('#survey-userlogin-info').html("当前用户：" + email);
     $('.before-login').hide();
     $(".after-login").show();
-    updateMenu();
 }
+
 function getNewQuestionnaire() {
+    isBusy = true;
     $.get("http://localhost:8088/next-page", function (data) {
         if (data.status == 0) {
-            questionnaireId = data.questionnaireId;
-            var questionnaireUrl = "http://localhost:8088/static/questionnaire/" + data.pageName;
-            getQuestionnaire(questionnaireUrl);
+            currentQuestionnaireId = data.questionnaireId;
+            var nextPage = "<div id= \"" + currentQuestionnaireId + "\"class=\"survey-questionnaire\">" + data.page + "</div>";
+            $('#survey-content').append(nextPage);
+            updateMenu();
         } else if (data.status == 1) {
             //Finish Event
 
         } else {
             //Exception
         }
+        isBusy = false;
     });
 }
-function getQuestionnaire(url) {
-    $.get(url, function (data) {
-        var nextPage = "<div id= \"" + questionnaireId + "\"class=\"survey-questionnaire\">" + data + "</div>";
-        $('#survey-content').append(nextPage);
-        //isFetchingData = false;
-    });
-}
+
 function updateMenu() {
+    isBusy = true;
     $.get("http://localhost:8088/get-menu", function (data) {
         if (data.status == 0) {
             var menuData = data.menu;
@@ -178,27 +139,42 @@ function updateMenu() {
         } else {
             //Exception
         }
+        isBusy = false;
     });
 }
 
 function submitCurrentQuestionnaire() {
     if (currentQuestionnaireId != undefined) {
-        var submitFunc = "q_" + questionnaireId + "_getAnswer()";
+        var submitFunc = "q_" + currentQuestionnaireId + "_getAnswer()";
         var result = eval(submitFunc);
-        if (result.finished == true && !isSubmittingAnswer) {
-            isSubmittingAnswer = true;
+        if (result.finished == true) {
             //submit ajax
             var answer = result.answer;
+            isBusy = true;
             $.post("http://localhost:8088/submit-answer",
-                { questionnaireId: questionnaireId, answer: answer },
+                { questionnaireId: currentQuestionnaireId, answer: answer },
                 function (data) {
                     if (data.status == 0) {
-                        isShouldGetNextQuestionnaire = true;
+                        //Submit success
+                        getNewQuestionnaire();
                     } else {
                         //Exception
                     }
-                    isSubmittingAnswer = false;
+                    isBusy = false;
                 });
+        } else {
+            if (!isShowingSubmitFailInfo) {
+                isShowingSubmitFailInfo = true;
+                $.pnotify({
+                    title: '请先完成当前问卷...',
+                    text: '您必须先完成当前问卷才能进行接下来的测试...',
+                    icon: false,
+                    type: 'error',
+                    after_close: function () {
+                        isShowingSubmitFailInfo = false;
+                    }
+                });
+            }
         }
     }
 }

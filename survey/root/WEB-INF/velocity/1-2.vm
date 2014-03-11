@@ -3087,7 +3087,7 @@
     </table>
 </form>
 <script language="javascript" type="text/javascript">
-    function q_3_getAnswer() {
+    function q_${questionnaireId}_getAnswer() {
         var answer = getAnswer();
         if (answer == undefined) {
             return { finished: false, answer: undefined };

@@ -60,6 +60,7 @@ public class PageController extends AbstractController {
 					String page = VelocityEngineUtils.mergeTemplateIntoString(velocityConfigurer.getVelocityEngine(), pageName, context);
 					status = 0;
 					object.put("page", page);
+					object.put("questionnaireId", questionnaire.getId());
 				} else {
 					status = 1;// 题目已答完
 				}
@@ -95,6 +96,7 @@ public class PageController extends AbstractController {
 					String page = VelocityEngineUtils.mergeTemplateIntoString(velocityConfigurer.getVelocityEngine(), pageName, context);
 					status = 0;
 					object.put("page", page);
+					object.put("questionnaireId", questionnaire.getId());
 				} else {
 					status = 1;// 问卷不存在
 				}
