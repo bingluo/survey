@@ -1,11 +1,14 @@
 package cn.edu.seu.cse.survey.controller;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import org.json.simple.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -33,7 +36,8 @@ public class PageController extends AbstractController {
 
 	@SuppressWarnings("unchecked")
 	@RequestMapping(value = "/next-page", method = RequestMethod.GET)
-	public void nextPage(HttpServletResponse response, HttpSession session) {
+	public String nextPage(Model model, HttpServletResponse response,
+			HttpSession session) throws IOException {
 		Questionnaire questionnaire = null;
 		Integer userId = (Integer) session.getAttribute("userId");
 		int status;
@@ -44,11 +48,8 @@ public class PageController extends AbstractController {
 				questionnaire = questionnaireService
 						.getNextQuestionnaire(userId);
 				if (questionnaire != null) {
-					status = 0;
-					object.put("questionnaireId", questionnaire.getId());
-					object.put("catalogId", questionnaire.getCatalogId());
-					object.put("title", questionnaire.getTitle());
-					object.put("pageName", questionnaire.getPageName());
+					model.addAttribute("questionnaireId", questionnaire.getId());
+					return questionnaire.getPageName().split(".")[0];
 				} else {
 					status = 1;// 题目已答完
 				}
@@ -58,14 +59,15 @@ public class PageController extends AbstractController {
 		} else {
 			status = 2;// 用户未登录
 		}
-
-		object.put("status", status);
-		ajaxResponse(response, object.toJSONString());
+		response.getWriter().write(status);
+		return null;
 	}
 
 	@RequestMapping(value = "/get-page", method = RequestMethod.GET)
-	public void getPage(HttpServletResponse response, HttpSession session,
-			@RequestParam("questionnaireId") int questionnaireId) {
+	public String getPage(Model model, HttpServletResponse response,
+			HttpSession session,
+			@RequestParam("questionnaireId") int questionnaireId)
+			throws IOException {
 		QuestionnairePojo questionnaire;
 		Integer userId = (Integer) session.getAttribute("userId");
 		int status;
@@ -76,11 +78,8 @@ public class PageController extends AbstractController {
 				questionnaire = questionnaireService
 						.getQuestionnaireById(questionnaireId);
 				if (questionnaire != null) {
-					status = 0;
-					object.put("questionnaireId", questionnaire.getId());
-					object.put("catalogId", questionnaire.getCatalogId());
-					object.put("title", questionnaire.getTitle());
-					object.put("pageName", questionnaire.getPageName());
+					model.addAttribute("questionnaireId", questionnaire.getId());
+					return questionnaire.getPageName().split(".")[0];
 				} else {
 					status = 1;// 问卷不存在
 				}
@@ -90,8 +89,9 @@ public class PageController extends AbstractController {
 		} else {
 			status = 2;// 用户未登录
 		}
-		object.put("status", status);
+		response.getWriter().write(status);
 		ajaxResponse(response, object.toJSONString());
+		return null;
 	}
 
 	@SuppressWarnings("unchecked")
