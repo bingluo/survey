@@ -51,13 +51,4 @@
     		VALUES (#nickname#,#email#,#password#)
 		]]>
 	</insert>
-	
-	<update id="updateUser" parameterClass="user">
-		<![CDATA[
-    		UPDATE USER
-    		SET nickname = #nickname#,
-			email = #email#,
-			password = #password#)
-		]]>
-	</update>
 </sqlMap>

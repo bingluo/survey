@@ -1,14 +1,360 @@
-<form>姓名
-	<input id="name" type="text">
-	<input type="button" value="提交">
+<h1>A 背景资料 </h1>
+<hr />
+<form>
+    <table width="600" height="750" border="0" align="left" cellpadding="0" cellspacing="5">
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">1</p></td>
+            <td width="564" valign="top">
+                <p align="left">
+                    姓名：
+                    <input name="realName" id="realName" type="text" size="25" maxlength="25" />
+                </p>
+                <p align="left">
+                    工号：
+                    <input name="employID" id="employID" type="text" size="25" maxlength="25" />
+                </p>
+                <p align="left">
+                    民族：
+                    <input name="nation" id="nation" type="text" value="" size="25" maxlength="4" />
+                </p>
+                <p align="left">
+                    单位：
+                    <input name="workuint" id="workuint" type="text" size="25" maxlength="25" />
+                </p>
+                <p align="left">
+                    城市：
+                    <script language="javascript" src="http://localhost:8088/static/questionnaire/js/area.js"></script>
+                    <select name="province" id="province"></select>
+                    省
+                    <select name="city" id="city"></select>
+                    市
+                    <select name="area" id="area"></select>
+                    区/县<br>
+                    <script language="javascript" defer>
+                        new PCAS("province", "city", "area", "江苏省", "南京市", "玄武区");
+                    </script>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">2</p></td>
+            <td valign="top">
+                <p align="left">
+                    性别
+                    <input type="radio" name="sex" value="boy" id="sex" />
+                    男
+                    <input type="radio" name="sex" value="girl" id="sex" />
+                    女
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">3</p></td>
+            <td valign="top">
+                <p align="left">
+                    出生日期
+                    <select name="birth_year" id="birth_year">
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                        <option value="1989">1989</option>
+                        <option value="1988">1988</option>
+                        <option value="1987">1987</option>
+                        <option value="1986">1986</option>
+                        <option value="1985">1985</option>
+                        <option value="1984">1984</option>
+                        <option value="1983">1983</option>
+                        <option value="1982">1982</option>
+                        <option value="1981">1981</option>
+                        <option value="1980">1980</option>
+                        <option value="1979">1979</option>
+                        <option value="1978">1978</option>
+                        <option value="1977">1977</option>
+                        <option value="1976">1976</option>
+                        <option value="1975">1975</option>
+                        <option value="1974">1974</option>
+                        <option value="1973">1973</option>
+                        <option value="1972">1972</option>
+                        <option value="1971">1971</option>
+                        <option value="1970">1970</option>
+                        <option value="1969">1969</option>
+                        <option value="1968">1968</option>
+                        <option value="1967">1967</option>
+                        <option value="1966">1966</option>
+                        <option value="1965">1965</option>
+                        <option value="1964">1964</option>
+                        <option value="1963">1963</option>
+                        <option value="1962">1962</option>
+                        <option value="1961">1961</option>
+                        <option value="1960">1960</option>
+                        <option value="1959">1959</option>
+                        <option value="1958">1958</option>
+                        <option value="1957">1957</option>
+                        <option value="1956">1956</option>
+                        <option value="1955">1955</option>
+                        <option value="1954">1954</option>
+                        <option value="1953">1953</option>
+                        <option value="1952">1952</option>
+                        <option value="1951">1951</option>
+                        <option value="1950">1950</option>
+                    </select>
+                    年
+                    <select name="birth_month" id="birth_month">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    月
+                    <select name="birth_day" id="birth_day">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    日
+                    <select name="birth_hour" id="birth_hour">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                    </select>
+                    时
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">4</p></td>
+            <td valign="top">
+                <p align="left">文化程度 </p>
+                <p align="left">
+
+                    <input type="radio" name="education" value="小学及以下" id="education" />
+                    小学及以下
+                    <input type="radio" name="education" value="初中" id="education" />
+                    初中
+                    <input type="radio" name="education" value="高中(中专)" id="education" />
+                    高中(中专)
+                    <input type="radio" name="education" value="大学(大专)" id="education" />
+                    大学(大专)
+                    <input type="radio" name="education" value="硕士及以上" id="education" />
+                    硕士及以上
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">5</p></td>
+            <td valign="top">
+                <p align="left">
+                    身高
+                    <input name="bodyHeight" type="text" size="4" id="bodyHeight" />
+                    CM 体重
+                    <input name="bodyWeight" type="text" size="4" id="bodyWeight" />
+                    Kg
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">6</p></td>
+            <td valign="top">
+                <p align="left">婚姻状态 </p>
+                <p align="left">
+
+                    <input type="radio" name="merriage" value="已婚" id="merriage" />
+                    已婚
+                    <input type="radio" name="merriage" value="单身,从未结婚" id="merriage" />
+                    单身,从未结婚
+                    <input type="radio" name="merriage" value="单身,离婚" id="merriage" />
+                    单身,离婚
+                </p>
+                <p align="left">
+
+                    <input type="radio" name="merriage" value="单身,丧偶" id="merriage" />
+                    单身,丧偶
+                    <input type="radio" name="merriage" value="再婚" id="merriage" />
+                    再婚
+                    <input type="radio" name="merriage" value="未婚同居" id="merriage" />
+                    未婚同居
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">7</p></td>
+            <td valign="top">
+                <p align="left">配偶的工作情况</p>
+                <p align="left">
+
+                    <input type="radio" name="spouse" value="上班" id="spouse" />
+                    上班
+                    <input type="radio" name="spouse" value="下岗在家" id="spouse" />
+                    下岗在家
+                    <input type="radio" name="spouse" value="提前退休" id="spouse" />
+                    提前退休
+                    <input type="radio" name="spouse" value="退休" id="spouse" />
+                    退休
+                    <input type="radio" name="spouse" value="无配偶" id="spouse" />
+                    无配偶
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">8</p></td>
+            <td valign="top">
+                <p align="left">如果您有孩子在家中居住,那么,下列每个年龄组各有几个?</p>
+                <p align="left">
+                    小于4岁
+                    <input name="child1" type="text" size="2" id="child1" value="0" />
+                    个 ; 4至12岁
+                    <input name="child2" type="text" size="2" id="child2" value="0" />
+                    个;
+                </p>
+                <p align="left">
+                    13至18岁
+                    <input name="child3" type="text" size="2" id="child3" value="0" />
+                    个 ;19岁以上
+                    <input name="child4" type="text" size="2" id="child4" value="0" />
+                    个
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">9</p></td>
+            <td valign="top">
+                <p align="left">
+                    您个人每月的总收入(包括工资和奖金等)<br />
+                    <input type="radio" name="yoursalary" value="小于1000元" id="yoursalary" />
+                    &lt;1000元
+                    <input type="radio" name="yoursalary" value="1000-2000元" id="yoursalary" />
+                    1000-2000
+                    <input type="radio" name="yoursalary" value="2000-3000元" id="yoursalary" />
+                    2000-3000
+                    <input type="radio" name="yoursalary" value="3000-5000元" id="yoursalary" />
+                    3000-5000
+                    <input type="radio" name="yoursalary" value="大于5000元" id="yoursalary" />
+                    &gt;5000元
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">10</p></td>
+            <td valign="top">
+                <p align="left">
+                    您家庭每月的总收入（包括工资和奖金等）<br />
+                    <input type="radio" name="familysalary" value="小于2000元" id="familysalary" />
+                    &lt;2000元
+                    <input type="radio" name="familysalary" value="2000-5000元" id="familysalary" />
+                    2000-5000
+                    <input type="radio" name="familysalary" value="5000-10000元" id="familysalary" />
+                    5000-10000
+                    <input type="radio" name="familysalary" value="大于10000元" id="familysalary" />
+                    &gt;10000元
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">11</p></td>
+            <td valign="top">
+                <p align="left">与同一城市(地区)的其他人相比，您认为您的家庭收入是：</p>
+                <p align="left">
+
+                    <input type="radio" name="salarylevel" value="少" id="salarylevel" />
+                    少
+                    <input type="radio" name="salarylevel" value="一般" id="salarylevel" />
+                    一般
+                    <input type="radio" name="salarylevel" value="小康" id="salarylevel" />
+                    小康
+                    <input type="radio" name="salarylevel" value="富裕" id="salarylevel" />
+                    富裕
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="30" align="center" valign="top"><p align="center">12</p></td>
+            <td valign="top">
+                <p align="left">家族成员中是否患有以下疾病：</p>
+                <p align="left">
+
+                    <input type="radio" name="disease" value="高血压" id="disease" />
+                    高血压
+                    <input type="radio" name="disease" value="糖尿病" id="disease" />
+                    糖尿病
+                    <input type="radio" name="disease" value="肿瘤" id="disease" />
+                    肿瘤
+                    <input type="radio" name="disease" value="其他" id="disease" />
+                    其他
+                </p>
+            </td>
+        </tr>
+    </table>
 </form>
 <script language="javascript" type="text/javascript">
     function q_1_getAnswer() {
-        var name = $('#name').val();
-        if (name == "") {
+        var answer = getAnswer();
+        if (answer == undefined) {
             return { finished: false, answer: undefined };
         } else {
-            return { finished: true, answer: name };
+            return { finished: true, answer: answer };
         }
+    }
+    function getAnswer() {
+        return 'test';
     }
 </script>

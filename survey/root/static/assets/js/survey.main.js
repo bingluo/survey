@@ -1,11 +1,14 @@
-﻿var isInited = false;
+﻿//var isInited = false;
+//var isLogin = false;
+//var isShowLoginFailInfo = false;
+//var isFinished = false;
+//var questionnaireId = undefined;
+//var isShouldGetNextQuestionnaire = true;
+//var isShowNotFinishedInfo = false;
+//var isSubmittingAnswer = false;
+
 var isLogin = false;
-var isShowLoginFailInfo = false;
-var isFinished = false;
-var questionnaireId = undefined;
-var isShouldGetNextQuestionnaire = true;
-var isShowNotFinishedInfo = false;
-var isSubmittingAnswer = false;
+var currentQuestionnaireId = undefined;
 
 $(document).ready(function () {
     $('#survey-container').css('min-height', $(window).height());
@@ -19,82 +22,82 @@ $(document).ready(function () {
         }
     });
     $('body,html').animate({ scrollTop: 0 }, function () {
-        isInited = true;
+        //isInited = true;
     });
 });
 $(window).resize(function () {
     $('#survey-container').css('min-height', $(window).height());
 });
-$(window).scroll(function () {
-    var isFetchingData = false
-    if (isInited && !isFinished && !isFetchingData && $(document).scrollTop() + $(window).height() > $(document).height() - 5) {
-        if (isLogin) {
-            //Here try to submit the current questionnaire
-            if (questionnaireId != undefined) {
-                //submit the questionnaire
-                var submitFunc = "q_" + questionnaireId + "_getAnswer()";
-                var result = eval(submitFunc);
-                if (result.finished == true && !isSubmittingAnswer) {
-                    isSubmittingAnswer = true;
-                    //submit ajax
-                    var answer = result.answer;
-                    $.post("http://localhost:8088/submit-answer",
-                        { questionnaireId: questionnaireId, answer: answer },
-                        function (data) {
-                            if (data.status == 0) {
-                                isShouldGetNextQuestionnaire = true;
-                            } else {
-                                //Exception
-                            }
-                            isSubmittingAnswer = false;
-                        });
-                }
-            }
-            if (isShouldGetNextQuestionnaire) {
-                isShouldGetNextQuestionnaire = false;
-                isFetchingData = true;
-                $.get("http://localhost:8088/next-page", function (data) {
-                    if (data.status == 0) {
-                        questionnaireId = data.questionnaireId;
-                        var questionnaireUrl = "http://localhost:8088/static/questionnaire/" + data.pageName;
-                        getQuestionnaire(questionnaireUrl);
-                    } else if (data.status == 1) {
-                        isFinished = true;
-                    } else {
-                        //Exception
-                        isShouldGetNextQuestionnaire = true;
-                    }
-                });
-            } else {
-                if (!isShowNotFinishedInfo) {
-                    isShowNotFinishedInfo = true;
-                    $.pnotify({
-                        title: '请先完成当前问卷...',
-                        text: '您必须先完成当前问卷才能进行接下来的测试...',
-                        icon: false,
-                        type: 'error',
-                        after_close: function () {
-                            isShowNotFinishedInfo = false;
-                        }
-                    });
-                }
-            }
-        } else { 
-            if(!isShowLoginFailInfo) {
-                isShowLoginFailInfo = true;
-                $.pnotify({
-                    title: '清先登录...',
-                    text: '您必须先登录才能开始答题...',
-                    icon: false,
-                    type: 'error',
-                    after_close:function() {
-                        isShowLoginFailInfo = false;
-                    }
-                });
-            }
-        }
-    }
-});
+//$(window).scroll(function () {
+//    var isFetchingData = false
+//    if (isInited && !isFinished && !isFetchingData && $(document).scrollTop() + $(window).height() > $(document).height() - 5) {
+//        if (isLogin) {
+//            //Here try to submit the current questionnaire
+//            if (questionnaireId != undefined && !isShouldGetNextQuestionnaire) {
+//                //submit the questionnaire
+//                var submitFunc = "q_" + questionnaireId + "_getAnswer()";
+//                var result = eval(submitFunc);
+//                if (result.finished == true && !isSubmittingAnswer) {
+//                    isSubmittingAnswer = true;
+//                    //submit ajax
+//                    var answer = result.answer;
+//                    $.post("http://localhost:8088/submit-answer",
+//                        { questionnaireId: questionnaireId, answer: answer },
+//                        function (data) {
+//                            if (data.status == 0) {
+//                                isShouldGetNextQuestionnaire = true;
+//                            } else {
+//                                //Exception
+//                            }
+//                            isSubmittingAnswer = false;
+//                        });
+//                }
+//            }
+//            if (isShouldGetNextQuestionnaire) {
+//                isShouldGetNextQuestionnaire = false;
+//                isFetchingData = true;
+//                $.get("http://localhost:8088/next-page", function (data) {
+//                    if (data.status == 0) {
+//                        questionnaireId = data.questionnaireId;
+//                        var questionnaireUrl = "http://localhost:8088/static/questionnaire/" + data.pageName;
+//                        getQuestionnaire(questionnaireUrl);
+//                    } else if (data.status == 1) {
+//                        isFinished = true;
+//                    } else {
+//                        //Exception
+//                        isShouldGetNextQuestionnaire = true;
+//                    }
+//                });
+//            } else {
+//                if (!isShowNotFinishedInfo && questionnaireId != undefined) {
+//                    isShowNotFinishedInfo = true;
+//                    $.pnotify({
+//                        title: '请先完成当前问卷...',
+//                        text: '您必须先完成当前问卷才能进行接下来的测试...',
+//                        icon: false,
+//                        type: 'error',
+//                        after_close: function () {
+//                            isShowNotFinishedInfo = false;
+//                        }
+//                    });
+//                }
+//            }
+//        } else { 
+//            if(!isShowLoginFailInfo) {
+//                isShowLoginFailInfo = true;
+//                $.pnotify({
+//                    title: '清先登录...',
+//                    text: '您必须先登录才能开始答题...',
+//                    icon: false,
+//                    type: 'error',
+//                    after_close:function() {
+//                        isShowLoginFailInfo = false;
+//                    }
+//                });
+//            }
+//        }
+//    }
+//});
 $('#survey-login').click(function () {
     var email = $('#survey-email').val();
     var password = $('#survey-password').val();
@@ -146,11 +149,25 @@ function userLogin(email) {
     $(".after-login").show();
     updateMenu();
 }
+function getNewQuestionnaire() {
+    $.get("http://localhost:8088/next-page", function (data) {
+        if (data.status == 0) {
+            questionnaireId = data.questionnaireId;
+            var questionnaireUrl = "http://localhost:8088/static/questionnaire/" + data.pageName;
+            getQuestionnaire(questionnaireUrl);
+        } else if (data.status == 1) {
+            //Finish Event
+
+        } else {
+            //Exception
+        }
+    });
+}
 function getQuestionnaire(url) {
     $.get(url, function (data) {
-        var nextPage = "<div id= \"" + questionnaireId +"\"class=\"survey-questionnaire\">" + data + "</div>";
+        var nextPage = "<div id= \"" + questionnaireId + "\"class=\"survey-questionnaire\">" + data + "</div>";
         $('#survey-content').append(nextPage);
-        isFetchingData = false;
+        //isFetchingData = false;
     });
 }
 function updateMenu() {
@@ -162,4 +179,26 @@ function updateMenu() {
             //Exception
         }
     });
+}
+
+function submitCurrentQuestionnaire() {
+    if (currentQuestionnaireId != undefined) {
+        var submitFunc = "q_" + questionnaireId + "_getAnswer()";
+        var result = eval(submitFunc);
+        if (result.finished == true && !isSubmittingAnswer) {
+            isSubmittingAnswer = true;
+            //submit ajax
+            var answer = result.answer;
+            $.post("http://localhost:8088/submit-answer",
+                { questionnaireId: questionnaireId, answer: answer },
+                function (data) {
+                    if (data.status == 0) {
+                        isShouldGetNextQuestionnaire = true;
+                    } else {
+                        //Exception
+                    }
+                    isSubmittingAnswer = false;
+                });
+        }
+    }
 }

@@ -1,0 +1,3101 @@
+﻿<script language="javascript" type="text/javascript">
+    function clearText(field) {
+        if (field.defaultValue == field.value) field.value = '';
+        else if (field.value == '') field.value = field.defaultValue;
+    }
+
+    function clearSelect() {
+        $("#select1").hide();
+        $("#select2").hide();
+        $("#select3").hide();
+        $("#select4").hide();
+        $("#select5").hide();
+        $("#select6").hide();
+        $("#select7").hide();
+        $("#select8").hide();
+        $("#select9").hide();
+        $("#select10").hide();
+        $("#select11").hide();
+    }
+
+    function processOfficer() {
+        clearSelect();
+        var departname = $("#select1");
+        departname.empty();
+        departname.show();
+        var option = new Array();
+        option[0] = "<option>-所在机关部门-</option>";
+        option[1] = "<option>国税局</option>";
+        option[2] = "<option>地税局</option>";
+        option[3] = "<option>财政局</option>";
+        option[4] = "<option>人事局</option>";
+        option[5] = "<option>民政局</option>";
+        option[6] = "<option>监察局</option>";
+        option[7] = "<option>国土局</option>";
+        option[8] = "<option>建委（建设委员会、建设局）</option>";
+        option[9] = "<option>发改委</option>";
+        option[10] = "<option>劳动保障局</option>";
+        option[11] = "<option>环保局</option>";
+        option[12] = "<option>城管局</option>";
+        option[13] = "<option>审计局</option>";
+        option[14] = "<option>法院</option>";
+        option[15] = "<option>检察院</option>";
+        option[16] = "<option>交通局</option>";
+        option[17] = "<option>文化局</option>";
+        option[18] = "<option>烟草专卖局</option>";
+        option[19] = "<option>司法局</option>";
+        option[20] = "<option>质监局</option>";
+        option[21] = "<option>工商局</option>";
+        option[22] = "<option>物价局</option>";
+        option[23] = "<option>公安局</option>";
+        option[24] = "<option>林业局</option>";
+        option[25] = "<option>教育局</option>";
+        option[26] = "<option>水利局</option>";
+        option[27] = "<option>企业局</option>";
+        option[28] = "<option>安监局</option>";
+        option[29] = "<option>畜牧局</option>";
+        option[30] = "<option>房管局</option>";
+        option[31] = "<option>农机局</option>";
+        option[32] = "<option>人防办</option>";
+        option[33] = "<option>广电局</option>";
+        option[34] = "<option>气象局</option>";
+        option[35] = "<option>无线电管理处</option>";
+        option[36] = "<option>科技局</option>";
+        option[37] = "<option>计生委</option>";
+        option[38] = "<option>旅游局</option>";
+        option[39] = "<option>档案局</option>";
+        option[40] = "<option>统计局</option>";
+        option[41] = "<option>公积金管理处</option>";
+        option[42] = "<option>机关事务管理处</option>";
+        option[43] = "<option>政府办公室</option>";
+        option[44] = "<option>粮食局</option>";
+        option[45] = "<option>信访局</option>";
+        option[46] = "<option>组织部</option>";
+        option[47] = "<option>宣传部</option>";
+        option[48] = "<option>统战部</option>";
+        option[49] = "<option>纪检委</option>";
+        option[50] = "<option>政法委</option>";
+        option[51] = "<option>老干部局</option>";
+        for (var i = 0; i < 52; i++) {
+            departname.append(option[i]);
+        }
+
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var option1 = new Array();
+        option1[0] = "<option>-所在岗位-</option>";
+        option1[1] = "<option>局长</option>";
+        option1[2] = "<option>副局长</option>";
+        option1[3] = "<option>书记</option>";
+        option1[4] = "<option>副书记</option>";
+        option1[5] = "<option>主席</option>";
+        option1[6] = "<option>副主席</option>";
+        option1[7] = "<option>处长</option>";
+        option1[8] = "<option>科长</option>";
+        option1[9] = "<option>主任</option>";
+        option1[10] = "<option>副主任</option>";
+        option1[11] = "<option>副科长</option>";
+        option1[12] = "<option>副处长</option>";
+        option1[13] = "<option>副队长</option>";
+        option1[14] = "<option>一般工作人员</option>";
+        for (var i = 0; i < 15; i++) {
+            positionName.append(option1[i]);
+        }
+
+        var dutyName = $("#select3");
+        dutyName.empty();
+        dutyName.show();
+        var option2 = new Array();
+        option2[0] = "<option>-所在职务-</option>";
+        option2[1] = "<option>省部级正职</option>";
+        option2[2] = "<option>省部级副职</option>";
+        option2[3] = "<option>厅局级正职</option>";
+        option2[4] = "<option>厅局级副职</option>";
+        option2[5] = "<option>县处级正职</option>";
+        option2[6] = "<option>县处级副职</option>";
+        option2[7] = "<option>乡科级正职</option>";
+        option2[8] = "<option>乡科级副职</option>";
+        option2[9] = "<option>巡视员</option>";
+        option2[10] = "<option>助理巡视员</option>";
+        option2[11] = "<option>调研员</option>";
+        option2[12] = "<option>助理调研员</option>";
+        option2[13] = "<option>主任科员</option>";
+        option2[14] = "<option>副主任科员</option>";
+        option2[15] = "<option>科员</option>";
+        option2[16] = "<option>办事员</option>";
+        for (var i = 0; i < 17; i++) {
+            dutyName.append(option2[i]);
+        }
+
+        var otherName = $("#select4");
+        otherName.empty();
+        otherName.show();
+        var option3 = new Array();
+        option3[0] = "<option>-选择内外勤-</option>";
+        option3[1] = "<option>机关内勤</option>";
+        option3[2] = "<option>机关外勤</option>";
+        for (var i = 0; i < 3; i++) {
+            otherName.append(option3[i]);
+        }
+
+    }
+
+    function processMedicalInst() {
+        clearSelect();
+        var departname = $("#select1");
+        departname.empty();
+        departname.show();
+        var option = new Array();
+        option[0] = "<option>-工作部门-</option>";
+        option[1] = "<option>医院</option>";
+        option[2] = "<option>其他</option>";
+        for (var i = 0; i < 3; i++) {
+            departname.append(option[i]);
+        }
+
+        var doctorKind = $("#select3");
+        doctorKind.empty();
+        doctorKind.show();
+        var option1 = new Array();
+        option1[0] = "<option>-医师类别-</option>";
+        option1[1] = "<option>西医医师</option>";
+        option1[2] = "<option>中医医师</option>";
+        option1[3] = "<option>中西医结合医师</option>";
+        option1[4] = "<option>公共卫生医师</option>";
+        option1[5] = "<option>药剂人员</option>";
+        option1[6] = "<option>医疗技术人员</option>";
+        option1[7] = "<option>护理人员</option>";
+        option1[8] = "<option>其他卫生专业技术人员</option>";
+        for (var i = 0; i < 9; i++) {
+            doctorKind.append(option1[i]);
+        }
+
+        var clinicalTeacher = $("#select4");
+        clinicalTeacher.empty();
+        clinicalTeacher.show();
+        var optionCT = new Array();
+        optionCT[0] = "<option>-是否担任临床带教-</option>";
+        optionCT[1] = "<option>是</option>";
+        optionCT[2] = "<option>否</option>";
+        for (var i = 0; i < 3; i++) {
+            clinicalTeacher.append(optionCT[i]);
+        }
+
+        var officeBelong = $("#select7");
+        officeBelong.empty();
+        officeBelong.show();
+        var optionOB = new Array();
+        optionOB[0] = "<option>-所属科室-</option>";
+        optionOB[1] = "<option>内科</option>";
+        optionOB[2] = "<option>外科</option>";
+        optionOB[3] = "<option>妇产科</option>";
+        optionOB[4] = "<option>儿科</option>";
+        optionOB[5] = "<option>急诊科</option>";
+        optionOB[6] = "<option>预防保健科</option>";
+        optionOB[7] = "<option>耳鼻喉科</option>";
+        optionOB[8] = "<option>骨科</option>";
+        optionOB[9] = "<option>皮肤科</option>";
+        optionOB[10] = "<option>传染病科</option>";
+        optionOB[11] = "<option>药剂科</option>";
+        optionOB[12] = "<option>放射科</option>";
+        optionOB[13] = "<option>临床检验科</option>";
+        optionOB[14] = "<option>病理科</option>";
+        optionOB[15] = "<option>物理诊断科</option>";
+        optionOB[16] = "<option>手术室</option>";
+        optionOB[17] = "<option>理疗体疗科</option>";
+        optionOB[18] = "<option>消毒器材供应室</option>";
+        optionOB[19] = "<option>营养科</option>";
+        optionOB[20] = "<option>功能检查及内窥镜室</option>";
+        optionOB[21] = "<option>院长办公室</option>";
+        optionOB[22] = "<option>医务科</option>";
+        optionOB[23] = "<option>护理部</option>";
+        optionOB[24] = "<option>门诊部</option>";
+        optionOB[25] = "<option>人事科</option>";
+        optionOB[26] = "<option>财务科</option>";
+        optionOB[27] = "<option>科教科</option>";
+        optionOB[28] = "<option>总务科</option>";
+        optionOB[29] = "<option>保卫科</option>";
+        optionOB[30] = "<option>设备科</option>";
+        optionOB[31] = "<option>供应科</option>";
+        optionOB[32] = "<option>膳食科</option>";
+        optionOB[33] = "<option>病案室</option>";
+        optionOB[34] = "<option>统计室</option>";
+        optionOB[35] = "<option>图书室</option>";
+        optionOB[36] = "<option>住院处</option>";
+        optionOB[37] = "<option>计算机中心</option>";
+        optionOB[38] = "<option>党群组织机构</option>";
+        for (var i = 0; i < 39; i++) {
+            officeBelong.append(optionOB[i]);
+        }
+
+        var ifTeacher = $("#select8");
+        ifTeacher.empty();
+        ifTeacher.show();
+        var optionIT = new Array();
+        optionIT[0] = "<option>-是否担任授课-</option>";
+        optionIT[1] = "<option>是</option>";
+        optionIT[2] = "<option>否</option>";
+        for (var i = 0; i < 3; i++) {
+            ifTeacher.append(optionIT[i]);
+        }
+
+        var positionName = $("#select9");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-所在岗位-</option>";
+        optionPN[1] = "<option>党支部书记</option>";
+        optionPN[2] = "<option>党支部副书记</option>";
+        optionPN[3] = "<option>党支部组织委员</option>";
+        optionPN[4] = "<option>院长</option>";
+        optionPN[5] = "<option>副院长</option>";
+        optionPN[6] = "<option>行政秘书</option>";
+        optionPN[7] = "<option>院办公室主任</option>";
+        optionPN[8] = "<option>副主任</option>";
+        optionPN[9] = "<option>科室党支部书记</option>";
+        optionPN[10] = "<option>科长</option>";
+        optionPN[11] = "<option>科主任</option>";
+        optionPN[12] = "<option>主任助理</option>";
+        optionPN[13] = "<option>一般工作人员</option>";
+        for (var i = 0; i < 14; i++) {
+            positionName.append(optionPN[i]);
+        }
+
+        var titleName = $("#select10");
+        titleName.empty();
+        titleName.show();
+        var optionTN = new Array();
+        optionTN[0] = "<option>-职称-</option>";
+        optionTN[1] = "<option>主任医师</option>";
+        optionTN[2] = "<option>副主任医师</option>";
+        optionTN[3] = "<option>主治医师</option>";
+        optionTN[4] = "<option>总住院医师</option>";
+        optionTN[5] = "<option>住院医师</option>";
+        optionTN[6] = "<option>助理医师</option>";
+        optionTN[7] = "<option>主管护师</option>";
+        optionTN[8] = "<option>护师</option>";
+        optionTN[9] = "<option>护士</option>";
+        optionTN[10] = "<option>主管技师</option>";
+        optionTN[11] = "<option>副主任技师</option>";
+        optionTN[12] = "<option>技师</option>";
+        optionTN[13] = "<option>技士</option>";
+        for (var i = 0; i < 14; i++) {
+            titleName.append(optionTN[i]);
+        }
+    }
+
+    function processHospital() {
+        $("#select5").hide();
+        $("#select6").hide();
+        var kindName = $("#select2");
+        kindName.empty();
+        kindName.show();
+        var option = new Array();
+        option[0] = "<option>-类别-</option>";
+        option[1] = "<option>中医医院</option>";
+        option[2] = "<option>中西医结合医院</option>";
+        option[3] = "<option>民族医院</option>";
+        option[4] = "<option>康复医院</option>";
+        option[5] = "<option>专科医院</option>";
+        for (var i = 0; i < 6; i++) {
+            kindName.append(option[i]);
+        }
+
+        var hospitalRank = $("#select6");
+        hospitalRank.empty();
+        hospitalRank.show();
+        var option1 = new Array();
+        option1[0] = "<option>-医院级别-</option>";
+        option1[1] = "<option>一级甲等</option>";
+        option1[2] = "<option>一级乙等</option>";
+        option1[3] = "<option>一级丙等</option>";
+        option1[4] = "<option>二级甲等</option>";
+        option1[5] = "<option>二级乙等</option>";
+        option1[6] = "<option>二级丙等</option>";
+        option1[7] = "<option>三级特等</option>";
+        option1[8] = "<option>三级甲等</option>";
+        option1[9] = "<option>三级乙等</option>";
+        option1[10] = "<option>三级丙等</option>";
+        for (var i = 0; i < 11; i++) {
+            hospitalRank.append(option1[i]);
+        }
+    }
+
+    function processOther() {
+        $("#select5").hide();
+        $("#select6").hide();
+        var kindName = $("#select2");
+        kindName.empty();
+        kindName.show();
+        var option = new Array();
+        option[0] = "<option>-类别-</option>";
+        option[1] = "<option>妇幼保健院</option>";
+        option[2] = "<option>中心卫生院</option>";
+        option[3] = "<option>乡（镇）卫生院</option>";
+        option[4] = "<option>街道卫生院</option>";
+        option[5] = "<option>疗养院</option>";
+        option[6] = "<option>中医诊所</option>";
+        option[7] = "<option>民族医诊所</option>";
+        option[8] = "<option>卫生所</option>";
+        option[9] = "<option>卫生保健所</option>";
+        option[10] = "<option>卫生站</option>";
+        option[11] = "<option>村卫生室</option>";
+        option[12] = "<option>急救中心</option>";
+        option[13] = "<option>急救站</option>";
+        option[14] = "<option>临床检验中心</option>";
+        option[15] = "<option>专科疾病防治院</option>";
+        option[16] = "<option>专科疾病防治所</option>";
+        option[17] = "<option>专科疾病防治站</option>";
+        option[18] = "<option>护理院</option>";
+        option[19] = "<option>护理站</option>";
+        option[20] = "<option>其他诊疗机构</option>";
+        for (var i = 0; i < 21; i++) {
+            kindName.append(option[i]);
+        }
+    }
+
+    function processProfHospital() {
+        var pkindName = $("#select5");
+        pkindName.empty();
+        pkindName.show();
+        var option = new Array();
+        option[0] = "<option>-分类-</option>";
+        option[1] = "<option>妇科医院</option>";
+        option[2] = "<option>男科医院</option>";
+        option[3] = "<option>眼科医院</option>";
+        option[4] = "<option>人流医院</option>";
+        option[5] = "<option>口腔医院</option>";
+        option[6] = "<option>皮肤病医院</option>";
+        option[7] = "<option>整形医院</option>";
+        option[8] = "<option>肛肠医院</option>";
+        option[9] = "<option>骨科医院</option>";
+        option[10] = "<option>儿童医院</option>";
+        option[11] = "<option>妇产医院</option>";
+        option[12] = "<option>中医医院</option>";
+        option[13] = "<option>肝病医院</option>";
+        option[14] = "<option>精神病医院</option>";
+        option[15] = "<option>耳鼻喉科医院</option>";
+        option[16] = "<option>不孕不育医院</option>";
+        option[17] = "<option>五官科医院</option>";
+        option[18] = "<option>肿瘤医院</option>";
+        for (var i = 0; i < 19; i++) {
+            pkindName.append(option[i]);
+        }
+
+    }
+
+    function processHygien() {
+        clearSelect();
+        var organRank = $("#select1");
+        organRank.empty();
+        organRank.show();
+        var optionOR = new Array();
+        optionOR[0] = "<option>-机构级别-</option>";
+        optionOR[1] = "<option>省级</option>";
+        optionOR[2] = "<option>市（地）级</option>";
+        optionOR[3] = "<option>县级</option>";
+        for (var i = 0; i < 4; i++) {
+            organRank.append(optionOR[i]);
+        }
+
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPR = new Array();
+        optionPR[0] = "<option>-所在岗位-</option>";
+        optionPR[1] = "<option>党支部书记</option>";
+        optionPR[2] = "<option>党支部委员</option>";
+        optionPR[3] = "<option>所长</option>";
+        optionPR[4] = "<option>副所长</option>";
+        optionPR[5] = "<option>疾控中心主任</option>";
+        optionPR[6] = "<option>疾控中心副主任</option>";
+        optionPR[7] = "<option>科长</option>";
+        optionPR[8] = "<option>副科长</option>";
+        optionPR[9] = "<option>办公室主任</option>";
+        optionPR[10] = "<option>办公室副主任</option>";
+        optionPR[11] = "<option>一般工作人员</option>";
+        for (var i = 0; i < 12; i++) {
+            positionName.append(optionPR[i]);
+        }
+
+        var organName = $("#select3");
+        organName.empty();
+        organName.show();
+        var optionON = new Array();
+        optionON[0] = "<option>-所属机构和科室-</option>";
+        optionON[1] = "<option>疾控</option>";
+        optionON[2] = "<option>卫生监督所</option>";
+        for (var i = 0; i < 3; i++) {
+            organName.append(optionON[i]);
+        }
+    }
+
+    function processDiseaseControl() {
+        var officeRoom = $("#select4");
+        officeRoom.empty();
+        officeRoom.show();
+        var optionOR = new Array();
+        optionOR[0] = "<option>-所在科室-</option>";
+        optionOR[1] = "<option>综合防治管理科</option>";
+        optionOR[2] = "<option>传染病防治科</option>";
+        optionOR[3] = "<option>免疫规划管理科</option>";
+        optionOR[4] = "<option>健康教育与促进科</option>";
+        optionOR[5] = "<option>环境卫生与职业病卫生科</option>";
+        optionOR[6] = "<option>检验科</option>";
+        optionOR[7] = "<option>行政管理科</option>";
+        optionOR[8] = "<option>门诊部</option>";
+        optionOR[9] = "<option>性病艾滋病防治科</option>";
+        optionOR[10] = "<option>结核病防治科</option>";
+        optionOR[11] = "<option>地方病防治科</option>";
+        optionOR[12] = "<option>血吸虫病防治科</option>";
+        optionOR[13] = "<option>慢性非传染性疾病防治科</option>";
+        optionOR[14] = "<option>公共卫生应急管理科</option>";
+        optionOR[15] = "<option>信息管理科</option>";
+        optionOR[16] = "<option>消毒与病媒控制科</option>";
+        optionOR[17] = "<option>营养与食品卫生科</option>";
+        optionOR[18] = "<option>后勤服务中心</option>";
+        optionOR[19] = "<option>办公室</option>";
+        optionOR[20] = "<option>人事科</option>";
+        optionOR[21] = "<option>财务科</option>";
+        optionOR[22] = "<option>计算机中心</option>";
+        optionOR[23] = "<option>党群组织机构</option>";
+        optionOR[24] = "<option>工会</option>";
+        for (var i = 0; i < 25; i++) {
+            officeRoom.append(optionOR[i]);
+        }
+    }
+
+    function processSupervision() {
+        var officeRoom = $("#select4");
+        officeRoom.empty();
+        officeRoom.show();
+        var optionOR = new Array();
+        optionOR[0] = "<option>-所在科室-</option>";
+        optionOR[1] = "<option>法制稽查科</option>";
+        optionOR[2] = "<option>综合办公室</option>";
+        optionOR[3] = "<option>审核发证科</option>";
+        optionOR[4] = "<option>医疗执业监督科</option>";
+        optionOR[5] = "<option>传染病防治（场所卫生监督）科</option>";
+        optionOR[6] = "<option>职业卫生监督科</option>";
+        optionOR[7] = "<option>产品与市场卫生监督科</option>";
+        optionOR[8] = "<option>食品公共卫生科</option>";
+        optionOR[9] = "<option>农村综合卫生科</option>";
+        optionOR[10] = "<option>职业饮用水科</option>";
+        optionOR[11] = "<option>学校卫生科</option>";
+        optionOR[12] = "<option>医政卫生科</option>";
+        optionOR[13] = "<option>预审科</option>";
+        optionOR[14] = "<option>卫生局医疗事故处理办公室</option>";
+        for (var i = 0; i < 15; i++) {
+            officeRoom.append(optionOR[i]);
+        }
+    }
+
+    function processEducation() {
+        clearSelect();
+        var classD = $("#select1");
+        classD.empty();
+        classD.show();
+        var optionCD = new Array();
+        optionCD[0] = "<option>-类别-</option>";
+        optionCD[1] = "<option>行政人员</option>";
+        optionCD[2] = "<option>教师</option>";
+        optionCD[3] = "<option>学生</option>";
+        for (var i = 0; i < 4; i++) {
+            classD.append(optionCD[i]);
+        }
+    }
+
+    function processAdministrator() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-职务-</option>";
+        optionPN[1] = "<option>校长</option>";
+        optionPN[2] = "<option>副校长</option>";
+        optionPN[3] = "<option>党委书记</option>";
+        optionPN[4] = "<option>党委副书记</option>";
+        optionPN[5] = "<option>教导主任</option>";
+        optionPN[6] = "<option>教导副主任</option>";
+        optionPN[7] = "<option>党政办公室主任</option>";
+        optionPN[8] = "<option>党政办公室副主任</option>";
+        optionPN[9] = "<option>科研秘书</option>";
+        optionPN[10] = "<option>校工</option>";
+        optionPN[11] = "<option>军训教官</option>";
+        optionPN[12] = "<option>教育、教学单位司机</option>";
+        optionPN[13] = "<option>体校、技校教师、学生</option>";
+        optionPN[14] = "<option>戏曲舞蹈教师、学生</option>";
+        optionPN[15] = "<option>飞行训练教官及学员</option>";
+        optionPN[16] = "<option>汽车驾驶训练班教练及学员</option>";
+        optionPN[17] = "<option>警校、军校学生</option>";
+
+        optionPN[18] = "<option>其他</option>";
+        for (var i = 0; i < 19; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function processTeacher() {
+        $("#select2").hide();
+        var ifMaster = $("#select3");
+        ifMaster.empty();
+        ifMaster.show();
+        var optionIM = new Array();
+        optionIM[0] = "<option>-是否班主任-</option>";
+        optionIM[1] = "<option>是</option>";
+        optionIM[2] = "<option>否</option>";
+        for (var i = 0; i < 3; i++) {
+            ifMaster.append(optionIM[i]);
+        }
+
+        var ifGraduated = $("#select4");
+        ifGraduated.empty();
+        ifGraduated.show();
+        var optionIG = new Array();
+        optionIG[0] = "<option>-是否毕业班-</option>";
+        optionIG[1] = "<option>是</option>";
+        optionIG[2] = "<option>否</option>";
+        for (var i = 0; i < 3; i++) {
+            ifGraduated.append(optionIG[i]);
+        }
+
+        var gradeName = $("#select11");
+        gradeName.empty();
+        gradeName.show();
+        var optionGN = new Array();
+        optionGN[0] = "<option>-所教年级-</option>";
+        optionGN[1] = "<option>一年级</option>";
+        optionGN[2] = "<option>二年级</option>";
+        optionGN[3] = "<option>三年级</option>";
+        optionGN[4] = "<option>四年级</option>";
+        optionGN[5] = "<option>五年级</option>";
+        optionGN[6] = "<option>六年级</option>";
+        for (var i = 0; i < 7; i++) {
+            gradeName.append(optionGN[i]);
+        }
+
+        var teacherKind = $("#select7");
+        teacherKind.empty();
+        teacherKind.show();
+        var optionTK = new Array();
+        optionTK[0] = "<option>-教师类型-</option>";
+        optionTK[1] = "<option>幼儿教师</option>";
+        optionTK[2] = "<option>小学教师</option>";
+        optionTK[3] = "<option>初中教师</option>";
+        optionTK[4] = "<option>高中教师</option>";
+        optionTK[5] = "<option>中等职业教育教师</option>";
+        optionTK[6] = "<option>大学教师</option>";
+        for (var i = 0; i < 7; i++) {
+            teacherKind.append(optionTK[i]);
+        }
+    }
+
+    function processChildTeacher() {
+        var courseName = $("#select8");
+        courseName.empty();
+        courseName.show();
+        var optionCN = new Array();
+        optionCN[0] = "<option>-所授课程-</option>";
+        optionCN[1] = "<option>健康</option>";
+        optionCN[2] = "<option>语言</option>";
+        optionCN[3] = "<option>社会</option>";
+        optionCN[4] = "<option>科学</option>";
+        optionCN[5] = "<option>艺术</option>";
+        optionCN[6] = "<option>计算</option>";
+        optionCN[7] = "<option>体育</option>";
+        optionCN[8] = "<option>常识</option>";
+        optionCN[9] = "<option>音乐</option>";
+        optionCN[10] = "<option>美工</option>";
+        optionCN[11] = "<option>计算机</option>";
+        optionCN[12] = "<option>生活基本能力练习</option>";
+        optionCN[13] = "<option>五官感觉练习（视、听、嗅、味、触觉）</option>";
+        for (var i = 0; i < 14; i++) {
+            courseName.append(optionCN[i]);
+        }
+    }
+
+    function processMSTeacher() {
+        var courseName = $("#select8");
+        courseName.empty();
+        courseName.show();
+        var optionCN = new Array();
+        optionCN[0] = "<option>-所授课程-</option>";
+        optionCN[1] = "<option>品德类课程</option>";
+        optionCN[2] = "<option>历史</option>";
+        optionCN[3] = "<option>地理</option>";
+        optionCN[4] = "<option>科学</option>";
+        optionCN[5] = "<option>生物</option>";
+        optionCN[6] = "<option>物理</option>";
+        optionCN[7] = "<option>化学</option>";
+        optionCN[8] = "<option>语文</option>";
+        optionCN[9] = "<option>数学</option>";
+        optionCN[10] = "<option>外语</option>";
+        optionCN[11] = "<option>体育与健康</option>";
+        optionCN[12] = "<option>音乐</option>";
+        optionCN[13] = "<option>美术</option>";
+        for (var i = 0; i < 14; i++) {
+            courseName.append(optionCN[i]);
+        }
+    }
+
+    function processAdvanceTeacher() {
+        var courseName = $("#select8");
+        courseName.empty();
+        courseName.show();
+        var optionCN = new Array();
+        optionCN[0] = "<option>-所授课程-</option>";
+        optionCN[1] = "<option>数学</option>";
+        optionCN[2] = "<option>信息科学与系统科学</option>";
+        optionCN[3] = "<option>力学</option>";
+        optionCN[4] = "<option>物理学</option>";
+        optionCN[5] = "<option>化学</option>";
+        optionCN[6] = "<option>天文学</option>";
+        optionCN[7] = "<option>地球科学</option>";
+        optionCN[8] = "<option>生物学</option>";
+        optionCN[9] = "<option>心理学</option>";
+        optionCN[10] = "<option>农学</option>";
+        optionCN[11] = "<option>林学</option>";
+        optionCN[12] = "<option>畜牧</option>";
+        optionCN[13] = "<option>兽医学</option>";
+        optionCN[14] = "<option>水产学</option>";
+        optionCN[15] = "<option>基础医学</option>";
+        optionCN[16] = "<option>临床医学</option>";
+        optionCN[17] = "<option>预防医学与公共卫生学</option>";
+        optionCN[18] = "<option>军事医学与特种医学</option>";
+        optionCN[19] = "<option>药学</option>";
+        optionCN[20] = "<option>中医学与中药学</option>";
+        optionCN[21] = "<option>工程与技术科学基础学科</option>";
+        optionCN[22] = "<option>信息与系统科学相关工程与技术</option>";
+        optionCN[23] = "<option>自然科学相关工程与技术</option>";
+        optionCN[24] = "<option>测绘科学技术</option>";
+        optionCN[25] = "<option>材料科学</option>";
+        optionCN[26] = "<option>矿山工程技术</option>";
+        optionCN[27] = "<option>冶金工程技术</option>";
+        optionCN[28] = "<option>机械工程</option>";
+        optionCN[29] = "<option>动力与电气工程</option>";
+        optionCN[30] = "<option>能源科学技术</option>";
+        optionCN[31] = "<option>核科学技术</option>";
+        optionCN[32] = "<option>电子与通信技术</option>";
+        optionCN[33] = "<option>计算机科学技术</option>";
+        optionCN[34] = "<option>化学工程</option>";
+        optionCN[35] = "<option>产品应用相关工程与技术</option>";
+        optionCN[36] = "<option>纺织科学技术</option>";
+        optionCN[37] = "<option>视频科学技术</option>";
+        optionCN[38] = "<option>土木建筑工程</option>";
+        optionCN[39] = "<option>水利工程</option>";
+        optionCN[40] = "<option>交通运输工程</option>";
+        optionCN[41] = "<option>航空、航天科学技术</option>";
+        optionCN[42] = "<option>环境科学技术及资源科学技术</option>";
+        optionCN[43] = "<option>安全科学技术</option>";
+        optionCN[44] = "<option>管理学</option>";
+        optionCN[45] = "<option>马克思主义</option>";
+        optionCN[46] = "<option>哲学</option>";
+        optionCN[47] = "<option>宗教学</option>";
+        optionCN[48] = "<option>语言学</option>";
+        optionCN[49] = "<option>文学</option>";
+        optionCN[50] = "<option>艺术学</option>";
+        optionCN[51] = "<option>历史学</option>";
+        optionCN[52] = "<option>考古学</option>";
+        optionCN[53] = "<option>经济学</option>";
+        optionCN[54] = "<option>政治学</option>";
+        optionCN[55] = "<option>法学</option>";
+        optionCN[56] = "<option>军事学</option>";
+        optionCN[57] = "<option>社会学</option>";
+        optionCN[58] = "<option>民族学与文化学</option>";
+        optionCN[59] = "<option>新闻学与传播学</option>";
+        optionCN[60] = "<option>图书馆</option>";
+        optionCN[61] = "<option>情报与文献学</option>";
+        optionCN[62] = "<option>教育学</option>";
+        optionCN[63] = "<option>体育科学</option>";
+        optionCN[64] = "<option>统计学</option>";
+        for (var i = 0; i < 65; i++) {
+            courseName.append(optionCN[i]);
+        }
+    }
+
+    function processPublic() {
+        clearSelect();
+        var kindName = $("#select1");
+        kindName.empty();
+        kindName.show();
+        var optionKN = new Array();
+        optionKN[0] = "<option>-类别-</option>";
+        optionKN[1] = "<option>法院、检察院工作人员</option>";
+        optionKN[2] = "<option>公安警务工作人员</option>";
+        optionKN[3] = "<option>其他执法、治安及特种工作人员</option>";
+        for (var i = 0; i < 4; i++) {
+            kindName.append(optionKN[i]);
+        }
+    }
+
+    function processCourt() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-职位-</option>";
+        optionPN[1] = "<option>人民法院负责人</option>";
+        optionPN[2] = "<option>人民检察院负责人</option>";
+        optionPN[3] = "<option>法官</option>";
+        optionPN[4] = "<option>检察官</option>";
+        optionPN[5] = "<option>法医</option>";
+        optionPN[6] = "<option>法警</option>";
+        optionPN[7] = "<option>书记员</option>";
+        optionPN[8] = "<option>商业犯罪调查处理人员</option>";
+        for (var i = 0; i < 9; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function processPolice() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-职位-</option>";
+        optionPN[1] = "<option>警务行政人员</option>";
+        optionPN[2] = "<option>户籍警察</option>";
+        optionPN[3] = "<option>刑事犯罪侦查警察</option>";
+        optionPN[4] = "<option>禁毒警察</option>";
+        optionPN[5] = "<option>外事警察</option>";
+        optionPN[6] = "<option>巡逻警察</option>";
+        optionPN[7] = "<option>监狱看守所管理人员</option>";
+        optionPN[8] = "<option>交通警察</option>";
+        optionPN[9] = "<option>刑警</option>";
+        optionPN[10] = "<option>警务特警</option>";
+        optionPN[11] = "<option>网络警察</option>";
+        optionPN[12] = "<option>民事警察</option>";
+        optionPN[13] = "<option>防暴警察、武警</option>";
+        for (var i = 0; i < 14; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function processOtherPolice() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-职位-</option>";
+        optionPN[1] = "<option>港口机场警察及安全人员</option>";
+        optionPN[2] = "<option>工商、税务、海关、城管等特定国家行政执法人员</option>";
+        optionPN[3] = "<option>缉私人员</option>";
+        optionPN[4] = "<option>违禁品检查员</option>";
+        optionPN[5] = "<option>治安调查人员</option>";
+        optionPN[6] = "<option>保安人员</option>";
+        optionPN[7] = "<option>防毒防化防核抢险员</option>";
+        optionPN[8] = "<option>一般事故抢险员</option>";
+        optionPN[9] = "<option>抢险救援器材工具调配工</option>";
+        optionPN[10] = "<option>火险监督员、防火审核员</option>";
+        optionPN[11] = "<option>可燃气体（毒气）检测员、危险物品监督员</option>";
+        optionPN[12] = "<option>消防队队员</option>";
+        optionPN[13] = "<option>其他</option>";
+        for (var i = 0; i < 14; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //运动员
+    function yundong_two() {
+        var positionName = $("#select1");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-类别-</option>";
+        optionPN[1] = "<option>高尔夫球</option>";
+        optionPN[2] = "<option>保龄球</option>";
+        optionPN[3] = "<option>桌球</option>";
+        optionPN[4] = "<option>乒乓球、羽毛球</option>";
+        optionPN[5] = "<option>游泳</option>";
+        optionPN[6] = "<option>射箭</option>";
+        optionPN[7] = "<option>网球</option>";
+        optionPN[8] = "<option>垒球</option>";
+        optionPN[9] = "<option>溜冰</option>";
+        optionPN[10] = "<option>射击</option>";
+        optionPN[11] = "<option>民族体育活动(不含竞技性)</option>";
+        optionPN[12] = "<option>举重</option>";
+        optionPN[13] = "<option>篮球</option>";
+        optionPN[14] = "<option>排球</option>";
+        optionPN[15] = "<option>棒球</option>";
+        optionPN[16] = "<option>田径</option>";
+        optionPN[17] = "<option>体操</option>";
+        optionPN[18] = "<option>滑雪</option>";
+        optionPN[19] = "<option>帆船</option>";
+        optionPN[20] = "<option>划船</option>";
+        optionPN[21] = "<option>泛舟</option>";
+        optionPN[22] = "<option>巧固球</option>";
+        optionPN[23] = "<option>手球</option>";
+        optionPN[24] = "<option>风浪板</option>";
+        optionPN[25] = "<option>水上摩托车</option>";
+        optionPN[26] = "<option>足球</option>";
+        optionPN[27] = "<option>曲棍球</option>";
+        optionPN[28] = "<option>冰上曲棍球</option>";
+        optionPN[29] = "<option>橄榄球</option>";
+        optionPN[30] = "<option>摔跤</option>";
+        optionPN[31] = "<option>击剑</option>";
+        optionPN[32] = "<option>拳击</option>";
+
+
+        for (var i = 0; i < 33; i++) {
+            positionName.append(optionPN[i]);
+        }
+
+    }
+    function xs_check_nj() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-选择年级-</option>";
+        optionPN[1] = "<option>小学一年级</option>";
+        optionPN[2] = "<option>小学二年级</option>";
+        optionPN[3] = "<option>小学三年级</option>";
+        optionPN[4] = "<option>小学四年级</option>";
+        optionPN[5] = "<option>小学五年级</option>";
+        optionPN[6] = "<option>小学六年级</option>";
+        optionPN[7] = "<option>初中一年级</option>";
+        optionPN[8] = "<option>初中二年级</option>";
+        optionPN[9] = "<option>初中三年级</option>";
+        optionPN[10] = "<option>高中一年级</option>";
+        optionPN[11] = "<option>高中二年级</option>";
+        optionPN[12] = "<option>高中三年级</option>";
+        optionPN[13] = "<option>大学一年级</option>";
+        optionPN[14] = "<option>大学二年级</option>";
+        optionPN[15] = "<option>大学三年级</option>";
+        optionPN[16] = "<option>大学四年级</option>";
+        optionPN[17] = "<option>研究生一年级</option>";
+        optionPN[18] = "<option>研究生二年级</option>";
+        optionPN[19] = "<option>研究生三年级</option>";
+        for (var i = 0; i < 20; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    //学校类别
+    function xs_check_xx() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-学校分类-</option>";
+        optionPN[1] = "<option>普通基础教育学校</option>";
+        optionPN[2] = "<option>职业教育学校</option>";
+        optionPN[3] = "<option>普通高等学校</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+
+
+    //运输类别
+    function yunshu_hangye() {
+        var positionName = $("#select1");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-运输类别-</option>";
+        optionPN[1] = "<option>陆运</option>";
+        optionPN[2] = "<option>铁路</option>";
+        optionPN[3] = "<option>航运</option>";
+        optionPN[4] = "<option>空运</option>";
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //陆运选择
+    /*function yunshu_qf_ly()
+    {
+        var positionName=$("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0]="<option>-请选择-</option>";
+        optionPN[1]="<option>选择行业</option>";
+        optionPN[2]="<option>选择岗位</option>";
+        for(var i=0;i<3;i++)
+        {
+          positionName.append(optionPN[i]);
+        }
+    }*/
+    function yunshu_qf_ly_hy() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择行业-</option>";
+        optionPN[1] = "<option>城市交通业</option>";
+        optionPN[2] = "<option>道路运输业</option>";
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_hy_cs() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-城市交通种类-</option>";
+        optionPN[1] = "<option>公共汽车客运</option>";
+        optionPN[2] = "<option>轨道交通</option>";
+        optionPN[3] = "<option>出租车客运</option>";
+        optionPN[4] = "<option>城市轮渡 </option>";
+        optionPN[5] = "<option>人力三轮</option>";
+        optionPN[6] = "<option>机动三轮</option>";
+        optionPN[7] = "<option>特种车</option>";
+        optionPN[8] = "<option>其他城市交通</option>";
+        for (var i = 0; i < 9; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_hy_dl() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-道路运输种类-</option>";
+        optionPN[1] = "<option>公路客车运输</option>";
+        optionPN[2] = "<option>道路货物运输</option>";
+        optionPN[3] = "<option>客运汽车站</option>";
+        optionPN[4] = "<option>公路管理与养护 </option>";
+        optionPN[5] = "<option>其他道路运输辅助活动</option>";
+
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_hy_dl_kc() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-公路客车种类-</option>";
+        optionPN[1] = "<option>长途客车</option>";
+        optionPN[2] = "<option>短途客车</option>";
+        optionPN[3] = "<option>自用客车</option>";
+        optionPN[4] = "<option>游览客车</option>";
+        optionPN[5] = "<option>其他</option>";
+
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_ly_zw() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择岗位-</option>";
+        optionPN[1] = "<option>行政办公室</option>";
+        optionPN[2] = "<option>财务审计部</option>";
+        optionPN[3] = "<option>营运部</option>";
+        optionPN[4] = "<option>人力资源部</option>";
+        optionPN[5] = "<option>工会办公室</option>";
+        optionPN[6] = "<option>纪检监察室</option>";
+        optionPN[7] = "<option>安全生产部</option>";
+        optionPN[8] = "<option>设备技术部</option>";
+        optionPN[9] = "<option>党群工作部</option>";
+        optionPN[10] = "<option>后勤管理中心</option>";
+        optionPN[11] = "<option>稽查办公室</option>";
+        optionPN[12] = "<option>保卫部</option>";
+        optionPN[13] = "<option>考核办</option>";
+        optionPN[14] = "<option>调度室</option>";
+        optionPN[15] = "<option>客服中心</option>";
+        optionPN[16] = "<option>基建办公室</option>";
+        optionPN[17] = "<option>企业管理部</option>";
+        optionPN[18] = "<option>技术工人</option>";
+        optionPN[19] = "<option>其他辅助人员</option>";
+
+        for (var i = 0; i < 20; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_1() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>董事长</option>";
+        optionPN[2] = "<option>总经理</option>";
+        optionPN[3] = "<option>副总经理</option>";
+        optionPN[4] = "<option>办公室主任</option>";
+        optionPN[5] = "<option>办公室副主任</option>";
+        optionPN[6] = "<option>秘书</option>";
+        optionPN[7] = "<option>其他人员</option>";
+        for (var i = 0; i < 8; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_2() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>经理</option>";
+        optionPN[2] = "<option>副经理</option>";
+        optionPN[3] = "<option>财务及审计主管</option>";
+        optionPN[4] = "<option>主管会计</option>";
+        optionPN[5] = "<option>统计员</option>";
+        optionPN[6] = "<option>出纳</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_3() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>经理</option>";
+        optionPN[2] = "<option>总监</option>";
+        optionPN[3] = "<option>主管</option>";
+        optionPN[4] = "<option>助理</option>";
+        optionPN[5] = "<option>文员</option>";
+        optionPN[6] = "<option>售票员</option>";
+        optionPN[7] = "<option>司机</option>";
+        optionPN[8] = "<option>车辆操纵员</option>";
+        optionPN[9] = "<option>服务员</option>";
+        for (var i = 0; i < 10; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_ly_zw_4() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>总监</option>";
+        optionPN[2] = "<option>主任</option>";
+        optionPN[3] = "<option>经理</option>";
+        optionPN[4] = "<option>主管</option>";
+        optionPN[5] = "<option>专员</option>";
+        optionPN[6] = "<option>文员</option>";
+        ;
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_5() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主席</option>";
+        optionPN[2] = "<option>副主席</option>";
+        optionPN[3] = "<option>组织民管委员</option>";
+        optionPN[4] = "<option>财务委员</option>";
+        optionPN[5] = "<option>宣传文体委员</option>";
+        ;
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_6() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>书记</option>";
+        optionPN[2] = "<option>主任</option>";
+        optionPN[3] = "<option>案件信访专员</option>";
+        optionPN[4] = "<option>效能监察人员</option>";
+        optionPN[5] = "<option>综合管理人员</option>";
+        ;
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_7() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>经理</option>";
+        optionPN[2] = "<option>副经理</option>";
+        optionPN[3] = "<option>安全员</option>";
+        optionPN[4] = "<option>质量管理员</option>";
+        optionPN[5] = "<option>资料员</option>";
+        optionPN[6] = "<option>文员</option>";
+        optionPN[7] = "<option>电工</option>";
+        optionPN[8] = "<option>消防员 </option>";
+
+        for (var i = 0; i < 9; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_8() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主管</option>";
+        optionPN[2] = "<option>经理</option>";
+        optionPN[3] = "<option>工程师</option>";
+        optionPN[4] = "<option>技术员</option>";
+
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_9() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>部长</option>";
+        optionPN[2] = "<option>副部长</option>";
+        optionPN[3] = "<option>主任</option>";
+        optionPN[4] = "<option>干事</option>";
+
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_10() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>处长</option>";
+        optionPN[2] = "<option>副处长</option>";
+        optionPN[3] = "<option>科长</option>";
+        optionPN[4] = "<option>主任</option>";
+        optionPN[5] = "<option>管理员</option>";
+        optionPN[6] = "<option>采购员</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_11() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>稽查主办人员</option>";
+        optionPN[4] = "<option>稽查协办人员</option>";
+        optionPN[5] = "<option>内勤人员</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_12() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>部长</option>";
+        optionPN[2] = "<option>副部长</option>";
+        optionPN[3] = "<option>办事员</option>";
+        optionPN[4] = "<option>门卫</option>";
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_13() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主任</option>";
+        optionPN[2] = "<option>考核助理</option>";
+        optionPN[3] = "<option>考评员工</option>";
+        optionPN[4] = "<option>投诉受理员工</option>";
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_14() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主任</option>";
+        optionPN[2] = "<option>副主任</option>";
+        optionPN[3] = "<option>主管</option>";
+        optionPN[4] = "<option>组长</option>";
+        optionPN[5] = "<option>调度员</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_15() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>经理</option>";
+        optionPN[2] = "<option>理赔协调岗</option>";
+        optionPN[3] = "<option>内勤</option>";
+
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_16() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主任</option>";
+        optionPN[2] = "<option>现场监理</option>";
+        optionPN[3] = "<option>维修管理员</option>";
+        optionPN[4] = "<option>预算员</option>";
+        optionPN[5] = "<option>资料员</option>";
+        optionPN[6] = "<option>其他工作人员</option>";
+
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_17() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>部长</option>";
+        optionPN[2] = "<option>投资管理员</option>";
+        optionPN[3] = "<option>企业管理员</option>";
+        optionPN[4] = "<option>项目开发员</option>";
+        optionPN[5] = "<option>审计员</option>";
+
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_18() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车队机务员</option>";
+        optionPN[2] = "<option> 机修工</option>";
+        optionPN[3] = "<option>焊工</option>";
+        optionPN[4] = "<option>漆工</option>";
+        optionPN[5] = "<option>胎工</option>";
+        optionPN[5] = "<option>随车工人</option>";
+        optionPN[5] = "<option>搬运工人</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ly_zw_19() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>公路收费及监控人员</option>";
+        optionPN[2] = "<option>加油站工作人员</option>";
+
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    //铁路选择
+    /*function yunshu_qf_tl()
+    {
+        var positionName=$("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0]="<option>-请选择-</option>";
+        optionPN[1]="<option>选择运输种类</option>";
+        optionPN[2]="<option>选择部门岗位</option>";
+        for(var i=0;i<3;i++)
+        {
+          positionName.append(optionPN[i]);
+        }
+    }*/
+
+
+    function yunshu_qf_tl_yszl() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-选择运输种类-</option>";
+        optionPN[1] = "<option>铁路旅客运输</option>";
+        optionPN[2] = "<option>铁路货物运输</option>";
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_yszl_lk() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>磁悬浮列车</option>";
+        optionPN[2] = "<option>高铁</option>";
+        optionPN[3] = "<option>动车</option>";
+        optionPN[4] = "<option>直达特快列车</option>";
+        optionPN[5] = "<option>特快旅客列车</option>";
+        optionPN[6] = "<option>快速旅客列车</option>";
+        optionPN[7] = "<option>管内快速列车</option>";
+        optionPN[8] = "<option>临时旅客列车</option>";
+        optionPN[9] = "<option>旅游列车</option>";
+        optionPN[10] = "<option>普通旅客慢车</option>";
+        optionPN[11] = "<option>其他</option>";
+
+        for (var i = 0; i < 12; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_yszl_hy() {
+        var positionName = $("#select5");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>通用货车</option>";
+        optionPN[2] = "<option>专用货车</option>";
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //铁路岗位
+    function yunshu_qf_tl_xzld() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-选择部门岗位-</option>";
+        optionPN[1] = "<option>车务段</option>";
+        optionPN[2] = "<option>机务段</option>";
+        optionPN[3] = "<option>工务段</option>";
+        optionPN[4] = "<option>电务段</option>";
+        optionPN[5] = "<option>车辆段</option>";
+        optionPN[6] = "<option>客运段</option>";
+        optionPN[7] = "<option>供电段</option>";
+        for (var i = 0; i < 8; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车务段岗位</option>";
+        optionPN[2] = "<option>车务段客运</option>";
+        optionPN[3] = "<option>车务段货运</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_gw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>行政科</option>";
+        optionPN[2] = "<option>党群工作办公室</option>";
+        optionPN[3] = "<option>安全技术科</option>";
+        optionPN[4] = "<option>运输调度科</option>";
+        optionPN[5] = "<option>营销科</option>";
+        optionPN[6] = "<option>财务科</option>";
+        optionPN[7] = "<option>总务科</option>";
+        optionPN[8] = "<option>物资科</option>";
+        optionPN[9] = "<option>乘务管理科</option>";
+        optionPN[10] = "<option>职工教育科</option>";
+        optionPN[11] = "<option>劳动人事科</option>";
+        optionPN[12] = "<option>餐饮业务科</option>";
+        optionPN[13] = "<option>其他科室</option>";
+        for (var i = 0; i < 14; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //岗位
+    function yunshu_qf_tl_xzld_cwd_1() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>主任</option>";
+        optionPN[4] = "<option>外勤秘书</option>";
+        optionPN[5] = "<option>内勤秘书</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_2() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主任</option>";
+        optionPN[2] = "<option>党务管理</option>";
+        optionPN[3] = "<option>纪检监察</option>";
+        optionPN[4] = "<option>工会管理</option>";
+        optionPN[5] = "<option>离退人员管理</option>";
+        optionPN[6] = "<option>团委书记</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_3() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>主任工程师</option>";
+        optionPN[4] = "<option>安全员</option>";
+        optionPN[5] = "<option>技术员</option>";
+        optionPN[6] = "<option>急救员</option>";
+        optionPN[7] = "<option>质量检查员</option>";
+        optionPN[8] = "<option>办事员</option>";
+        for (var i = 0; i < 9; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_4() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>值班主任</option>";
+        optionPN[4] = "<option>值班员</option>";
+        optionPN[5] = "<option>调度员</option>";
+        optionPN[6] = "<option>调车区长（调度助理）</option>";
+        optionPN[7] = "<option>调车长</option>";
+        optionPN[8] = "<option>连结员、制动员</option>";
+        optionPN[9] = "<option>制动员</option>";
+        for (var i = 0; i < 10; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_5() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>业务员</option>";
+        optionPN[3] = "<option>销售员</option>";
+
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_6() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>财务及审计主管</option>";
+        optionPN[4] = "<option>主管会计</option>";
+        optionPN[5] = "<option>统计员</option>";
+        optionPN[6] = "<option>出纳</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_7() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>总支书记</option>";
+        optionPN[2] = "<option>科长</option>";
+        optionPN[3] = "<option>生产副科长</option>";
+        optionPN[4] = "<option>安全副科长</option>";
+        optionPN[5] = "<option>机电副科长</option>";
+        optionPN[6] = "<option>工会主席</option>";
+        optionPN[7] = "<option>主任工程师</option>";
+        optionPN[8] = "<option>经理班长</option>";
+        optionPN[9] = "<option>工资员</option>";
+        optionPN[10] = "<option>材料员</option>";
+        optionPN[11] = "<option>主任段长</option>";
+        optionPN[12] = "<option>司机</option>";
+        optionPN[13] = "<option>修理工</option>";
+        for (var i = 0; i < 14; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_8() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>维修工</option>";
+        optionPN[4] = "<option>仓管员</option>";
+        optionPN[5] = "<option>物资供应保管员</option>";
+        optionPN[6] = "<option>电工</option>";
+        optionPN[7] = "<option>水电工</option>";
+        optionPN[8] = "<option>木工</option>";
+        optionPN[9] = "<option>洗衣房车缝组</option>";
+        optionPN[10] = "<option>司机</option>";
+        optionPN[11] = "<option>清洁工</option>";
+
+        for (var i = 0; i < 12; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_tl_xzld_jwd() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>机务段类型</option>";
+        optionPN[2] = "<option>机务段单位</option>";
+        optionPN[3] = "<option>机务段岗位</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_jwd_dw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>运转车间</option>";
+        optionPN[2] = "<option>检修车间</option>";
+        optionPN[3] = "<option>其他科室</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_jwd_gw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车间主任</option>";
+        optionPN[2] = "<option>质检员</option>";
+        optionPN[3] = "<option>车间班组长</option>";
+        optionPN[4] = "<option>工长</option>";
+        optionPN[5] = "<option>指导司机</option>";
+        optionPN[6] = "<option>司机</option>";
+        optionPN[7] = "<option>副司机</option>";
+        optionPN[8] = "<option>学员</option>";
+        for (var i = 0; i < 9; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_jwd_lx() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>客运机务段</option>";
+        optionPN[2] = "<option>货运机务段</option>";
+        optionPN[3] = "<option>综合机务段</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_tl_xzld_gwd() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>工务段单位</option>";
+        optionPN[2] = "<option>工务段岗位</option>";
+        optionPN[3] = "<option>工务段职称级别</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //电务段
+    function yunshu_qf_tl_xzld_dwd() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>电务段单位</option>";
+        optionPN[2] = "<option>电务段岗位</option>";
+        optionPN[3] = "<option>电务段职称级别</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //电务段单位
+    function yunshu_qf_tl_xzld_dwd_dw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车间</option>";
+        optionPN[2] = "<option>工区</option>";
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //电务段岗位
+    function yunshu_qf_tl_xzld_dwd_gw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>段长</option>";
+        optionPN[2] = "<option>车间主任</option>";
+        optionPN[3] = "<option>工长</option>";
+        optionPN[4] = "<option>信号工</option>";
+        optionPN[5] = "<option>其他</option>";
+
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //电务段职称
+    function yunshu_qf_tl_xzld_dwd_zc() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>干部</option>";
+        optionPN[2] = "<option>工人</option>";
+
+
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //电务段职称 干部
+    function yunshu_qf_tl_xzld_dwd_zc_gb() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>高级工程师</option>";
+        optionPN[2] = "<option>工程师</option>";
+        optionPN[3] = "<option>助理工程师</option>";
+        optionPN[4] = "<option>技术员</option>";
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //电务段职称 工人
+    function yunshu_qf_tl_xzld_dwd_zc_gr() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>高级技师</option>";
+        optionPN[2] = "<option>工人技师</option>";
+        optionPN[3] = "<option>高级工</option>";
+        optionPN[4] = "<option>中级工</option>";
+        optionPN[5] = "<option>初级工</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //车辆段
+    function yunshu_qf_tl_xzld_cld() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车辆段单位</option>";
+        optionPN[2] = "<option>车辆段岗位</option>";
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //车辆段单位
+    function yunshu_qf_tl_xzld_cld_dw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车辆运用车间</option>";
+        optionPN[2] = "<option>车辆检修车间</option>";
+        optionPN[3] = "<option>动车所</option>";
+        optionPN[4] = "<option>客列检</option>";
+        optionPN[5] = "<option>其他</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //车辆段岗位
+    function yunshu_qf_tl_xzld_cld_gw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>段长</option>";
+        optionPN[2] = "<option>车间主任</option>";
+        optionPN[3] = "<option>车辆检修所工长</option>";
+        optionPN[4] = "<option>检车员</option>";
+        optionPN[5] = "<option>检修厂厂长</option>";
+        optionPN[6] = "<option>检修厂工程师</option>";
+        optionPN[7] = "<option>检修厂技工</option>";
+        optionPN[8] = "<option>检修厂内勤</option>";
+        optionPN[9] = "<option>其他员工</option>";
+
+        for (var i = 0; i < 10; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //客运段
+    function yunshu_qf_tl_xzld_kyd() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>客运段岗位</option>";
+        optionPN[2] = "<option>客运段级别</option>";
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //客运段岗位
+    function yunshu_qf_tl_xzld_kyd_gw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>安全技术科</option>";
+        optionPN[2] = "<option>乘务管理科、餐饮科及职工教育科</option>";
+        optionPN[3] = "<option>总务科</option>";
+        optionPN[4] = "<option>劳动人事科</option>";
+        optionPN[5] = "<option>财务科</option>";
+        optionPN[6] = "<option>行政办公室</option>";
+        optionPN[7] = "<option>党群工作办公室</option>";
+        optionPN[8] = "<option>车间、车队</option>";
+
+        for (var i = 0; i < 9; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    //客运段岗位
+    function yunshu_qf_tl_xzld_kyd_gw_1() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>主任工程师</option>";
+        optionPN[4] = "<option>技术员</option>";
+        optionPN[5] = "<option>急救员</option>";
+        optionPN[6] = "<option>质量检查员</option>";
+        optionPN[7] = "<option>办事员</option>";
+
+        for (var i = 0; i < 8; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //客运段岗位
+    function yunshu_qf_tl_xzld_kyd_gw_2() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>一般科员</option>";
+
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //客运段岗位
+    function yunshu_qf_tl_xzld_kyd_gw_3() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>维修工</option>";
+        optionPN[4] = "<option>仓管员</option>";
+        optionPN[5] = "<option>物资供应保管员</option>";
+        optionPN[6] = "<option>电工</option>";
+        optionPN[7] = "<option>水电工</option>";
+        optionPN[8] = "<option>木工</option>";
+        optionPN[9] = "<option>洗衣房车缝组</option>";
+        optionPN[10] = "<option>司机</option>";
+        optionPN[11] = "<option>清洁工</option>";
+        for (var i = 0; i < 12; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //客运段岗位
+    function yunshu_qf_tl_xzld_kyd_gw_4() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>科员</option>";
+
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_kyd_gw_5() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>财务及审计主管</option>";
+        optionPN[4] = "<option>主管会计</option>";
+        optionPN[5] = "<option>统计员</option>";
+        optionPN[6] = "<option>出纳</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_kyd_gw_6() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>主任</option>";
+        optionPN[4] = "<option>外勤秘书</option>";
+        optionPN[5] = "<option>内勤秘书</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_kyd_gw_7() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主任</option>";
+        optionPN[2] = "<option>党务管理</option>";
+        optionPN[3] = "<option>纪检监察</option>";
+        optionPN[4] = "<option>工会管理</option>";
+        optionPN[5] = "<option>离退人员管理</option>";
+        optionPN[6] = "<option>团委书记</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_kyd_gw_8() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车间主任</option>";
+        optionPN[2] = "<option>车间副主任</option>";
+        optionPN[3] = "<option>车队队长</option>";
+        optionPN[4] = "<option>车队副队长</option>";
+        optionPN[5] = "<option>列车长</option>";
+        optionPN[6] = "<option>列车员</option>";
+        optionPN[7] = "<option>列车售货员</option>";
+        optionPN[8] = "<option>列车餐饮服务员</option>";
+        optionPN[9] = "<option>广播员</option>";
+        optionPN[10] = "<option>安全员</option>";
+        for (var i = 0; i < 11; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //客运段单位级别
+    function yunshu_qf_tl_xzld_kyd_jb() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>客运乘务车间（旅服车间）</option>";
+        optionPN[2] = "<option>乘务车队</option>";
+
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //供电段
+    function yunshu_qf_tl_xzld_gdd() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>供电段岗位</option>";
+        optionPN[2] = "<option>供电段级别</option>";
+        optionPN[3] = "<option>供电段职称</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //供电段岗位职务
+    function yunshu_qf_tl_xzld_gdd_gw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>行政科</option>";
+        optionPN[2] = "<option>党群工作办公室</option>";
+        optionPN[3] = "<option>财务科</option>";
+        optionPN[4] = "<option>总务科</option>";
+        optionPN[5] = "<option>物资科</option>";
+        optionPN[6] = "<option>技术科</option>";
+        optionPN[7] = "<option>职工教育科</option>";
+        optionPN[8] = "<option>劳动人事科</option>";
+        optionPN[9] = "<option>安全科</option>";
+        optionPN[10] = "<option>车间</option>";
+        for (var i = 0; i < 11; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_gw_1() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>主任</option>";
+        optionPN[4] = "<option>外勤秘书</option>";
+        optionPN[5] = "<option>内勤秘书</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_gw_2() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>主任</option>";
+        optionPN[2] = "<option>党务管理</option>";
+        optionPN[3] = "<option>纪检监察</option>";
+        optionPN[4] = "<option>工会管理</option>";
+        optionPN[5] = "<option>离退人员管理</option>";
+        optionPN[6] = "<option>团委书记</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_gw_3() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>财务及审计主管</option>";
+        optionPN[4] = "<option>主管会计</option>";
+        optionPN[5] = "<option>统计员</option>";
+        optionPN[6] = "<option>出纳</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_gw_4() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>维修工</option>";
+        optionPN[4] = "<option>仓管员</option>";
+        optionPN[5] = "<option>物资供应保管员</option>";
+        optionPN[6] = "<option>电工</option>";
+        optionPN[7] = "<option>水电工</option>";
+        optionPN[8] = "<option>木工</option>";
+        optionPN[9] = "<option>洗衣房车缝组</option>";
+        optionPN[10] = "<option>司机</option>";
+        optionPN[11] = "<option>清洁工</option>";
+        for (var i = 0; i < 12; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_gw_5() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>材料员</option>";
+        optionPN[4] = "<option>保管员</option>";
+        optionPN[5] = "<option>物资会计</option>";
+        optionPN[6] = "<option>档案员</option>";
+        optionPN[7] = "<option>其他科员</option>";
+        for (var i = 0; i < 8; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_gw_6() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>科员</option>";
+
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_gw_7() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>车间主任</option>";
+        optionPN[2] = "<option>供电工区工长</option>";
+        optionPN[3] = "<option>接触网网工</option>";
+        optionPN[4] = "<option>电力维修工</option>";
+        optionPN[5] = "<option>牵引变电工</option>";
+        optionPN[6] = "<option>配电工</option>";
+        optionPN[7] = "<option>其他工人</option>";
+
+        for (var i = 0; i < 8; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_tl_xzld_gdd_jb() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>供电车间</option>";
+        optionPN[2] = "<option>供电工区</option>";
+        optionPN[3] = "<option>变（配）电所</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gdd_zc() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>初级工</option>";
+        optionPN[2] = "<option>中级工</option>";
+        optionPN[3] = "<option>高级工</option>";
+        optionPN[4] = "<option>技师、高级技师</option>";
+        optionPN[5] = "<option>高级技师</option>";
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //工务段
+    function yunshu_qf_tl_xzld_gwd_dw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>线路（桥隧）车间</option>";
+        optionPN[2] = "<option>线路（桥隧）工区</option>";
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_gwd_gw() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>段长</option>";
+        optionPN[2] = "<option>线路（桥隧）车间主任</option>";
+        optionPN[3] = "<option>线路（桥隧）工区工长</option>";
+        optionPN[4] = "<option>线路工</option>";
+        optionPN[5] = "<option>桥隧工</option>";
+        optionPN[6] = "<option>巡道工</option>";
+        optionPN[7] = "<option>看守工</option>";
+        optionPN[8] = "<option>道口工</option>";
+        optionPN[9] = "<option>探伤工</option>";
+        optionPN[10] = "<option>修路工</option>";
+        optionPN[11] = "<option>铁路维护员</option>";
+        optionPN[12] = "<option>其他</option>";
+        for (var i = 0; i < 13; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //工务段职称
+    function yunshu_qf_tl_xzld_gwd_zc() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>初级技工</option>";
+        optionPN[2] = "<option>中级技工</option>";
+        optionPN[3] = "<option>高级技工</option>";
+        optionPN[4] = "<option>技师</option>";
+        optionPN[5] = "<option>高级技师</option>";
+
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //车务段
+    function yunshu_qf_tl_xzld_cwd_9() {
+        var positionName = $("#select8");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>科长</option>";
+        optionPN[2] = "<option>副科长</option>";
+        optionPN[3] = "<option>材料员</option>";
+        optionPN[4] = "<option>保管员</option>";
+        optionPN[5] = "<option>物资会计</option>";
+        optionPN[6] = "<option>档案员</option>";
+        optionPN[7] = "<option>其他科员</option>";
+
+        for (var i = 0; i < 8; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_tl_xzld_cwd_ky() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>铁路票房工作人员</option>";
+        optionPN[3] = "<option>铁路车站检票员</option>";
+        optionPN[4] = "<option>铁路服务台人员</option>";
+        optionPN[5] = "<option>铁路月台上工作人员</option>";
+        optionPN[6] = "<option>车站治安巡视人员</option>";
+        optionPN[7] = "<option>铁路行李搬运工人</option>";
+        optionPN[8] = "<option>铁路车站清洁工人</option>";
+        optionPN[9] = "<option>铁路播音员</option>";
+
+        for (var i = 0; i < 10; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_tl_xzld_cwd_hy() {
+        var positionName = $("#select7");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>业务办理人员</option>";
+        optionPN[3] = "<option>货运领班</option>";
+        optionPN[4] = "<option>押运员</option>";
+        optionPN[5] = "<option>搬运工人</option>";
+        optionPN[6] = "<option>其他</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    //航运选择
+    function yunshu_qf_hy() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>客货轮（沿海）</option>";
+        optionPN[2] = "<option>游览船及小汽艇</option>";
+        optionPN[3] = "<option>港口作业</option>";
+        optionPN[4] = "<option>客货轮（内河）</option>";
+        optionPN[5] = "<option>客货轮（远洋）</option>";
+
+        for (var i = 0; i < 6; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    //航运选择
+    function yunshu_qf_hy_khl() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>船长</option>";
+        optionPN[2] = "<option>轮机长</option>";
+        optionPN[3] = "<option>高级船员</option>";
+        optionPN[4] = "<option>大副</option>";
+        optionPN[5] = "<option>二副</option>";
+        optionPN[6] = "<option>三副</option>";
+        optionPN[7] = "<option>大管轮</option>";
+        optionPN[8] = "<option>二管轮</option>";
+        optionPN[9] = "<option>三管轮</option>";
+        optionPN[10] = "<option>报务员</option>";
+        optionPN[11] = "<option>事务长</option>";
+        optionPN[12] = "<option>医务人员</option>";
+        optionPN[13] = "<option>水手长</option>";
+        optionPN[14] = "<option>水手</option>";
+        optionPN[15] = "<option>铜匠</option>";
+        optionPN[16] = "<option>木匠</option>";
+        optionPN[17] = "<option>泵匠</option>";
+        optionPN[18] = "<option>电机师</option>";
+        optionPN[19] = "<option>厨师</option>";
+        optionPN[20] = "<option>服务生</option>";
+        optionPN[21] = "<option>实习生</option>";
+
+        for (var i = 0; i < 22; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_hy_ylc() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>游览船之驾驶及工作人员</option>";
+        optionPN[2] = "<option>小汽艇之驾驶及工作人员</option>";
+
+        for (var i = 0; i < 3; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_hy_gkzy() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>码头工人及领班</option>";
+        optionPN[2] = "<option>堆高机操作员</option>";
+        optionPN[3] = "<option>仓库管理人、理货员</option>";
+        optionPN[4] = "<option>领航员</option>";
+        optionPN[5] = "<option>引水员</option>";
+        optionPN[6] = "<option>关务人员</option>";
+        optionPN[7] = "<option>稽查人员</option>";
+        optionPN[8] = "<option>缉私人员</option>";
+        optionPN[9] = "<option>拖船驾驶员及工作人员</option>";
+        optionPN[10] = "<option>渡船驾驶员及工作人员</option>";
+        optionPN[11] = "<option>救难船员</option>";
+
+        for (var i = 0; i < 12; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function elear_select8() {
+        $("#select8").hide();
+    }
+
+    //空运选择
+    function yunshu_qf_ky() {
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>航空站</option>";
+        optionPN[2] = "<option>航空公司</option>";
+        optionPN[3] = "<option>航空货运</option>";
+        optionPN[4] = "<option>空勤人员</option>";
+
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ky_hkz() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>站长</option>";
+        optionPN[2] = "<option>播音员</option>";
+        optionPN[3] = "<option>服务台人员</option>";
+        optionPN[4] = "<option>一般内勤人员</option>";
+        optionPN[5] = "<option>塔台工作人员</option>";
+        optionPN[6] = "<option>关务人员</option>";
+        optionPN[7] = "<option>检查人员</option>";
+        optionPN[8] = "<option>运务人员</option>";
+        optionPN[9] = "<option>缉私人员</option>";
+        optionPN[10] = "<option>站内清洁工人(航空大厦内)</option>";
+        optionPN[11] = "<option>机场内交通车司机</option>";
+        optionPN[12] = "<option>行李货运搬运工人</option>";
+        optionPN[13] = "<option>加添燃料人员</option>";
+        optionPN[14] = "<option>飞机洗刷人员</option>";
+        optionPN[15] = "<option>清洁工(站外、航空大厦外)</option>";
+        optionPN[16] = "<option>跑道维护工</option>";
+        optionPN[17] = "<option>机械员</option>";
+        optionPN[18] = "<option>飞机修护人员</option>";
+        for (var i = 0; i < 19; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_ky_hkgs() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>办事处人员</option>";
+        optionPN[2] = "<option>票务人员</option>";
+        optionPN[3] = "<option>机场柜台工作人员</option>";
+        optionPN[4] = "<option>清仓工</option>";
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_ky_hkhy() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>航空一般内勤人员</option>";
+        optionPN[2] = "<option>外务员</option>";
+        optionPN[3] = "<option>报关人员</option>";
+        optionPN[4] = "<option>理货员</option>";
+        for (var i = 0; i < 5; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ky_kqry() {
+        var positionName = $("#select3");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>选择岗位</option>";
+        optionPN[2] = "<option>选择航线</option>";
+        optionPN[3] = "<option>飞行时长</option>";
+        for (var i = 0; i < 4; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ky_kqry_xzgw() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>民航机飞行人员</option>";
+        optionPN[2] = "<option>民航机安全员</option>";
+        optionPN[3] = "<option>民航机乘务员</option>";
+        optionPN[4] = "<option>民航机签派员</option>";
+        optionPN[5] = "<option>民航机安全员兼乘务员</option>";
+        optionPN[6] = "<option>直升机飞行人员</option>";
+        for (var i = 0; i < 7; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    function yunshu_qf_ky_kqry_xzhx() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>国内航线、国际航线</option>";
+        for (var i = 0; i < 2; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+    function yunshu_qf_ky_kqry_fxsc() {
+        var positionName = $("#select4");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-请选择-</option>";
+        optionPN[1] = "<option>短途、长途</option>";
+        for (var i = 0; i < 2; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+    //运动3级
+    function yundong_three(vname, type) {
+        var y;
+        y = 3;
+        var positionName = $("#select2");
+        positionName.empty();
+        positionName.show();
+        var optionPN = new Array();
+        optionPN[0] = "<option>-类别-</option>";
+        optionPN[1] = "<option>教练</option>";
+        if (type == 1) {
+            optionPN[2] = "<option>" + vname + "球员</option>";
+            if (vname = "保龄球") {
+                optionPN[3] = "<option>球童</option>";
+                y = 4;
+            }
+        } else if (type == 2) {
+            optionPN[2] = "<option>" + vname + "人员</option>";
+        } else {
+            if (vname == "拳击") {
+                optionPN[2] = "<option>职业拳击运动员</option>";
+                optionPN[3] = "<option>业余拳击运动员</option>";
+                y = 4;
+            } else {
+                optionPN[2] = "<option>" + vname + "运动员</option>";
+            }
+        }
+
+
+        for (var i = 0; i < y; i++) {
+            positionName.append(optionPN[i]);
+        }
+    }
+
+
+
+
+    function checkEmpty() {
+        switch (jQuery("#select_work  option:selected").text()) {
+            case "-选择职业-":
+                {
+                    alert("请完善信息！");
+                    return false;
+                }
+            case "公务员":
+                {
+                    if ($("#select1").get(0).selectedIndex != 0 && $("#select2").get(0).selectedIndex != 0 && $("#select3").get(0).selectedIndex != 0 && $("#select4").get(0).selectedIndex != 0) {
+                        //location.href = "diaocha_3_3.php";
+                        return true;
+                    }
+                    else {
+                        alert("请完善信息！");
+                        return false;
+                    }
+                }
+            case "医疗机构":
+                {
+                    if ($("#select1").get(0).selectedIndex == 1 && (($("#select2").get(0).selectedIndex != 0 && $("#select2").get(0).selectedIndex != 5 && $("#select6").get(0).selectedIndex != 0) | ($("#select2").get(0).selectedIndex == 5 && $("#select5").get(0).selectedIndex != 0 && $("#select6").get(0).selectedIndex != 0)) && $("#select3").get(0).selectedIndex != 0 && $("#select4").get(0).selectedIndex != 0 && $("#select7").get(0).selectedIndex != 0 && $("#select8").get(0).selectedIndex != 0 && $("#select9").get(0).selectedIndex != 0 && $("#select10").get(0).selectedIndex != 0) {
+                        //location.href = "diaocha_3_1.php";
+                        return true;
+                    }
+                    else if ($("#select1").get(0).selectedIndex == 2 && $("#select2").get(0).selectedIndex != 0 && $("#select3").get(0).selectedIndex != 0 && $("#select4").get(0).selectedIndex != 0 && $("#select7").get(0).selectedIndex != 0 && $("#select8").get(0).selectedIndex != 0 && $("#select9").get(0).selectedIndex != 0 && $("#select10").get(0).selectedIndex != 0) {
+                        return true;
+                    }
+                    else {
+                        alert("请完善信息！");
+                        return false;
+                    }
+                }
+            case "卫生防疫机构":
+                {
+                    if ($("#select1").get(0).selectedIndex != 0 && $("#select3").get(0).selectedIndex != 0 && $("#select4").get(0).selectedIndex != 0 && $("#select7").get(0).selectedIndex != 0 && $("#select8").get(0).selectedIndex != 0) {
+                        //location.href = "diaocha_3_1.php";
+                        return true;
+                    }
+                    else {
+                        alert("请完善信息！");
+                        return false;
+                    }
+                }
+            case "教育机构":
+                {
+                    if (($("#select1").get(0).selectedIndex == 2 && $("#select3").get(0).selectedIndex != 0 && $("#select4").get(0).selectedIndex != 0 && $("#select11").get(0).selectedIndex != 0 && $("#select7").get(0).selectedIndex != 0) | ($("#select1").get(0).selectedIndex == 1 && $("#select2").get(0).selectedIndex != 0)) {
+                        //location.href = "diaocha_3_2.php";
+                        return true;
+                    }
+                    else {
+                        alert("请完善信息！");
+                        return false;
+                    }
+                };
+            case "公检法等执法检查机关":
+                {
+                    if ($("#select1").get(0).selectedIndex != 0 && $("#select2").get(0).selectedIndex != 0) {
+                        //location.href = "diaocha_3_4.php";
+                        return true;
+                    }
+                    else {
+                        alert("请完善信息！");
+                        return false;
+                    }
+                }
+        }
+        return false;
+    }
+
+
+    $(document).ready(function () {
+        $("#select_work").change(function () {
+            switch (jQuery("#select_work  option:selected").text()) {
+                case "公务员":
+                    processOfficer();
+                    break;
+                case "医疗机构":
+                    processMedicalInst();
+                    break;
+                case "卫生防疫机构":
+                    processHygien();
+                    break;
+                case "教育机构":
+                    processEducation();
+                    break;
+                case "公检法等执法检查机关":
+                    processPublic();
+                    break;
+                case "交通运输业":
+                    yunshu_hangye();
+                    break;
+                case "职业运动":
+                    yundong_two();
+                    break;
+
+
+
+            }
+        });
+
+        $("#select1").change(function () {
+            var type = 2;
+            var vl = $("#select1").find("option:selected").text();
+
+            if (vl.indexOf('球') > -1) {
+                type = 1
+            } else if (vl.indexOf('摔跤') > -1 || vl.indexOf('击剑') > -1 || vl.indexOf('拳击') > -1) {
+                type = 3
+            }
+
+
+            var big_txt = $("#select_work").find("option:selected").text();
+            switch (jQuery("#select1  option:selected").text()) {
+
+
+                case "医院":
+                    processHospital();
+                    break;
+                case "其他":
+                    processOther();
+                    break;
+                case "行政人员":
+                    clearSelect();
+                    $("#select1").show();
+                    processAdministrator();
+                    break;
+                case "教师":
+                    processTeacher();
+                    break;
+                case "学生":
+                    xs_check_nj();
+                    xs_check_xx();
+                    break;
+                case "法院、检察院工作人员":
+                    processCourt();
+                    break;
+                case "公安警务工作人员":
+                    processPolice();
+                    break;
+                case "其他执法、治安及特种工作人员":
+                    processOtherPolice();
+                    break;
+                default:
+                    if (big_txt == "职业运动") {
+                        yundong_three(vl, type);
+                    } else {
+                        if (vl == "陆运") {
+                            yunshu_qf_ly_hy();
+                            yunshu_qf_ly_zw();
+                        }
+                        else if (vl == "铁路") {
+                            yunshu_qf_tl_yszl();
+                            yunshu_qf_tl_xzld();
+                        }
+                        else if (vl == "航运") {
+                            yunshu_qf_hy();
+                        }
+                        else if (vl == "空运") {
+                            yunshu_qf_ky();
+                        }
+                    }
+                    break;
+            }
+        });
+
+        $("#select2").change(function () {
+
+            $("#select5").hide();
+
+            //$("#select6").hide();
+            switch (jQuery("#select2  option:selected").text()) {
+                case "专科医院":
+                    processProfHospital();
+                    break;
+                case "选择行业":
+                    yunshu_qf_ly_hy();
+                    break;
+                case "选择岗位":
+                    yunshu_qf_ly_zw();
+                    break;
+                case "客货轮（沿海）":
+                    yunshu_qf_hy_khl();
+                    break;
+                case "客货轮（内河）":
+                    yunshu_qf_hy_khl();
+                    break;
+                case "客货轮（远洋）":
+                    yunshu_qf_hy_khl();
+                    break;
+                case "游览船及小汽艇":
+                    yunshu_qf_hy_ylc();
+                    break;
+                case "港口作业":
+                    yunshu_qf_hy_gkzy();
+                    break;
+                case "航空站":
+                    yunshu_qf_ky_hkz();
+                    break;
+                case "航空公司":
+                    yunshu_qf_ky_hkgs();
+                    break;
+                case "航空货运":
+                    yunshu_qf_ky_hkhy();
+                    break;
+                case "空勤人员":
+                    yunshu_qf_ky_kqry();
+                    break;
+                case "铁路旅客运输":
+                    yunshu_qf_tl_yszl_lk();
+                    break;
+                case "铁路货物运输":
+                    yunshu_qf_tl_yszl_hy();
+                    break;
+                case "行政办公室":
+                    yunshu_qf_ly_zw_1();
+                    break;
+                case "财务审计部":
+                    yunshu_qf_ly_zw_2();
+                    break;
+                case "营运部":
+                    yunshu_qf_ly_zw_3();
+                    break;
+                case "人力资源部":
+                    yunshu_qf_ly_zw_4();
+                    break;
+                case "工会办公室":
+                    yunshu_qf_ly_zw_5();
+                    break;
+                case "纪检监察室":
+                    yunshu_qf_ly_zw_6();
+                    break;
+                case "安全生产部":
+                    yunshu_qf_ly_zw_7();
+                    break;
+                case "设备技术部":
+                    yunshu_qf_ly_zw_8();
+                    break;
+                case "党群工作部":
+                    yunshu_qf_ly_zw_9();
+                    break;
+                case "后勤管理中心":
+                    yunshu_qf_ly_zw_10();
+                    break;
+                case "稽查办公室":
+                    yunshu_qf_ly_zw_11();
+                    break;
+                case "保卫部":
+                    yunshu_qf_ly_zw_12();
+                    break;
+                case "考核办":
+                    yunshu_qf_ly_zw_13();
+                    break;
+                case "调度室":
+                    yunshu_qf_ly_zw_14();
+                    break;
+                case "客服中心":
+                    yunshu_qf_ly_zw_15();
+                    break;
+                case "基建办公室":
+                    yunshu_qf_ly_zw_16();
+                    break;
+                case "企业管理部":
+                    yunshu_qf_ly_zw_17();
+                    break;
+                case "技术工人":
+                    yunshu_qf_ly_zw_18();
+                    break;
+                case "其他辅助人员":
+                    yunshu_qf_ly_zw_19();
+                    break;
+                default:
+                    elear_select8();
+                    break;
+
+            }
+        });
+
+        $("#select3").change(function () {
+
+            $("#select4").hide();
+            $("#select7").hide();
+            $("#select8").hide();
+            $("#select9").hide();
+            switch (jQuery("#select3  option:selected").text()) {
+                case "疾控":
+                    processDiseaseControl();
+                    break;
+                case "卫生监督所":
+                    processSupervision();
+                    break;
+                case "城市交通业":
+                    yunshu_qf_ly_hy_cs();
+                    break;
+                case "道路运输业":
+                    yunshu_qf_ly_hy_dl();
+                    break;
+
+                case "选择岗位":
+                    yunshu_qf_ky_kqry_xzgw();
+                    break;
+                case "选择航线":
+                    yunshu_qf_ky_kqry_xzhx();
+                    break;
+                case "飞行时长":
+                    yunshu_qf_ky_kqry_fxsc();
+                    break;
+                case "铁路旅客运输":
+                    yunshu_qf_tl_yszl_lk();
+                    break;
+                case "铁路货物运输":
+                    yunshu_qf_tl_yszl_hy();
+                    break;
+                case "车务段":
+                    yunshu_qf_tl_xzld_cwd();
+                    break;
+                case "机务段":
+                    yunshu_qf_tl_xzld_jwd();
+                    break;
+                case "工务段":
+                    yunshu_qf_tl_xzld_gwd();
+                    break;
+                case "电务段":
+                    yunshu_qf_tl_xzld_dwd();
+                    break;
+                case "车辆段":
+                    yunshu_qf_tl_xzld_cld();
+                    break;
+                case "客运段":
+                    yunshu_qf_tl_xzld_kyd();
+                    break;
+                case "供电段":
+                    yunshu_qf_tl_xzld_gdd();
+                    break;
+                default:
+                    elear_select8();
+                    break;
+
+            }
+        });
+        $("#select4").change(function () {
+
+
+            $("#select7").hide();
+            $("#select8").hide();
+            $("#select9").hide();
+
+            switch (jQuery("#select4  option:selected").text()) {
+
+                case "公路客车运输":
+                    yunshu_qf_ly_hy_dl_kc();
+                    break;
+                case "车务段岗位":
+                    yunshu_qf_tl_xzld_cwd_gw();
+                    break;
+                case "车务段客运":
+                    yunshu_qf_tl_xzld_cwd_ky();
+                    break;
+                case "车务段货运":
+                    yunshu_qf_tl_xzld_cwd_hy();
+                    break;
+                case "机务段类型":
+                    yunshu_qf_tl_xzld_jwd_lx();
+                    break;
+                case "机务段单位":
+                    yunshu_qf_tl_xzld_jwd_dw();
+                    break;
+                case "机务段岗位":
+                    yunshu_qf_tl_xzld_jwd_gw();
+                    break;
+
+                case "工务段单位":
+                    yunshu_qf_tl_xzld_gwd_dw();
+                    break;
+                case "工务段岗位":
+                    yunshu_qf_tl_xzld_gwd_gw();
+                    break;
+                case "工务段职称级别":
+                    yunshu_qf_tl_xzld_gwd_zc();
+                    break;
+
+
+                case "电务段单位":
+                    yunshu_qf_tl_xzld_dwd_dw();
+                    break;
+                case "电务段岗位":
+                    yunshu_qf_tl_xzld_dwd_gw();
+                    break;
+                case "电务段职称级别":
+                    yunshu_qf_tl_xzld_dwd_zc();
+                    break;
+
+                case "车辆段单位":
+                    yunshu_qf_tl_xzld_cld_dw();
+                    break;
+                case "车辆段岗位":
+                    yunshu_qf_tl_xzld_cld_gw();
+                    break;
+
+
+                case "客运段级别":
+                    yunshu_qf_tl_xzld_kyd_jb();
+                    break;
+                case "客运段岗位":
+                    yunshu_qf_tl_xzld_kyd_gw();
+                    break;
+
+                case "供电段岗位":
+                    yunshu_qf_tl_xzld_gdd_gw();
+                    break;
+                case "供电段级别":
+                    yunshu_qf_tl_xzld_gdd_jb();
+                    break;
+                case "供电段职称":
+                    yunshu_qf_tl_xzld_gdd_zc();
+                    break;
+                default:
+                    elear_select8();
+                    break;
+            }
+        });
+
+
+
+        $("#select7").change(function () {
+
+            $("#select8").hide();
+            $("#select9").hide();
+            var sel_4_txt = $("#select3").find("option:selected").text();
+            var sel_7_txt = $("#select7").find("option:selected").text();
+            switch (jQuery("#select7  option:selected").text()) {
+                case "幼儿教师":
+                    processChildTeacher();
+                    break;
+                case "小学教师":
+                case "初中教师":
+                case "高中教师":
+                    processMSTeacher();
+                    break;
+                case "中等职业教育教师":
+                case "大学教师":
+                    processAdvanceTeacher();
+                    break;
+                case "行政科":
+                    yunshu_qf_tl_xzld_cwd_1();
+                    break;
+                case "党群工作办公室":
+                    yunshu_qf_tl_xzld_cwd_2();
+                    break;
+                case "安全技术科":
+                    yunshu_qf_tl_xzld_cwd_3();
+                    break;
+                case "运输调度科":
+                    yunshu_qf_tl_xzld_cwd_4();
+                    break;
+                case "营销科":
+                    yunshu_qf_tl_xzld_cwd_5();
+                    break;
+                case "财务科":
+                    yunshu_qf_tl_xzld_cwd_6();
+                    break;
+                case "总务科":
+                    yunshu_qf_tl_xzld_cwd_7();
+                    break;
+                case "物资科":
+                    yunshu_qf_tl_xzld_cwd_8();
+
+                    break;
+                default:
+                    if (sel_4_txt == "车务段") {
+                        if (sel_7_txt == "行政科")
+                            yunshu_qf_tl_xzld_cwd_1();
+                        else if (sel_7_txt == "党群工作办公室")
+                            yunshu_qf_tl_xzld_cwd_2();
+                        else if (sel_7_txt == "安全技术科")
+                            yunshu_qf_tl_xzld_cwd_3();
+                        else if (sel_7_txt == "运输调度科")
+                            yunshu_qf_tl_xzld_cwd_4();
+                        else if (sel_7_txt == "营销科")
+                            yunshu_qf_tl_xzld_cwd_5();
+                        else if (sel_7_txt == "财务科")
+                            yunshu_qf_tl_xzld_cwd_6();
+                        else if (sel_7_txt == "总务科")
+                            yunshu_qf_tl_xzld_cwd_7();
+                        else if (sel_7_txt == "物资科")
+                            yunshu_qf_tl_xzld_cwd_8();
+                    }
+                    else if (sel_4_txt == "客运段") {
+                        if (sel_7_txt == "安全技术科")
+                            yunshu_qf_tl_xzld_kyd_gw_1();
+                        else if (sel_7_txt == "乘务管理科、餐饮科及职工教育科")
+                            yunshu_qf_tl_xzld_kyd_gw_2();
+                        else if (sel_7_txt == "总务科")
+                            yunshu_qf_tl_xzld_kyd_gw_3();
+                        else if (sel_7_txt == "劳动人事科")
+                            yunshu_qf_tl_xzld_kyd_gw_4();
+                        else if (sel_7_txt == "财务科")
+                            yunshu_qf_tl_xzld_kyd_gw_5();
+                        else if (sel_7_txt == "行政办公室")
+                            yunshu_qf_tl_xzld_kyd_gw_6();
+                        else if (sel_7_txt == "党群工作办公室")
+                            yunshu_qf_tl_xzld_kyd_gw_7();
+                        else if (sel_7_txt == "车间、车队")
+                            yunshu_qf_tl_xzld_kyd_gw_8();
+
+                    }
+                    else if (sel_4_txt == "供电段") {
+
+                        if (sel_7_txt == "行政科")
+                            yunshu_qf_tl_xzld_gdd_gw_1();
+                        else if (sel_7_txt == "党群工作办公室")
+                            yunshu_qf_tl_xzld_gdd_gw_2();
+                        else if (sel_7_txt == "财务科")
+                            yunshu_qf_tl_xzld_gdd_gw_3();
+                        else if (sel_7_txt == "总务科")
+                            yunshu_qf_tl_xzld_gdd_gw_4();
+                        else if (sel_7_txt == "物资科")
+                            yunshu_qf_tl_xzld_gdd_gw_5();
+                        else if (sel_7_txt == "车间") {
+                            yunshu_qf_tl_xzld_gdd_gw_7();
+                        }
+                        else
+                            yunshu_qf_tl_xzld_gdd_gw_6();
+                    }
+                    elear_select8();
+                    break;
+
+
+            }
+        });
+    });
+</script>
+<h1>B 工作情况</h1>
+<hr />
+<form>
+    <table width="600" height="200" border="0" align="center" cellpadding="0" cellspacing="5">
+        <tr>
+            <td width="564" valign="top">
+                <p align="left">您的职业是: </p>
+                <p align="left">
+                    <select name="select_work" id="select_work">
+                        <option value="default" selected="selected">-选择职业-</option>
+                        <option value="公务员">公务员</option>
+                        <option value="医疗机构">医疗机构</option>
+                        <option value="卫生防疫机构">卫生防疫机构</option>
+                        <option value="教育机构">教育机构</option>
+                        <option value="公检法等执法检查机关">公检法等执法检查机关</option>
+                        <option value="交通运输业">交通运输业</option>
+                        <!-- <option value="文教机构">文教机构</option>-->
+                        <option value="职业运动">职业运动</option>
+                    </select>
+                    <br /><br />
+                    <select name="select1" id="select1" style="display:none"></select>
+                    <select name="select2" id="select2" style="display:none"></select>
+                    <select name="select5" id="select5" style="display:none"></select>
+                    <select name="select6" id="select6" style="display:none"></select>
+                    <br /><br />
+                    <select name="select3" id="select3" style="display:none"></select>
+                    <select name="select4" id="select4" style="display:none"></select>
+                    <select name="select11" id="select11" style="display:none"></select>
+                    <br /><br />
+                    <select name="select7" id="select7" style="display:none"></select>
+                    <select name="select8" id="select8" style="display:none"></select>
+                    <br /><br />
+                    <select name="select9" id="select9" style="display:none"></select>
+                    <select name="select10" id="select10" style="display:none"></select>
+                </p>
+            </td>
+        </tr>
+    </table>
+</form>
+<script language="javascript" type="text/javascript">
+    function q_3_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return undefined;
+    }
+</script>

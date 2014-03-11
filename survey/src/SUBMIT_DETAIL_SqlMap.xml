@@ -33,7 +33,7 @@
 		<![CDATA[
 			UPDATE submit_detail
 			SET content = #content#,
-				submitTime = current_timestamp()
+				submit_time = current_timestamp()
 			WHERE user_id = #userId# AND questionnaire_id = #questionnaireId#
 		]]>
 	</update>
