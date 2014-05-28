@@ -1,0 +1,127 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第一部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （7）工作危险程度</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE52">七、请回答下列问题</span></p>
+<div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=7" method="post" onsubmit="return check(4);">
+    <div align="center">
+      <table border="1" cellspacing="0" cellpadding="0" width="600">
+        <tbody><tr>
+                  <td width="380" valign="top">&nbsp;</td>
+                  <td width="42" valign="top"><p align="center" class="STYLE61"><span class="STYLE62">从未 有过</span></p></td>
+                  <td width="42" valign="top"><p align="center" class="STYLE61"><span class="STYLE62">偶尔</span></p></td>
+                  <td width="41" valign="top"><p align="center" class="STYLE61"><span class="STYLE62">有时</span></p></td>
+                  <td width="40" valign="top"><p align="center" class="STYLE61"><span class="STYLE62">相当经常</span></p></td>
+                  <td width="41" valign="top"><p align="center" class="STYLE61"><span class="STYLE62">十分经常</span></p></td>
+                </tr>
+                 <tr>
+          <td width="380" valign="middle"><span class="STYLE60">1．工作使您经常受到委托人或公众的语言攻击（对抗）吗？ </span></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i1" value="1">
+          </p></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+            <input type="radio" name="i1" value="2">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+            <input type="radio" name="i1" value="3">
+          </p></td>
+          <td width="40" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i1" value="4">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i1" value="5">
+          </p></td>
+        </tr>
+        <tr>
+          <td width="380" valign="middle"><p class="STYLE60">2．工作有使您经常受到人身伤害的威胁吗？</p></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i2" value="1">
+          </p></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+            <input type="radio" name="i2" value="2">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+            <input type="radio" name="i2" value="3">
+          </p></td>
+          <td width="40" valign="top"><p align="center" class="STYLE61">
+            <input type="radio" name="i2" value="4">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+            <input type="radio" name="i2" value="5">
+          </p></td>
+        </tr>
+        <tr>
+          <td width="380" valign="middle"><p class="STYLE60">3．在过去的12月里，您在工作时经常受到人身攻击吗？</p></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i3" value="1">
+          </p></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i3" value="2">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i3" value="3">
+          </p></td>
+          <td width="40" valign="top"><p align="center" class="STYLE61">
+            <input type="radio" name="i3" value="4">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i3" value="5">
+          </p></td>
+        </tr>
+        <tr>
+          <td width="380" valign="middle"><p class="STYLE60">4．您的工作经常使个人负有法律责任吗？</p></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i4" value="1">
+          </p></td>
+          <td width="42" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i4" value="2">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i4" value="3">
+          </p></td>
+          <td width="40" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i4" value="4">
+          </p></td>
+          <td width="41" valign="top"><p align="center" class="STYLE61">
+          <input type="radio" name="i4" value="5">
+          </p></td>
+        </tr>
+      </tbody></table>
+    </div>
+    <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

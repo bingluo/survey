@@ -1,0 +1,357 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （4）抑郁症</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">四、在过去的一周里，您经历过下列情况吗？</span>            </p>
+            <p align="center" class="STYLE51">&nbsp;</p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=17" method="post" onsubmit="return check(20);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="346" valign="top">&nbsp;</td>
+                  <td valign="top"><p align="center" class="STYLE59">少于1天</p></td>
+                  <td width="58" valign="top"><p align="center" class="STYLE59">1—2天</p></td>
+                  <td width="58" valign="top"><p align="center" class="STYLE59">3—4天</p></td>
+                  <td width="58" valign="top"><p align="center" class="STYLE59">5—7天</p></td>
+                  </tr>
+                <tr>
+                  <td width="346" valign="middle"><p class="STYLE59">1．为平时并不困扰自己的事情烦恼</p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="3">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="4">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="346" valign="middle"><p class="STYLE59">2．不想吃饭：胃口不好</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="346" valign="middle"><p class="STYLE59">3．感到既使在自己的家人或朋友帮助下, 也消除不了忧郁(烦闷)</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="346" valign="middle"><p class="STYLE59">4．感到自己同其他人一样好</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="346" valign="middle"><p class="STYLE59">5．不能专心于自己正在做的事情</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td width="23" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="346" valign="middle"><p class="STYLE59">6．感到抑郁（沮丧）</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="346" valign="middle"><p class="STYLE59">7．感到自己做的所有事情都很费劲</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="346" valign="middle"><p class="STYLE59">8．感到未来充满希望</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="4">
+            </p></td>
+            </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">9．认为自己生活是不成功的</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i9" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i9" value="2">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i9" value="3">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i9" value="4">
+               </p></td>
+               </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">10．感到担心（害怕）</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i10" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i10" value="2">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i10" value="3">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i10" value="4">
+               </p></td>
+             </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">11．不能安宁的睡眠</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i11" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i11" value="2">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i11" value="3">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i11" value="4">
+               </p></td>
+               </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">12．您是愉快的</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i12" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i12" value="2">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i12" value="3">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i12" value="4">
+               </p></td>
+             </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">13．比平时讲话少</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i13" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i13" value="2">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i13" value="3">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i13" value="4">
+               </p></td>
+             </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">14．感到孤独（寂寞）</p></td>
+            <td width="68" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="4">
+            </p></td>
+            </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">15．所接触的人是不友好的</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i15" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i15" value="2">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i15" value="3">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i15" value="4">
+               </p></td>
+             </tr>
+             <tr>
+               <td width="346" valign="middle"><p class="STYLE59">16．享受到生活的乐趣</p></td>
+            <td width="68" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i16" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i16" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i16" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i16" value="4">
+            </p></td>
+            </tr>
+              <tr>
+                <td width="346" valign="middle"><p class="STYLE59">17．时时哭泣</p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i17" value="1">
+                </p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i17" value="2">
+                </p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i17" value="3">
+                </p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i17" value="4">
+                </p></td>
+              </tr>
+              <tr>
+                <td width="346" valign="middle"><p class="STYLE59">18．感到悲痛</p></td>
+            <td width="68" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i18" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i18" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i18" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i18" value="4">
+            </p></td>
+            </tr>
+              <tr>
+                <td width="346" valign="middle"><p class="STYLE59">19．感到人们不喜欢自己</p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i19" value="1">
+                </p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i19" value="2">
+                </p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i19" value="3">
+                </p></td>
+                <td valign="top"><p align="center" class="STYLE59">
+                  <input type="radio" name="i19" value="4">
+                </p></td>
+              </tr>
+              <tr>
+                <td width="346" valign="middle"><p class="STYLE59">20．走路很慢</p></td>
+            <td width="68" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i20" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i20" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i20" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i20" value="4">
+            </p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

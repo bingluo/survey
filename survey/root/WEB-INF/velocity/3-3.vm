@@ -1,0 +1,373 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （3）心理健康程度</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">三、根据最近三个月的真实感受，请选择职业的感受和行为以及工作压力影响的程度</span>。</p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=16" method="post" onsubmit="return check(12);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+                <tbody><tr>
+                  <td width="260" valign="middle"><span class="STYLE59">1．您是否觉得，自己倾向于是一个过于谨慎的、常为一些过去所做的错事或行为而担忧的人？</span></td>
+                  <td width="74" valign="top"><span class="STYLE59">完全对 </span></td>
+                  <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+                  <td width="70" valign="top"><span class="STYLE59">完全不对</span></td>
+                </tr>
+          <tr>
+            <td width="260" valign="middle"></td>
+            <td width="74" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i1" value="1">
+            </p></td>
+            <td width="42" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i1" value="2">
+            </p></td>
+            <td width="56" valign="top"><p align="center" class="STYLE59">
+                <input type="radio" name="i1" value="3">
+              </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i1" value="4">
+            </p></td>
+            <td width="41" valign="top"><span class="STYLE59">
+              <input type="radio" name="i1" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i1" value="6">
+            </span></td>
+            </tr>
+          <tr>
+            <td width="260" valign="middle"><p class="STYLE59">2．在一个普通的工作日里，您会无故感到心绪不宁和情绪低落吗？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">有足够精力</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><span class="STYLE59">精力不足</span></td>
+            </tr>
+          <tr>
+            <td width="260" valign="middle"></td>
+            <td width="74" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i2" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i2" value="6">
+            </span></td>
+            </tr>
+          <tr>
+            <td width="260" valign="middle"><p class="STYLE59">3．感到工作上压力越来越大时，您是否有足够的精力去应付和采取行动？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">有足够精力</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><span class="STYLE59">精力不足</span></td>
+            </tr>
+          <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i3" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i3" value="6">
+            </span></td>
+            </tr>
+          <tr>
+            <td width="260" valign="middle"><p class="STYLE59">4．当您在工作中感到困惑时，会不会静下来问自己：“生活就这么费力吗”？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">经常</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><span class="STYLE59">从不</span></td>
+            </tr>
+          <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i4" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i4" value="6">
+            </span></td>
+            </tr>
+             <tr>
+            <td width="260" valign="middle"><p class="STYLE59">5．您在工作时，是否会对自己的能力、判断力感到怀疑，自信心因而下降？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">无明显下降</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">明显下降</p></td>
+            </tr>
+             <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i5" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i5" value="6">
+            </span></td>
+             </tr>
+             <tr>
+            <td width="260" valign="middle"><p class="STYLE59">6．如果同事和朋友以躲避或冷淡的方式对待您，您是否担心得罪了他们？还是根本不在乎？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">肯定担心 </span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">肯定不担心 </p></td>
+            </tr>
+             <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i6" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i6" value="6">
+            </span></td>
+             </tr>
+             <tr>
+            <td width="260" valign="middle"><p class="STYLE59">7．如果您已完成或正在做的工作出现错误，是否会感到缺乏信心或惊慌失措，仿佛事情完全失控？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">经常</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">从不</p></td>
+            </tr>
+             <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i7" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i2" value="6">
+            </span></td>
+             </tr>
+             <tr>
+            <td width="260" valign="middle"><p class="STYLE59">8．最近，您有信心在工作上应付自如，以及处理好家庭内出现的问题吗？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">有信心 </span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">没有信心</p></td>
+            </tr>
+             <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i8" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i8" value="6">
+            </span></td>
+             </tr>
+              <tr>
+            <td width="260" valign="middle"><p class="STYLE59">9．就一般工作和生活而言，您认为自己是否会感到困扰或杞人忧天？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">肯定是</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">肯定不是</p></td>
+            </tr>
+              <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i9" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i9" value="6">
+            </span></td>
+              </tr>
+              <tr>
+            <td width="260" valign="middle"><p class="STYLE59">10．随着时间的推移，您有没有发现在很长一段时间里感到莫名的苦恼或忧郁？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">经常</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">从不</p></td>
+            </tr>
+              <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i10" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i10" value="6">
+            </span></td>
+              </tr>
+              <tr>
+            <td width="260" valign="middle"><p class="STYLE59">11．您觉得有信心克服目前或将来遇到的任何困难，并能解决可能面对的困境和难题吗？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">肯定有</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">肯定没有</p></td>
+            </tr>
+              <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i11" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i11" value="6">
+            </span></td>
+              </tr>
+              <tr>
+            <td width="260" valign="middle"><p class="STYLE59">12．您是否因工作负担过重而感到心力交瘁？</p></td>
+            <td width="74" valign="top"><span class="STYLE59">肯定有</span></td>
+            <td colspan="4" valign="top"><span class="STYLE59">——————————————→</span></td>
+            <td valign="top"><p class="STYLE59">肯定无</p></td>
+            </tr>
+              <tr>
+            <td width="260" valign="middle"></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="4">
+            </p></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i12" value="5">
+            </span></td>
+            <td valign="top"><span class="STYLE59">
+              <input type="radio" name="i12" value="6">
+            </span></td>
+              </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

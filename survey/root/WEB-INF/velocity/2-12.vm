@@ -1,0 +1,596 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第一部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （12）工作特征一</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE12">十二、下列问题涉及<strong>您工作的</strong>各个方面。</span></p>
+<div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=12" method="post" onsubmit="return check(30);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+            <tbody><tr>
+                  <td width="284" valign="top">&nbsp;</td>
+                  <td width="65" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">很小(少)</span></p></td>
+                  <td width="62" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">小(少)</span></p></td>
+                  <td width="57" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">中等量</span></p></td>
+                  <td width="61" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">大(多)</span></p>                    </td>
+                  <td width="57" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">很大(多)</span></p></td>
+                   </tr><tr>
+            <td width="284" valign="middle"><span class="STYLE59">1.您工作任务变化多吗？ </span></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">2.允许您独立自主地做工作吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+                <input type="radio" name="i2" value="3">
+              </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+                <input type="radio" name="i2" value="4">
+              </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">3.能经常从头到尾做完工作吗？</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">4.您了解自己工作做的如何？</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">5.工作中与认识相同的人，建立友谊的机会</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">6.工作中需要他人协助的程度</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">7.工作的重复性</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">8.不受上级支配独立地履行工作职责</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">9.从上级那里得到对您工作成绩的评价</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">10.工作中与同事交谈的机会</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">11.工作中需要同其他人打交道的程度</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">12.在一个工作日里，您所做工作的相似性</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">13.不依赖于其他人做工作</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i13" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p><strong>
+              <input type="radio" name="i13" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i13" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i13" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i13" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">14.上级对您正做的工作的评价</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i14" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i14" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i14" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i14" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i14" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">15.同事的友谊</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i15" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i15" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i15" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i15" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i15" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">16.在工作中同其他人交谈的机会</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i16" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i16" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i16" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i16" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i16" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">17.做很多不同事情的机会</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i17" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i17" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i17" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i17" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i17" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">18.在工作中做我想做的事情的自由度</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i18" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i18" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i18" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i18" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i18" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">19.能从头到尾处理的工作</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i19" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+                <input type="radio" name="i19" value="2">
+              </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i19" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i19" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i19" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">20.了解您正干的工作，干得如何的机会</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+                <input type="radio" name="i20" value="1">
+              </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i20" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i20" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i20" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i20" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">21.在工作中认识其他人的机会</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i21" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i21" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i21" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i21" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i21" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">22.工作的变化性</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i22" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i22" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i22" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i22" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i22" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">23.独立思考和行动的机会</p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i23" value="1">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i23" value="2">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i23" value="3">
+            </strong></p></td>
+            <td width="61" valign="top"><p align="center"><strong>
+              <input type="radio" name="i23" value="4">
+            </strong></p></td>
+            <td width="57" valign="top"><p align="center"><strong>
+              <input type="radio" name="i23" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">24.完成由我首先开始的工作的机会</p></td>
+            <td width="65"><p align="center"><strong>
+              <input type="radio" name="i24" value="1">
+            </strong></p></td>
+            <td width="62"><p align="center"><strong>
+              <input type="radio" name="i24" value="2">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i24" value="3">
+            </strong></p></td>
+            <td width="61"><p align="center"><strong>
+              <input type="radio" name="i24" value="4">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i24" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">25.对自己正干的工作，干得好坏的感觉</p></td>
+            <td width="65"><p align="center"><strong>
+              <input type="radio" name="i25" value="1">
+            </strong></p></td>
+            <td width="62"><p align="center"><strong>
+              <input type="radio" name="i25" value="2">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i25" value="3">
+            </strong></p></td>
+            <td width="61"><p align="center"><strong>
+              <input type="radio" name="i25" value="4">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i25" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">26.在工作中建立密切友谊的机会</p></td>
+            <td width="65"><p align="center"><strong>
+              <input type="radio" name="i26" value="1">
+            </strong></p></td>
+            <td width="62"><p align="center"><strong>
+              <input type="radio" name="i26" value="2">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i26" value="3">
+            </strong></p></td>
+            <td width="61"><p align="center"><strong>
+              <input type="radio" name="i26" value="4">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i26" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">27.工作中接触其他人的机会</p></td>
+            <td width="65"><p align="center"><strong>
+              <input type="radio" name="i27" value="1">
+            </strong></p></td>
+            <td width="62"><p align="center"><strong>
+              <input type="radio" name="i27" value="2">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i27" value="3">
+            </strong></p></td>
+            <td width="61"><p align="center"><strong>
+              <input type="radio" name="i27" value="4">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i27" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">28.对自己工作节奏的控制</p></td>
+            <td width="65"><p align="center"><strong>
+                <input type="radio" name="i28" value="1">
+              </strong></p></td>
+            <td width="62"><p align="center"><strong>
+              <input type="radio" name="i28" value="2">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i28" value="3">
+            </strong></p></td>
+            <td width="61"><p align="center"><strong>
+              <input type="radio" name="i28" value="4">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+                <input type="radio" name="i28" value="5">
+              </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">29.从头到尾干完一项工作的机会</p></td>
+            <td width="65"><p align="center"><strong>
+              <input type="radio" name="i29" value="1">
+            </strong></p></td>
+            <td width="62"><p align="center"><strong>
+              <input type="radio" name="i29" value="2">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i29" value="3">
+            </strong></p></td>
+            <td width="61"><p align="center"><strong>
+              <input type="radio" name="i29" value="4">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i29" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="284" valign="middle"><p class="STYLE59">30.从其他人（上级除外）哪里得到的反馈</p></td>
+            <td width="65"><p align="center"><strong>
+              <input type="radio" name="i30" value="1">
+            </strong></p></td>
+            <td width="62"><p align="center"><strong>
+              <input type="radio" name="i30" value="2">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+              <input type="radio" name="i30" value="3">
+            </strong></p></td>
+            <td width="61"><p align="center"><strong>
+              <input type="radio" name="i30" value="4">
+            </strong></p></td>
+            <td width="57"><p align="center"><strong>
+                <input type="radio" name="i30" value="5">
+              </strong></p></td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+       
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

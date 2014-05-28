@@ -1,0 +1,144 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （9）情绪平衡</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">九、在过去的几个星期中，您有下列感受吗？</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=22" method="post" onsubmit="return check(10);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="503" valign="top">&nbsp;</td>
+                  <td width="45" valign="top"><p align="center" class="STYLE60">是</p></td>
+                  <td width="45" valign="top"><p align="center" class="STYLE60">否</p></td>
+                  </tr>
+                <tr>
+                  <td width="503" valign="middle"><p class="STYLE59">1．由于完成了某项工作而高兴</p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="503" valign="middle"><p class="STYLE59">2．事情在按您的意愿发展</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="503" valign="middle"><p class="STYLE59">3．因为别人对您做的工作表示赞扬，而感到自豪</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="503" valign="middle"><p class="STYLE59">4．极其兴奋或对某事感兴趣</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="503" valign="middle"><p class="STYLE59">5．兴高采烈</p></td>
+            <td width="25" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="21" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="503" valign="middle"><p class="STYLE59">6．感到坐立不安</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="503" valign="middle"><p class="STYLE59">7．心烦</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="503" valign="middle"><p class="STYLE59">8．抑郁或非常不愉快</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="2">
+            </p></td>
+            </tr>
+             <tr>
+               <td width="503" valign="middle"><p class="STYLE59">9．非常孤独或远离他人</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i9" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i9" value="2">
+               </p></td>
+               </tr>
+             <tr>
+               <td width="503" valign="middle"><p class="STYLE59">10．因为某人的批评，而感到心烦意乱</p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i10" value="1">
+               </p></td>
+               <td valign="top"><p align="center" class="STYLE59">
+                 <input type="radio" name="i10" value="2">
+               </p></td>
+               </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

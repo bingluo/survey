@@ -1,0 +1,236 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE57">第四部分</span> </div>
+       	    <div align="center" class="STYLE58">
+              
+       	      （1）Goldberg's心理健康</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">一、最近你</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=34" method="post" onsubmit="return check(12);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+             <td width="329" valign="top">&nbsp;</td>
+             <td valign="top"><p align="center">经常</p></td>
+             <td valign="top"><p align="center">有时</p></td>
+             <td valign="top"><p align="center">偶尔</p></td>
+             <td valign="top"><p align="center">从来未有</p></td>
+             </tr>
+                <tr>
+                  <td width="329" valign="middle"><p>1．无论做什么都能集中精力吗？</p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="1">
+                  </strong></p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="2">
+                  </strong></p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="3">
+                  </strong></p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="4">
+                  </strong></p></td>
+                  </tr>
+          <tr>
+            <td width="329" valign="middle"><p>2．因焦虑而失眠吗？</p></td>
+            <td width="69" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="4">
+            </strong></p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="3">
+            </strong></p></td>
+            <td width="63" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="2">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="1">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>3．感到在某事中正发挥着有益的作用吗？</p></td>
+            <td width="69" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="1">
+            </strong></p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="2">
+            </strong></p></td>
+            <td width="63" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="3">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="4">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>4．感到能对某事作出决定吗？</p></td>
+            <td width="69" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="1">
+            </strong></p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="2">
+            </strong></p></td>
+            <td width="63" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="3">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="4">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>5．感到一直过度紧张和疲劳吗？</p></td>
+            <td width="69" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="4">
+            </strong></p></td>
+            <td width="65" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="3">
+            </strong></p></td>
+            <td width="63" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="2">
+            </strong></p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="1">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>6．感到不能去克服困难吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="1">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>7．喜欢您的日常活动吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="4">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>8．能正视问题而不回避矛盾吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="4">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>9．一直感到不愉快和沮丧吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="1">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>10．一直对自己失去信心吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="1">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>11．一直认为自己是一个无价值的人吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="1">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="329" valign="middle"><p>12．总的看来，您一直感到愉快吗？</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="4">
+            </strong></p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

@@ -1,0 +1,133 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+            <div align="center"><span class="STYLE54">第一部分</span>            </div>
+            <div align="center" class="STYLE52">
+              
+              <span class="STYLE55">（1）工作环境</span> </div>
+            <p align="left">&nbsp;  </p>
+             <p align="center" class="STYLE51">一、请回答下列有关您<strong>工作场所</strong>的问题。 </p>
+              <p align="center" class="STYLE3">&nbsp;</p>
+              <div align="center">
+                
+            </div>
+          </div><div align="center">
+            <form action="post.php?flag2=1" method="post" onsubmit="return check(10);">
+              <table border="1" cellspacing="0" cellpadding="0" align="center">
+                <tbody><tr>
+                  <td width="506" valign="middle"><p>1．噪声较高</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i1" value="1">
+                  </strong>是</p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i1" value="0">
+                      否                  </strong></p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>2．照明较差</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i2" value="1">
+                  </strong>是</p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i2" value="0">
+                  </strong>否</p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>3．夏天，温度适宜</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i3" value="1">
+                  是</strong></p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                    <input type="radio" name="i3" value="0">
+                    否                  </strong></p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>4．冬天，温度适宜</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i4" value="1">
+                  </strong>是</p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i4" value="0">
+                      否                  </strong></p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>5．温度太高或太低</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i5" value="1">
+                  </strong>是</p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i5" value="0">
+                  否</strong></p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>6．空气流通（循环）较好</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i6" value="1">
+                  </strong>是</p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i6" value="0">
+                      否                  </strong></p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>7．空气清洁，没有污染</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i7" value="1">
+                  </strong>是</p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i7" value="0">
+                  </strong>否</p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>8．不接触危险物质</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i8" value="1">
+                  </strong>是</p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i8" value="0">
+                  否</strong></p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>9．物理环境总体质量较差</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i9" value="1">
+                      是                  </strong></p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i9" value="0">
+                  否</strong></p></td>
+                </tr>
+                <tr>
+                  <td valign="middle"><p>10．拥挤</p></td>
+                  <td width="49" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i10" value="1">
+                      是                  </strong></p></td>
+                  <td width="45" valign="top"><p align="center"><strong>
+                      <input type="radio" name="i10" value="0">
+                      否                  </strong></p></td>
+                </tr>
+              </tbody></table>
+            </form>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

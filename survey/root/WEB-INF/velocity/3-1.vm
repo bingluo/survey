@@ -1,0 +1,318 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （1）工作满意度一</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE12">一、这一部分是有关您对<strong>工作满意或不满意的程度</strong>，请根据您的真实感受来选择。</span></p>
+<div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=14" method="post" onsubmit="return check(12);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="344" valign="top">&nbsp;</td>
+                  <td width="44" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">非常不满意</span></p></td>
+                  <td width="40" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">较不满意</span></p></td>
+                  <td width="39" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">有些不满意</span></p></td>
+                  <td width="41" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">有些满意</span></p></td>
+                  <td width="38" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">比较满意</span></p></td>
+                  <td width="38" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">非常满意</span></p></td>                 
+                </tr>
+                <tr>
+            <td width="344" valign="middle"><p class="STYLE59">1．单位的信息沟通和交流方式</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">2．对于实际工作本身</p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="1">
+            </strong></p></td>
+            <td width="40" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="2">
+            </strong></p></td>
+            <td width="39" valign="top"><p align="center"><strong>
+                <input type="radio" name="i2" value="3">
+              </strong></p></td>
+            <td width="41" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="4">
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="5">
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">3．被工作激励的程度（工作引起的积极性）</p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="1">
+            </strong></p></td>
+            <td width="40" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="2">
+            </strong></p></td>
+            <td width="39" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="3">
+            </strong></p></td>
+            <td width="41" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="4">
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <label>
+                <input type="radio" name="i3" value="5">
+              </label>
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <label>
+                <input type="radio" name="i3" value="6">
+              </label>
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">4．上级采用的管理风格</p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="1">
+            </strong></p></td>
+            <td width="40" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="2">
+            </strong></p></td>
+            <td width="39" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="3">
+            </strong></p></td>
+            <td width="41" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="4">
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="5">
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">5．对于改革和革新的实施方式</p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="1">
+            </strong></p></td>
+            <td width="40" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="2">
+            </strong></p></td>
+            <td width="39" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="3">
+            </strong></p></td>
+            <td width="41" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="4">
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <label>
+                <input type="radio" name="i5" value="5">
+              </label>
+            </strong></p></td>
+            <td width="38" valign="top"><p align="center"><strong>
+              <label>
+                <input type="radio" name="i5" value="6">
+              </label>
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">6．单位要求您完成的工作或任务的类型</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+                <input type="radio" name="i6" value="2">
+              </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">7．工作中得到个人发展或成长的程度</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">8．对于单位里解决纠纷的方式</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">9．在工作中发挥各种技能的程度</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">10．单位中起主导作用的心理“感受”或气氛</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">11．单位的管理体制</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i11" value="6">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="344" valign="middle"><p class="STYLE59">12．工作中能够增长本领和才干的程度</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="5">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i12" value="6">
+            </strong></p></td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

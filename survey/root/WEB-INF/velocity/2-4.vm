@@ -1,0 +1,233 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第一部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （4）工作需求</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE4">四、现在你们想了解您工作中某些事情发生的<strong>频度</strong></span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=4" method="post" onsubmit="return check(10);">
+  <table width="600" border="1" align="center" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+                  <td width="366" valign="top">&nbsp;</td>
+                  <td width="46" valign="top"><p align="center" class="STYLE63"><span class="STYLE62">极少</span></p></td>
+                  <td width="43" valign="top"><p align="center" class="STYLE63"><span class="STYLE62">偶尔</span></p></td>
+                  <td width="41" valign="top"><p align="center" class="STYLE63"><span class="STYLE62">有时</span></p></td>
+                  <td width="44" valign="top"><p align="center" class="STYLE63"><span class="STYLE62">相当常见</span></p></td>
+                  <td width="46" valign="top"><p align="center" class="STYLE63"><span class="STYLE62">非常常见</span></p></td>
+                </tr>
+                <tr>
+      <td width="366" valign="middle"> <p class="STYLE60">l．您的工作需要速度很快 </p></td>
+      <td valign="top"><p align="center"><strong>
+            <input type="radio" name="i1" value="1">
+          </strong></p></td>
+      <td valign="top"><p align="center"><strong>
+            <input type="radio" name="i1" value="2">
+          </strong></p></td>
+      <td valign="top"><p align="center"><strong>
+            <input type="radio" name="i1" value="3">
+          </strong></p></td>
+      <td valign="top"><p align="center"><strong>
+            <input type="radio" name="i1" value="4">
+          </strong></p></td>
+      <td valign="top"><p align="center"><strong>
+            <input type="radio" name="i1" value="5">
+          </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">2．您的工作需要付出很大努力</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+            <input type="radio" name="i2" value="1">
+          </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+            <input type="radio" name="i2" value="2">
+          </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+            <input type="radio" name="i2" value="3">
+          </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+            <input type="radio" name="i2" value="4">
+          </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+            <input type="radio" name="i2" value="5">
+          </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">3．您的工作几乎不允许做其它事情</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+            <input type="radio" name="i3" value="1">
+          </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i3" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+            <input type="radio" name="i3" value="3">
+          </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+            <input type="radio" name="i3" value="4">
+          </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i3" value="5">
+        </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">4．您有大量的工作要做</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i4" value="1">
+        </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i4" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+            <input type="radio" name="i4" value="3">
+          </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+        <input type="radio" name="i4" value="4">
+        </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i4" value="5">
+        </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">5．您的工作负荷显著增加</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i5" value="1">
+        </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i5" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+        <input type="radio" name="i5" value="3">
+        </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+        <input type="radio" name="i5" value="4">
+        </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i5" value="5">
+        </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">6．工作时，需要您注意力集中的程度显著增加</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i6" value="1">
+        </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i6" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+        <input type="radio" name="i6" value="3">
+        </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+        <input type="radio" name="i6" value="4">
+        </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i6" value="5">
+        </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">7．工作时，需要您不得不快速思考的程度显著增加</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i7" value="1">
+        </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i7" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+        <input type="radio" name="i7" value="3">
+        </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+        <input type="radio" name="i7" value="4">
+        </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i7" value="5">
+        </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">8．您的工作允许使用在学校里学到的技术和知识</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+            <input type="radio" name="i8" value="1">
+          </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i8" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+        <input type="radio" name="i8" value="3">
+        </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+        <input type="radio" name="i8" value="4">
+        </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i8" value="5">
+        </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">9．给予您最能做好事情的机会</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i9" value="1">
+        </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i9" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+        <input type="radio" name="i9" value="3">
+        </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+        <input type="radio" name="i9" value="4">
+        </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i9" value="5">
+        </strong></p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE60">10．工作中能使用您以前的经验和在培训中学到的技术</p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i10" value="1">
+        </strong></p></td>
+      <td width="43" valign="top"><p align="center"><strong>
+        <input type="radio" name="i10" value="2">
+        </strong></p></td>
+      <td width="41" valign="top"><p align="center"><strong>
+        <input type="radio" name="i10" value="3">
+        </strong></p></td>
+      <td width="44" valign="top"><p align="center"><strong>
+        <input type="radio" name="i10" value="4">
+        </strong></p></td>
+      <td width="46" valign="top"><p align="center"><strong>
+        <input type="radio" name="i10" value="5">
+        </strong></p></td>
+    </tr>
+  </tbody></table>
+  <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+       
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

@@ -1,0 +1,397 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center" class="STYLE55">
+       	      <div align="center" class="STYLE58">第二部分 </div>
+       	      <div align="center" class="STYLE57">
+                
+       	        （13）工作心理控制源</div>
+       	      <p align="center"></p>
+       	    </div>
+       	    <div align="center" class="STYLE55"></div>
+       	    <p align="center" class="STYLE51"><span class="STYLE11">十三、请根据您的真实想法,选择涉及您对工作(但并不仅指您现在的工作)一般信念。</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=26" method="post" onsubmit="return check(16);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="289" valign="top">&nbsp;</td>
+                  <td width="58"><span class="STYLE71">非常 不赞同</span></td>
+                  <td width="59"><span class="STYLE71">中等 不赞同</span></td>
+                  <td width="58"><span class="STYLE71">有些 不赞同 </span></td>
+                  <td width="40"><span class="STYLE71">有些赞同</span></td>
+                  <td width="40"><span class="STYLE71">中等赞同</span></td>
+                  <td width="40"><span class="STYLE71">非常赞同</span></td>
+                  </tr>
+                <tr>
+                  <td width="289" valign="middle"><span class="STYLE68">1．付出的越多，得到的也越多 </span></td>
+                  <td valign="top"><p align="center" class="STYLE68">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE68">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE68">
+                    <input type="radio" name="i1" value="3">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE68">
+                    <input type="radio" name="i1" value="4">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE68">
+                    <input type="radio" name="i1" value="5">
+                  </p></td>
+                  <td width="40" valign="top"><p align="center" class="STYLE68">
+                    <input type="radio" name="i1" value="6">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">2．就大多数工作而言，凡是人们打算完成的，他们都能很好的完成</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="59" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i2" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i2" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">3．如果知道需要从工作中得到什么，那么，就能找到满足自己需要的一份工作</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="59" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i3" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i3" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">4．如果职工对他们的上司所做出的决定不满意，他们应该对这个决定采取提出异议、抵制等措施</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="59" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i4" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i4" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">5．得到自己想要得到的工作，很大程度上说，要靠机遇</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="59" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i5" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i5" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">6．挣钱要有好运气</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i6" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i6" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">7．如果付出努力的话，大多数人都能做好他们的工作</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i7" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i7" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i7" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i7" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">8．为了得到一份真正好的工作，必须有家庭成员或朋友在较高的位置上做领导或管事</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i8" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i8" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i8" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i8" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i8" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i8" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">9．职务（称）晋升通常要有好运气</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i9" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i9" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i9" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i9" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i9" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i9" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">10．就得到一份真正好的工作而言，认识人比本领重要</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i10" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i10" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i10" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i10" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i10" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i10" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">11．得到晋升的人，都是工作做得好的人</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i11" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i11" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i11" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i11" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i11" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i11" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">12．为了挣大钱，自己必须认识适当的人</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i12" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i12" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i12" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i12" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i12" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i12" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">13．在大多数工作中，成为一名优秀职工需要好运气</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i13" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i13" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i13" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i13" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i13" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i13" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">14．工作做得好的人，一般都能得到回报（奖赏）</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i14" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i14" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i14" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i14" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i14" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i14" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">15．大多数职工对管理者的影响比自己想象的要大</p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i15" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i15" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i15" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i15" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i15" value="5">
+            </p></td>
+            <td width="40" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i15" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="289" valign="middle"><p class="STYLE68">16．挣得多和挣得少的人之间主要差异是运气不同</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i16" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i16" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i16" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i16" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i16" value="5">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE68">
+              <input type="radio" name="i16" value="6">
+            </p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

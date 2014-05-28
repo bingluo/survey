@@ -1,0 +1,146 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （6）躯体抱怨</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">六、请根据最近三个月来的真实情况，准确选择下面您躯体症状的发生频度。</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=19" method="post" onsubmit="return check(6);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="352" valign="top">&nbsp;</td>
+                  <td valign="top"><p class="STYLE60">从来没有</p></td>
+                  <td width="47" valign="top"><p align="center" class="STYLE60">有时</p></td>
+                  <td width="46" valign="top"><p class="STYLE60">经常</p></td>
+                  <td valign="top"><p align="center" class="STYLE60">几乎总是</p></td>
+                  </tr>
+                <tr>
+                  <td width="352" valign="middle"><p class="STYLE59">1．不明原因的感到劳累和浑身乏力</p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="3">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="4">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="352" valign="middle"><p class="STYLE59">2．吃、喝和吸烟比平时多</p></td>
+            <td width="70" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="47" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td width="73" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="352" valign="middle"><p class="STYLE59">3．呼吸气短或头晕目眩</p></td>
+            <td width="70" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="47" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td width="73" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="352" valign="middle"><p class="STYLE59">4．肌肉颤抖（如眼皮跳动）</p></td>
+            <td width="70" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="47" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td width="73" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="352" valign="middle"><p class="STYLE59">5．身体的某部分有刺痛感</p></td>
+            <td width="70" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="47" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td width="73" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="352" valign="middle"><p class="STYLE59">6．觉得早晨不想起床</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

@@ -1,0 +1,273 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE57">第四部分</span> </div>
+       	    <div align="center" class="STYLE58">
+              
+       	      （4）麦考林压力三</div>
+       	    
+       	    <p align="center" class="STYLE51"><span class="STYLE11">四、请在下面每个问题后面，选择最适合于您的描述。</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=37" method="post" onsubmit="return check(12);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+             <td width="389" valign="top">&nbsp;</td>
+             <td valign="top"><p align="center" class="STYLE63">非常满意</p>               </td>
+             <td valign="top"><p align="center" class="STYLE63">满意</p></td>
+             <td valign="top"><p align="center" class="STYLE63">一般</p></td>
+             <td valign="top"><p align="center" class="STYLE63">不满意</p></td>
+             <td valign="top"><p align="center" class="STYLE63">很不满意</p></td>
+             </tr>
+                <tr>
+                  <td width="389" valign="middle"><p class="STYLE62">1．同所了解的其他单位相比，您对自己的单位满意吗？</p></td>
+                  <td valign="top"><p align="center" class="STYLE62">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE62">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE62">
+                    <input type="radio" name="i1" value="3">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE62">
+                    <input type="radio" name="i1" value="4">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE62">
+                    <input type="radio" name="i1" value="5">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">2．您对自己所从事的工种满意吗？</p></td>
+            <td width="37" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            <td width="37" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i2" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">3．您对自己的工作条件满意吗？</p></td>
+            <td width="37" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i3" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">4．您对与同事在工作中的合作状况满意吗？</p></td>
+            <td width="37" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i4" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">5．您对直接上级在履行职责时所做的工作满意吗？</p></td>
+            <td width="37" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td width="41" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i5" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">6．您对直接上级在行使职权时所做的工作满意吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i6" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">7．与所承担的责任和付出相比，对您的工资满意吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i7" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i7" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i7" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">8．与其他单位同工种的工资相比，对您的工资满意吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i8" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i8" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i8" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i8" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i8" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">9．自从到现在的单位上班以来，对您工作上的进步满意吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i9" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i9" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i9" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i9" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i9" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">10．对您在单位中调换比较好的工种机会满意吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i10" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i10" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i10" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i10" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i10" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">11．对您在现在的工作中发挥才能的程度满意吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i11" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i11" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i11" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i11" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i11" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="389" valign="middle"><p class="STYLE62">12．自己的知识水平能满足您工作的需求吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i12" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i12" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i12" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i12" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i12" value="5">
+            </p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

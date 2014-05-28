@@ -1,0 +1,1017 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <p align="center"><br>
+   	        </p>
+            <div align="center"><span class="STYLE57">第七部分</span> </div>
+            <div align="center" class="STYLE58">
+              
+              生化指标</div>
+            <p align="center" class="STYLE51">&nbsp;</p>
+            <div align="center" class="STYLE60">本部分为选填            </div>
+            <p class="STYLE59">倘若您近3个月内有过生化检查，请将最近一次检验结果按照下列指标尽量填满，这对您的健康评估很重要。 </p>
+            <p align="center" class="STYLE51">&nbsp;</p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=40" method="post" onsubmit="return checkOther3(126);">  
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+          <tbody><tr>
+            <td valign="middle" style="font-size: 14px"><span class="STYLE62"> 问题 </span></td>
+            <td valign="top" style="font-size: 14px"><span class="STYLE62"> 参考范围 </span></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><span class="STYLE62"> 一、生理指标  </span></td>
+            </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">血压：</p>
+              <p class="STYLE62">收缩压
+                ：</p>
+              <p class="STYLE62">
+  <input type="text" name="text0" style="text-align:center;">
+                mmHg </p>
+              <p class="STYLE62"> 舒张压
+                ： </p>
+              <p class="STYLE62">  
+                <input type="text" name="text1" style="text-align:center;">
+              mmHg </p></td>
+            <td width="299" valign="top" style="font-size: 14px"><p class="STYLE62">&nbsp;</p>
+              <p class="STYLE62">收缩压（90-140）mmHg </p>
+<p class="STYLE62">&nbsp; </p>
+<p class="STYLE62">舒张压（60-90）mmHg] </p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62"> 脉 率： </p>
+              <p class="STYLE62"> 
+  <input name="text2" type="text" style="text-align:center;">
+                次/分 </p></td>
+            <td width="299" valign="top" style="font-size: 14px"> <p class="STYLE62">（60-100）次/分 </p></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><p class="STYLE62"> 二、血常规</p></td>
+            </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">白细胞数： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text3" style="text-align:center;">
+                ×10^9/L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td width="299" valign="top" style="font-size: 14px"><p class="STYLE62">（4--10）×10^9/L </p>              </td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">中性粒细胞： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text4" style="text-align:center;">
+  ×10^9/L</p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（0.5--0.7）×10^9/L </p>              </td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">中性粒细胞百分比：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text5" style="text-align:center;">
+                % &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（50.0-65.0）%</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">淋巴细胞百分比：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text6" style="text-align:center;">
+  %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（20.0-40.0）%</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">单核细胞百分比：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text7" style="text-align:center;">
+                %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（4.0-10.0）%</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">嗜酸粒细胞：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text8" style="text-align:center;">
+                ×10^9/L &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（0.005-0.03）×10^9/L</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">嗜酸粒细胞百分比：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text9" style="text-align:center;">
+                %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.8-7.0）%</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">嗜碱粒细胞：</p>
+              <p class="STYLE62"> 
+                <input type="text" name="text10" style="text-align:center;">
+                ×10^9/L  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.00-0.0075）×10^9/L</p></td>
+          </tr>
+		   <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">嗜碱粒细胞百分比：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text11" style="text-align:center;">
+                %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td width="299" valign="top" style="font-size: 14px"><p class="STYLE62"> （0.2-1.2）%</p>              </td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">淋巴细胞：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text12" style="text-align:center;">
+                ×10^9/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （0.2--0.4）×10^9/L </p>              </td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">单核细胞： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text13" style="text-align:center;">
+                ×10^9/L &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.01--0.08）×10^9/L</p> </td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">红细胞数：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text14" style="text-align:center;">
+                ×10^12/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">男（4.0-5.5）×10^12/L  </p>
+              <p class="STYLE62">女（3.5-5.0）×10^12/L  </p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">血红蛋白：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text15" style="text-align:center;">
+                g/L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">男 （120-160）g/L&nbsp;&nbsp;&nbsp; </p>
+              <p class="STYLE62">女 （110-150）g/L</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62"> 红细胞压积： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text16" style="text-align:center;">
+               %</p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 男 （0.4-0.5）%&nbsp;&nbsp;  </p>
+              <p class="STYLE62"> 女（0.37-0.48）)% </p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">平均红细胞压积：</p>
+              <p class="STYLE62"> 
+                <input type="text" name="text17" style="text-align:center;">
+                fl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（83.48-103.08）fl</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62">平均红细胞血红蛋白浓度(HC)：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text18" style="text-align:center;">
+  &nbsp;g/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.31-0.35）g/L</p></td>
+          </tr>
+          <tr>
+            <td width="295" valign="middle" style="font-size: 14px"><p class="STYLE62"> 红细胞平均体积(V)： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text19" style="text-align:center;">
+                fl &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（83.48-103.08）fl</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">红细胞分布宽度（SD）：</p>
+                <p class="STYLE62">
+                  <input type="text" name="text20" style="text-align:center;">
+                  fl&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（35.0-46.0）fl</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">红细胞分布宽度（CV）：</p>
+                <p class="STYLE62">
+                  <input type="text" name="text21" style="text-align:center;">
+                  %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（11.5-14.8）% </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">血小板：</p>
+                <p class="STYLE62">
+                  <input type="text" name="text22" style="text-align:center;">
+                  ×10^9/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（100-300）×10^9/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">血小板分布宽度：</p>
+                <p class="STYLE62">
+                  <input type="text" name="text23" style="text-align:center;">
+                  %</p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（12.0-18.0）%</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">血小板比积：</p>
+                <p class="STYLE62">
+                  <input type="text" name="text24" style="text-align:center;">
+                  %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （0.09-0.26）%&nbsp; </p>                </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">血小板平均体积：</p>
+                <p class="STYLE62">
+                  <input type="text" name="text25" style="text-align:center;">
+                  fl<br>
+              </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（6.0-12.0）fl</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">大血小板比率：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text26" style="text-align:center;">
+                %&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（13.0-43.0）%</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">网织红细胞数百分率：</p>
+              <p class="STYLE62">
+                <input type="text" name="text27" style="text-align:center;">
+%&nbsp;&nbsp;</p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（0.005--0.015）%</p>&nbsp;</td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">红细胞平均直径：</p>
+              <p class="STYLE62">
+                <input type="text" name="text28" style="text-align:center;">
+              um</p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（7.04-7.62）um</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">高铁血红蛋白：</p>
+              <p class="STYLE62">
+                <input type="text" name="text29" style="text-align:center;">
+              g/dL</p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（0.1-0.4）g/dL</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">游离血红蛋白：</p>
+              <p class="STYLE62">
+                <input type="text" name="text30" style="text-align:center;">
+              mg／L</p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（10-50）mg／L</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 铁结合力总量： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text31" style="text-align:center;">
+                μmol/L &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 男（50-77）μmol/L </p>
+              <p class="STYLE62"> 女（54-77）μmol/L] </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 铁饱和度： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text32" style="text-align:center;">
+               </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.33-0.35）</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 转铁蛋白饱和度（TS）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text33" style="text-align:center;">
+               </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.2-0.55）</p> </td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><span class="STYLE62"> 三、 血液生化检查 </span></td>
+            </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 钠（Na）： </p>
+                <p class="STYLE62">
+                  <input type="text" name="text34" style="text-align:center;">
+                  mmol/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（135-145）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 钾 (k)： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text35" style="text-align:center;">
+                mmol/L &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（3.1-5.5）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 氯化物 (Cl)： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text36" style="text-align:center;">
+                mmol/L&nbsp; &nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（96-108）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 钙 (Ca)： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text37" style="text-align:center;">
+                mmol/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（2.1-2.55）mmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 离子钙： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text38" style="text-align:center;">
+                mmol/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （1.12-1.23）mmol/L </p>
+              <p class="STYLE62"> &gt;60岁为（1.13-1.30）mmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 镁(Mg)： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text39" style="text-align:center;">
+                mmol/L &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.7-1.1）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 磷 (Pi) ：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text40" style="text-align:center;">
+                mmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （0.97-1.45）mmol/L </p>
+              <p class="STYLE62"> &gt;60岁为男（0.74-1.20）mmol/L  </p>
+              <p class="STYLE62"> &nbsp;&nbsp;&nbsp;女（0.90-1.32）mmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 铁（Fe）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text41" style="text-align:center;">
+                μmol/L&nbsp; <br>            
+               </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 男（10.7-26.9）μmol/L </p>
+              <p class="STYLE62"> 女（9.0-23.3）μmol/L </p>
+              <p class="STYLE62"> 老年人（4.5.2-14.3）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 铜（Cu）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text42" style="text-align:center;">
+                μmol/L&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">男（11.0-22.0）μmol/L &nbsp;</p>
+              <p class="STYLE62">女（12.6-24.3）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> <br>
+              锌 (Zn) ：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text43" style="text-align:center;">
+                μmol/L&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（8.4-23.0）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 铅 (Pb)： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text44" style="text-align:center;">
+                μmol/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.00-1.93）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 血氨(BA) ：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text45" style="text-align:center;">
+                μmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 纳氏试剂显色法（5.9-34.2）μmol/L </p>
+              <p class="STYLE62"> 酚一次氯酸盐法（27.02～81.6）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 氨氮(AN) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text46" style="text-align:center;">
+                μmol/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（20-70）μmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> α-氨基酸氮(AAN)： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text47" style="text-align:center;">
+                mmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（2.6-5.0）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 半乳糖： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text48" style="text-align:center;">
+                mmol/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>            
+               </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">0 mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 苯丙氨酸(Phe) ：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text49" style="text-align:center;">
+                μmol/L &nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （0-120）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 丙酮酸： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text50" style="text-align:center;">
+                μmol/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（45-140）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 总胆红素 （T_BIL）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text51" style="text-align:center;">
+                μmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（1.71-14.5.1）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 直接胆红素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text52" style="text-align:center;">
+                μmol/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（1.71-7）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 血清总蛋白（TP）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text53" style="text-align:center;">
+                g/L&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（62.0-85.0）g/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 血清白蛋白 （ALB）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text54" style="text-align:center;">
+                g/L&nbsp; &nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （35.0-55.0）g/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 血清球蛋白（GLO）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text55" style="text-align:center;">
+                g/L &nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（15-35）g/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 白蛋白/球蛋白（A/G）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text56" style="text-align:center;">
+                g/L&nbsp; &nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（1.00-2.50）g/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 肌酐： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text57" style="text-align:center;">
+                μmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（88-177）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 尿酸： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text58" style="text-align:center;">
+                μmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（119-238）μmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 尿素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text59" style="text-align:center;">
+                mmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（3.2-7.0）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 
+              尿素氮： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text60" style="text-align:center;">
+                mmol/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（3.2-4.5.1）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 葡萄糖： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text61" style="text-align:center;">
+                mmol/L </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（3.9-7.8）mmol/l</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 非蛋白氮： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text62" style="text-align:center;">
+                mmol/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（14.3-25.0）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 肌酸： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text63" style="text-align:center;">
+                μmol/L&nbsp;<br>            
+               </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（230-530）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 血清总胆固醇（TC）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text64" style="text-align:center;">
+                mmol/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（2.4-4.7）mmol/Lmmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> <br>
+              高密度脂蛋白： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text65" style="text-align:center;">
+                mmol/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.98-1.71）mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 低密度脂蛋白： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text66" style="text-align:center;">
+                mmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-3.10） mmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 载脂蛋白A： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text67" style="text-align:center;">
+                g/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（1.40-1.45）g/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">  载脂蛋白B： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text68" style="text-align:center;">
+                g/L&nbsp; <br>            
+               </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.80-1.05）g/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 血清甘油三脂（TG）
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text69" style="text-align:center;">
+                mmol/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.38-1.71）mmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 天门冬氨酸：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text70" style="text-align:center;">
+                μmol/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-24 ）μmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 甘氨酸(GIY) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text71" style="text-align:center;">
+                μmol/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（120-554）μmol/L </p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 组氨酸(His) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text72" style="text-align:center;">
+                μmol/L&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（32-107）μmol/L  </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 羟脯氨酸(Pro) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text73" style="text-align:center;">
+                μmol/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 男（0-42）μmol/L </p>
+              <p class="STYLE62"> 女（0-32）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 亮氨酸(Leu) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text74" style="text-align:center;">
+                μmol/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（75-175）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 异亮氨酸(Ile) ：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text75" style="text-align:center;">
+                μmol/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（37-98）μmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 赖氨酸(Lys) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text76" style="text-align:center;">
+                μmol/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（83-238）μmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 丝氨酸(Ser) ：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text77" style="text-align:center;">
+                μmol/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（65-193）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 苏氨酸(Thr) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text78" style="text-align:center;">
+                μmol/L&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（74-234）μmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 缬氨酸(Val) ： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text79" style="text-align:center;">
+                μmol/L&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（141-347）μmol/L</p> </td>
+          </tr>
+		  <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><span class="STYLE62"> 四、尿常规 </span></td>
+            </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">比重(N~SG)  ：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text80" style="text-align:center;">
+  <br>
+               </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;1.03）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">pH值(N~PH)  ：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text81" style="text-align:center;">
+              </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p>              </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"> <p class="STYLE62">白细胞(N~WBC)  ：</p>
+              <p class="STYLE62">
+                <input type="text" name="text82" style="text-align:center;">
+              </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">亚硝酸盐(N~NIT)  ：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text83" style="text-align:center;">
+  &nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">尿蛋白(N~PRO)  ：</p>
+              <p class="STYLE62"> 
+                <input type="text" name="text84" style="text-align:center;">
+              </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">葡萄糖(N~GLU)  ：</p>
+              <p class="STYLE62"> 
+                <input type="text" name="text85" style="text-align:center;">
+              </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">酮体(N~KET)  ：</p>
+              <p class="STYLE62"> 
+                <input type="text" name="text86" style="text-align:center;">
+              </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">尿胆原(N~UBG)  ：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text87" style="text-align:center;">
+  &nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">胆红素(N~BIL)  ：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text88" style="text-align:center;">
+                &nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">尿隐血(N~BLD)  ：</p>
+              <p class="STYLE62"> 
+                <input type="text" name="text89" style="text-align:center;">
+                &nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">维生素C(N~ASC)  ：</p>
+              <p class="STYLE62"> 
+                <input type="text" name="text90" style="text-align:center;">
+              </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;8）</p></td>
+          </tr>
+		   <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><span class="STYLE62"> 五、免疫 </span></td>
+            </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">甲胎蛋白（AFP）：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text91" style="text-align:center;">
+  ng/mL<br>
+               </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;13.6）ng/mL</p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">癌胚抗原（CEA）：</p>
+              <p class="STYLE62"> 
+  <input type="text" name="text92" style="text-align:center;">
+                ng/mL&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;10）ng/mL</p>              </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"> <p class="STYLE62">糖类抗原199(CA199)  ：</p>
+              <p class="STYLE62">
+                <input type="text" name="text93" style="text-align:center;">
+                U/ml</p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62">（&lt;39）U/ml</p></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><span class="STYLE62"> 六、酶类测定 </span></td>
+            </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 丙酮酸激酶： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text94" style="text-align:center;">
+                U/L&nbsp;&nbsp;<br>
+               </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（15.5-41.1）U/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 胆碱脂酶（CHS）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text95" style="text-align:center;">
+                U/L&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 男：（38-57）U/L </p>
+              <p class="STYLE62"> 女：（34-53）U/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"> <p class="STYLE62">谷-草转氨酶同工酶（GOT）：
+  </p>
+              <p class="STYLE62">
+                <input type="text" name="text96" style="text-align:center;">
+                IU/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.2-5.5）IU/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 单胺氧化酶（MAO）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text97" style="text-align:center;">
+                U/mL&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（8-31U/mL</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 淀粉酶（AMy）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text98" style="text-align:center;">
+                U/L </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-90）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 肌酸激酶 （CK）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text99" style="text-align:center;">
+                U/L  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（30-170）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 肌酸激酶同工酶（CK-MB）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text100" style="text-align:center;">
+                U/L  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-25）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> α1-抗胰蛋白酶： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text101" style="text-align:center;">
+                U/L &nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.85-2.13）U/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 亮氨酸氨基肽酶（LAP）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text102" style="text-align:center;">
+                U/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（120-150）U/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 碱性磷酸酶（AKP或ALP）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text103" style="text-align:center;">
+                U/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（40-150）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 酸性磷酸酶：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text104" style="text-align:center;">
+                U/L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（2.4-5.0）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"> <p class="STYLE62">丙氨酸氨基转移酶（ALT）：
+  </p>
+              <p class="STYLE62">
+                <input type="text" name="text105" style="text-align:center;">
+                nmol/L&nbsp;&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-500）nmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 超氧化物歧化酶（SOD）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text106" style="text-align:center;">
+                U/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（242-610）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"> <p class="STYLE62">乳酸脱氢酶（LDH）：
+  </p>
+              <p class="STYLE62">
+                <input type="text" name="text107" style="text-align:center;">
+                U/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （90-245）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> α-羟丁酸脱羧酶（α_HBDH）: </p>
+              <p class="STYLE62">  <u>
+                <input type="text" name="text108" style="text-align:center;">
+              </u>U/L&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（90-250）U/L</p> </td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><span class="STYLE62"> 六、肝功能测定 </span></td>
+            </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 谷丙转氨酶（ALT）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text109" style="text-align:center;">
+                U/L&nbsp; <br>
+                <br>
+               </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> （0-40） U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 谷草转氨酶 （AST）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text110" style="text-align:center;">
+                U/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-37）U/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> r-谷氨酰转氨酶： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text111" style="text-align:center;">
+                U/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.2-2.8）U/L </p></td>
+          </tr>
+          <tr>
+            <td colspan="2" valign="middle" style="font-size: 14px"><span class="STYLE62"> 七、激素测定 </span></td>
+            </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 甲状腺素（TT4）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text112" style="text-align:center;">
+                nmo1/L </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（69.0-141.0）nmo1/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 促甲状腺激素（TSH）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text113" style="text-align:center;">
+                μu/ml&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0.63-3.19）μu/ml </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 游离甲状腺素（FT4）： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text114" style="text-align:center;">
+                pmol/L </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（8.7-14.5.3）pmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 三碘甲状腺原氨酸（TT3）：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text115" style="text-align:center;">
+                nmo1/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（1.3-2.5）nmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"> <p class="STYLE62">游离三碘甲状腺原氨酸FT3）：
+  </p>
+              <p class="STYLE62">
+                <input type="text" name="text116" style="text-align:center;">
+                pmol/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（4.7-7.8）pmol/L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 肾上腺素: </p>
+              <p class="STYLE62"> <u>
+  <input type="text" name="text117" style="text-align:center;">
+              </u>  pmo1／L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-764） pmo1／L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 去甲肾上腺素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text118" style="text-align:center;">
+                pmo1／L&nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-10047）pmo1／L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 多巴胺： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text119" style="text-align:center;">
+                pmo1／L&nbsp;&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-196 ）pmo1／L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62">            睾丸素：
+               </p>
+              <p class="STYLE62"> 
+                <input type="text" name="text120" style="text-align:center;">
+                nmo1/L&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 男（14-24.4）nmol／L </p>
+              <p class="STYLE62"> 女（1.3-2.8）nmol／L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 皮质醇激素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text121" style="text-align:center;">
+                nmol/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 上午：  (166-718)nmol/L&nbsp;&nbsp; </p>
+<p class="STYLE62">  下午：  (55-387)nmol/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 促性腺激素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text122" style="text-align:center;">
+                mIU/mL&nbsp;  </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-200000）mIU/mL</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 促肾上腺皮质素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text123" style="text-align:center;">
+                pmol／L </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（0-26）pmol／L</p> </td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 泌乳刺激素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text124" style="text-align:center;">
+                ug/L&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"><p class="STYLE62"> 男性：  （2.58-18.12）  ug/L&nbsp;&nbsp;  </p>
+<p class="STYLE62"> 女性：  （1.20-29.93）ug/L </p></td>
+          </tr>
+          <tr>
+            <td valign="middle" style="font-size: 14px"><p class="STYLE62"> 胰岛素： </p>
+              <p class="STYLE62"> 
+  <input type="text" name="text125" style="text-align:center;">
+                uIU/mL &nbsp;&nbsp; </p></td>
+            <td valign="top" style="font-size: 14px"> <p class="STYLE62">（3.3-19.5）uIU/mL</p> </td>
+          </tr>
+      </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

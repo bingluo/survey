@@ -1,0 +1,109 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE57">第三部分</span> </div>
+       	    <div align="center" class="STYLE58">
+              
+       	      （2）与工作无关的活动</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">三、请回答下列问题：</span></p>
+            <p align="center" class="STYLE51">&nbsp;</p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=33" method="post" onsubmit="return check(6);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+             <td width="496" valign="top">&nbsp;</td>
+             <td valign="top"><p align="center" class="STYLE63">否</p></td>
+             <td valign="top"><p align="center" class="STYLE63">是</p></td>
+             </tr>
+                <tr>
+                  <td width="496" valign="middle"><p class="STYLE62">1．除了现在的工作，您还有兼职吗？</p></td>
+                  <td valign="top"><p align="center" class="STYLE62">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE62">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="496" valign="middle"><p class="STYLE62">2．您家中有孩子吗？</p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="496" valign="middle"><p class="STYLE62">3．需要您照看孩子吗？</p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="496" valign="middle"><p class="STYLE62">4．需要您打扫房间吗？</p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="496" valign="middle"><p class="STYLE62">5．需要您经常照顾老人和残疾人吗？</p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="496" valign="middle"><p class="STYLE62">6．为了获得学位（历），您正在学校学习（自学）吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE62">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

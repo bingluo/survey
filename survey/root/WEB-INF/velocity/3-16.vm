@@ -1,0 +1,285 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE57">第二部分</span> </div>
+       	    <div align="center" class="STYLE58">
+              
+       	      （17）社会支持</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">十七、社会支持方面</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=30" method="post" onsubmit="return check(12);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="540">
+           <tbody><tr>
+                  <td width="257" valign="top">&nbsp;</td>
+                  <td valign="top"><p align="center" class="STYLE54">很多</p></td>
+                  <td valign="top"><p align="center" class="STYLE54">有些</p></td>
+                  <td valign="top"><p align="center" class="STYLE54">很少</p></td>
+                  <td valign="top"><p align="center" class="STYLE54">根本 没有</p></td>
+                  <td valign="top"><p align="center" class="STYLE54">没有 这种人</p></td>
+                  </tr>
+                <tr>
+                  <td colspan="6" valign="middle"><span class="STYLE60">下列这些人中有多少人想尽各种办法来帮助您，以使您工作起来更容易？</span></td>
+                  </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">1．您的直接上级</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i1" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i1" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i1" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i1" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i1" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">2．工作中的其他人</p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i2" value="1">
+            </strong></p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i2" value="2">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i2" value="3">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i2" value="4">
+            </strong></p></td>
+            <td width="55" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i2" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">3．您的配偶，亲属和朋友</p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i3" value="1">
+            </strong></p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i3" value="2">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i3" value="3">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i3" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i3" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td colspan="6" valign="middle"><p class="STYLE60">能很容易地同下列这些人交谈的有多少？</p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">4．您的直接上级</p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i4" value="1">
+            </strong></p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i4" value="2">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i4" value="3">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i4" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i4" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">5．工作中的其他人</p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i5" value="1">
+            </strong></p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i5" value="2">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i5" value="3">
+            </strong></p></td>
+            <td width="54" valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i5" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i5" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">6．您的配偶，亲属和朋友</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i6" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i6" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i6" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i6" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i6" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td colspan="6" valign="middle"><p class="STYLE60">当工作中出现棘手的事情时，下列这些人中有多少是您可依靠的？ </p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">7．您的直接上级</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i7" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i7" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i7" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i7" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i7" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">8，工作中的其他人</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i8" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i8" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i8" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i8" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i8" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">9.您的配偶，亲属和朋友</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i9" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i9" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i9" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i9" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i9" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td colspan="6" valign="middle"><span class="STYLE60">下列这些人中有多少愿意倾听您的个人问题？</span></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">10．您的直接上级</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i10" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i10" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i10" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i10" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i10" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">11．工作中的其他人</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i11" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i11" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i11" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i11" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i11" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="257" valign="middle"><p class="STYLE60">12．您的配偶，亲属和朋友</p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i12" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i12" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i12" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i12" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center" class="STYLE60"><strong>
+              <input type="radio" name="i12" value="5">
+            </strong></p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

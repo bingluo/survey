@@ -1,0 +1,309 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （11）A型行为</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">十一、根据真实情况，请选择您处理事务的方式和总的行为方式。</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=24" method="post" onsubmit="return check(14);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="347" valign="top">&nbsp;</td>
+                  <td><p align="center" class="STYLE60">对 </p></td>
+                  <td><p align="center" class="STYLE60">有点对 </p></td>
+                  <td><p align="center" class="STYLE60">说不清 </p></td>
+                  <td><p align="center" class="STYLE60">有点 不对 </p></td>
+                  <td width="43"><p align="center" class="STYLE60">不对 </p></td>
+                  </tr>
+                <tr>
+                  <td width="347" valign="middle"><p class="STYLE59">1．对现在的生活感到满意，自己不是一个特别有抱负的人，也不刻意要在事业上取得成绩</p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="3">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="4">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE59">
+                    <input type="radio" name="i1" value="5">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">2．您不能容忍慢节奏方式，例如同别人谈话时，常常想到前面去，预计对方将要说些什么</p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="50" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            <td width="43" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">3．您是相当自信的人和强有力的人，并不顾忌用权威和决定的方式表达自己的思想和观点</p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="50" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">4．您不是特别有成就感的人，在工作中并不经常同他人竞争，也不想在所做的所有事情中超过别人</p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="50" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">5．在做事时，您在某个时间只全神贯注于某一项活动，并付出100％的努力，从事那件事</p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="50" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td width="48" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i5" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">6．您认为自己的行为方式是很有竞争性的和充满活力的</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i6" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">7．与您熟悉的人相比，感到自己更负责、认真、谨慎和具有竞争性</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i7" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">8．您经常很想了解别人对自己的看法，特别是对自己的认可</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i8" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">9．尽管您对工作很认真，但还不能说自己完全、绝对的投身于工作了</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i9" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">10．您的生活节奏加快了，如吃饭、谈话和走路都很快</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i10" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">11．当需要作出优先安排时，工作并不是第一位的，工作虽然很重要，但还有其他事也同样重要</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i11" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">12．您是一个相当自在的人，凡事顺其自然</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i12" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">13．您是一个十分急躁的人，最怕等待，尤其是等人</p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i13" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i13" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i13" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i13" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i13" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="347" valign="middle"><p class="STYLE59">14．您的时间观念很强,用“时间就是金钱,不能浪费”的原则来指导生活</p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i14" value="5">
+            </p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

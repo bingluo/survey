@@ -1,0 +1,107 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第一部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （5）工作单调程度</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51">五、请回答下列问题</p>
+<div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=5" method="post" onsubmit="return check(3);">
+  <table width="600" border="1" align="center" cellpadding="0" cellspacing="0">
+   <tbody><tr>
+                  <td width="366" valign="top">&nbsp;</td>
+                  <td width="42" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">极少</span></p></td>
+                  <td width="43" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">偶尔</span></p></td>
+                  <td width="45" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">有时</span></p></td>
+                  <td width="46" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">相当常见</span></p></td>
+                  <td width="44" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">非常常见</span></p></td>
+                </tr>
+                 <tr>
+      <td width="366" valign="middle"><span class="STYLE59">1．对自己的工作很感兴趣 </span></td>
+      <td width="42" valign="top"><p align="center" class="STYLE60">
+        <input type="radio" name="i1" value="1">
+      </p></td>
+      <td width="43" valign="top"><p align="center" class="STYLE60">
+      <input type="radio" name="i1" value="2">
+      </p></td>
+      <td width="45" valign="top"><p align="center">
+      <input type="radio" name="i1" value="3">
+      </p></td>
+      <td width="46" valign="top"><p align="center">
+      <input type="radio" name="i1" value="4">
+      </p></td>
+      <td width="44" valign="top"><p align="center">
+      <input type="radio" name="i1" value="5">
+      </p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE59">2．您厌烦不得不做的工作</p></td>
+      <td width="42" valign="top"><p align="center" class="STYLE60">
+      <input type="radio" name="i2" value="1">
+      </p></td>
+      <td width="43" valign="top"><p align="center" class="STYLE60">
+      <input type="radio" name="i2" value="2">
+      </p></td>
+      <td width="45" valign="top"><p align="center">
+      <input type="radio" name="i2" value="3">
+      </p></td>
+      <td width="46" valign="top"><p align="center">
+      <input type="radio" name="i2" value="4">
+      </p></td>
+      <td width="44" valign="top"><p align="center">
+      <input type="radio" name="i2" value="5">
+      </p></td>
+    </tr>
+    <tr>
+      <td width="366" valign="middle"><p class="STYLE59">3．您的工作很单调</p></td>
+      <td width="42" valign="top"><p align="center" class="STYLE60">
+      <input type="radio" name="i3" value="1">
+      </p></td>
+      <td width="43" valign="top"><p align="center" class="STYLE60">
+        <input type="radio" name="i3" value="2">
+      </p></td>
+      <td width="45" valign="top"><p align="center">
+      <input type="radio" name="i3" value="3">
+      </p></td>
+      <td width="46" valign="top"><p align="center">
+      <input type="radio" name="i3" value="4">
+      </p></td>
+      <td width="44" valign="top"><p align="center">
+      <input type="radio" name="i3" value="5">
+      </p></td>
+    </tr>
+  </tbody></table>
+  <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+          
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

@@ -1,0 +1,186 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE58">第二部分</span> </div>
+       	    <div align="center" class="STYLE59">
+              
+       	      （10）药物使用</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">十、在过去的一个月里，您服用过下列药物吗？</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=23" method="post" onsubmit="return check(7);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="220" valign="top">&nbsp;</td>
+                  <td width="74" valign="top"><p align="center" class="STYLE64">根本没有</p></td>
+                  <td width="72" valign="top"><p align="center" class="STYLE64">每星期</p>
+                    <p align="center" class="STYLE64">少于1次</p></td>
+                  <td width="67" valign="top"><p align="center" class="STYLE64">每星期</p>
+                    <p align="center" class="STYLE64">1-2次</p></td>
+                  <td width="71" valign="top"><p align="center" class="STYLE64">每星期</p>
+                    <p align="center" class="STYLE64">3-4次</p></td>
+                  <td width="82" valign="top"><p align="center" class="STYLE64">每天都用</p></td>
+                  </tr>
+                <tr>
+                  <td width="220" valign="middle"><p class="STYLE61">1．阿斯匹林</p></td>
+                  <td valign="top"><p align="center" class="STYLE61">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE61">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE61">
+                    <input type="radio" name="i1" value="3">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE61">
+                    <input type="radio" name="i1" value="4">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE61">
+                    <input type="radio" name="i1" value="5">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="220" valign="middle"><p class="STYLE61">2．胃药或助消化药</p></td>
+            <td width="74" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="72" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td width="67" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td width="71" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            <td width="82" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i2" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="220" valign="middle"><p class="STYLE61">3．泻药</p></td>
+            <td width="74" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="72" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td width="67" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td width="71" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i3" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="220" valign="middle"><p class="STYLE61">4．治咳嗽，感冒药</p></td>
+            <td width="74" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="72" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td width="67" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td width="71" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i4" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="220" valign="middle"><p class="STYLE61">5．兴奋药剂</p></td>
+            <td width="74" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="72" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td width="67" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td width="71" valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i5" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="220" valign="middle"><p class="STYLE61">6．镇静药剂</p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i6" value="5">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="220" valign="middle"><p class="STYLE61">7．治头痛药剂</p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i7" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i7" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE61">
+              <input type="radio" name="i7" value="5">
+            </p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

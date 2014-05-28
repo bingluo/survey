@@ -1,0 +1,146 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <div align="center"><span class="STYLE54">第一部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （10）工作前景</div>
+       	    
+       	    <p align="center" class="STYLE51"><span class="STYLE11">十、请选择</span></p>
+<div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=10" method="post" onsubmit="return check(5);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+         <tbody><tr>
+                  <td width="333" valign="top">&nbsp;</td>
+                  <td width="59" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">有些 不确定</span></p></td>
+                  <td width="58" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">几乎 不确定</span></p></td>
+                  <td width="47" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">有些确定</span></p></td>
+                  <td width="44" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">相当确定</span></p></td>
+                  <td width="45" valign="top"><p align="center" class="STYLE60"><span class="STYLE61">十分确定</span></p></td>
+                </tr>
+                 <tr>
+            <td width="333" valign="middle"><span class="STYLE59">1．您能确定将来的工作前景吗？ </span></td>
+            <td width="59" valign="top"><p align="center"><strong>
+                <input type="radio" name="i1" value="1">
+              </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="2">
+            </strong></p></td>
+            <td width="47" valign="top"><p align="center"><strong>
+                <input type="radio" name="i1" value="3">
+              </strong></p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="4">
+            </strong></p></td>
+            <td width="45" valign="top"><p align="center"><strong>
+              <input type="radio" name="i1" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="333" valign="middle"><p class="STYLE59">2．您能确定今后几年有晋升和发展的机会吗？</p></td>
+            <td width="59"><p align="center"><strong>
+              <input type="radio" name="i2" value="1">
+            </strong></p></td>
+            <td width="58"><p align="center"><strong>
+              <input type="radio" name="i2" value="2">
+            </strong></p></td>
+            <td width="47"><p align="center"><strong>
+              <input type="radio" name="i2" value="3">
+            </strong></p></td>
+            <td width="44"><p align="center"><strong>
+              <input type="radio" name="i2" value="4">
+            </strong></p></td>
+            <td width="45" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="333" valign="middle"><p class="STYLE59">3．您能确定五年后，您的工作技能还有用吗？</p></td>
+            <td width="59" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="1">
+            </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="2">
+            </strong></p></td>
+            <td width="47" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="3">
+            </strong></p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="4">
+            </strong></p></td>
+            <td width="45" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="333" valign="middle"><p class="STYLE59">4．您能确定今后6个月，您的责任吗？</p></td>
+            <td width="59" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="1">
+            </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="2">
+            </strong></p></td>
+            <td width="47" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="3">
+            </strong></p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="4">
+            </strong></p></td>
+            <td width="45" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="5">
+            </strong></p></td>
+          </tr>
+          <tr>
+            <td width="333" valign="middle"><p class="STYLE59">5．如果失去了当前的工作，您能确定能养活自己吗？</p></td>
+            <td width="59" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="1">
+            </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="2">
+            </strong></p></td>
+            <td width="47" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="3">
+            </strong></p></td>
+            <td width="44" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="4">
+            </strong></p></td>
+            <td width="45" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="5">
+            </strong></p></td>
+          </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+        
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

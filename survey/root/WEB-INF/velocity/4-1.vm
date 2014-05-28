@@ -1,0 +1,646 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE57">第三部分</span> </div>
+       	    <div align="center" class="STYLE58">
+              
+       	      （1）应付策略</div>
+       	    
+       	    <p align="center" class="STYLE51"><span class="STYLE21">一、请您根据下列叙述作为应付紧张的方式，来对它们进行评定。</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=31" method="post" onsubmit="return check(28);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="602">
+           <tbody><tr>
+             <td width="283" valign="top">&nbsp;</td>
+             <td valign="top"><p align="center" class="STYLE64">从来不用</p></td>
+             <td valign="top"><p align="center" class="STYLE64">很少用</p></td>
+             <td valign="top"><p align="center" class="STYLE64">不用</p></td>
+             <td valign="top"><p align="center" class="STYLE64">偶尔用</p></td>
+             <td valign="top"><p align="center" class="STYLE64">较常用</p></td>
+             <td valign="top"><p align="center" class="STYLE64">经常用</p></td>
+             </tr>
+                <tr>
+                  <td width="283" valign="middle"><p class="STYLE63">1．问题发生随即处理</p></td>
+                  <td valign="top"><p align="center" class="STYLE63">
+                    <input type="radio" name="i1" value="1">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE63">
+                    <input type="radio" name="i1" value="2">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE63">
+                    <input type="radio" name="i1" value="3">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE63">
+                    <input type="radio" name="i1" value="4">
+                  </p></td>
+                  <td valign="top"><p align="center" class="STYLE63">
+                    <input type="radio" name="i1" value="5">
+                  </p></td>
+                  <td width="46" valign="top"><p align="center" class="STYLE63">
+                    <input type="radio" name="i1" value="6">
+                  </p></td>
+                  </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">2．设法认识自己的不足</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td width="51" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i2" value="3">
+            </p></td>
+            <td width="49" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i2" value="4">
+            </p></td>
+            <td width="47" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i2" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i2" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">3．挤出时间来应付问题</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i3" value="2">
+            </p></td>
+            <td width="51" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i3" value="3">
+            </p></td>
+            <td width="49" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i3" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i3" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i3" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">4．寻找使工作更令人感兴趣的方法</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td width="51" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td width="49" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i4" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i4" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">5．重新组织自己的工作</p></td>
+            <td width="58" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i5" value="1">
+            </p></td>
+            <td width="52" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i5" value="2">
+            </p></td>
+            <td width="51" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i5" value="3">
+            </p></td>
+            <td width="49" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i5" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i5" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i5" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">6．从上级那里获得支持和建议</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i6" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i6" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i6" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i6" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i6" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i6" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">7．求助于爱好和娱乐</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i7" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i7" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i7" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i7" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i7" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i7" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">8．以非情绪的方式尽量客观的处理问题</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i8" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i8" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i8" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i8" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i8" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i8" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">9．有效的分配时间</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i9" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i9" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i9" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i9" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i9" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i9" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">10．抑制情绪，尽可能不让心理紧张表现出来</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i10" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i10" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i10" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i10" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i10" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i10" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">11．同家属交谈，寻求理解和帮助</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i11" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i11" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i11" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i11" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i11" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i11" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">12．与理解我的朋友交谈，寻求理解和帮助</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i12" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i12" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i12" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i12" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i12" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i12" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">13．有意识地将“工作”和“家庭”区分开来</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i13" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i13" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i13" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i13" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i13" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i13" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">14．保持忙碌</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i14" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i14" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i14" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i14" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i14" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i14" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">15．超前计划</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i15" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i15" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i15" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i15" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i15" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i15" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">16．不抑制感情，让它发泄出来</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i16" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i16" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i16" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i16" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i16" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i16" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">17．扩大工作以外的兴趣和活动</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i17" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i17" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i17" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i17" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i17" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i17" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">18．建立良好的人际关系，以便需要时能帮忙</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i18" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i18" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i18" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i18" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i18" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i18" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">19．有选择性地将注意力集中于具体问题上</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i19" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i19" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i19" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i19" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i19" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i19" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">20．把注意力从困饶自己的事情上引开</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i20" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i20" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i20" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i20" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i20" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i20" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">21．排列优先顺序，逐个解决问题</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i21" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i21" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i21" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i21" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i21" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i21" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">22．尽量“避矛’问题，对情况作透彻的思考</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i22" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i22" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i22" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i22" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i22" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i22" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">23．求助于法规和规则</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i23" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i23" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i23" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i23" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i23" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i23" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">24．下放权利</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i24" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i24" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i24" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i24" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i24" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i24" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">25．强迫自己放慢行动和生活节奏</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i25" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i25" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i25" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i25" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i25" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i25" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">26．接受现实并学会适应</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i26" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i26" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i26" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i26" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i26" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i26" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" valign="middle"><p class="STYLE63">27．尽量回避某些事情或情景</p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i27" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i27" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i27" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i27" value="4">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i27" value="5">
+            </p></td>
+            <td width="46" valign="top"><p align="center" class="STYLE63">
+              <input type="radio" name="i27" value="6">
+            </p></td>
+            </tr>
+          <tr>
+            <td width="283" height="33" valign="middle"><p class="STYLE54">28．寻找尽可能多的社会支持</p>              </td>
+            <td valign="top"><span class="STYLE63">
+              <input type="radio" name="i28" value="1">
+            </span></td>
+            <td valign="top"><span class="STYLE63">
+              <input type="radio" name="i28" value="1">
+            </span></td>
+            <td valign="top"><span class="STYLE63">
+              <input type="radio" name="i28" value="1">
+            </span></td>
+            <td valign="top"><span class="STYLE63">
+              <input type="radio" name="i28" value="1">
+            </span></td>
+            <td valign="top"><span class="STYLE63">
+              <input type="radio" name="i28" value="1">
+            </span></td>
+            <td valign="top"><span class="STYLE63">
+              <input type="radio" name="i28" value="1">
+            </span></td>
+          </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

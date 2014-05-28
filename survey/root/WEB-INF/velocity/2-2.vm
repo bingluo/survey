@@ -1,0 +1,509 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第一部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （2）工作冲突</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE4">二、请回答下列有关您<strong>工作组（部门）</strong>的问题：</span></p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=2" method="post" onsubmit="return check(16);">
+  <table width="600" border="1" align="center" cellpadding="0" cellspacing="0">
+    <tbody><tr>
+      <td width="249" valign="middle"> <p class="STYLE57">1.您的工作组（部门）内关系和谐 </p></td>
+      <td width="70" valign="top">
+        <div align="center" class="STYLE58">
+          <p align="center">
+            <input name="i1" type="radio" onmouseover="tip.start(this)" value="1" tips="强烈不赞同">
+          </p>
+          <div align="center"><span class="STYLE59">强烈</span>          </div>
+          <div align="center"><span class="STYLE59">不赞同</span></div>
+        </div></td>
+      <td width="70" valign="top">
+            <div align="center" class="STYLE58">
+              <p>
+                <input type="radio" name="i1" value="2" onmouseover="tip.start(this)" tips="中等度不赞同">            
+                </p>
+               <div align="center"><span class="STYLE59">中等度</span>               </div>
+               <div align="center"><span class="STYLE59">不赞同</span> </div>
+            </div></td>
+      <td width="68" valign="top">
+            <div align="center" class="STYLE58">
+              <p>
+                <input type="radio" name="i1" value="3" onmouseover="tip.start(this)" tips="既不赞同，也不不赞同">            
+                </p>
+              <div align="center"><span class="STYLE59">不赞同</span>              </div>
+              <div align="center"><span class="STYLE59">不反对</span></div>
+            </div></td>
+      <td width="67" valign="top">
+            <div align="center" class="STYLE58">
+              <p>
+                <input type="radio" name="i1" value="4">            
+                </p>
+              <div align="center"><span class="STYLE59">中等度</span>              </div>
+              <div align="center"><span class="STYLE59">赞同</span> </div>
+            </div></td>
+      <td width="62" valign="top">
+            <div align="center" class="STYLE58">
+              <p>
+                <input type="radio" name="i1" value="5">            
+                </p>
+               <div align="center"><strong>强烈               </strong></div>
+                <div align="center"><strong>赞同</strong></div>
+            </div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">2.工作组内经常为谁应该做什么而争吵</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+            <input type="radio" name="i2" value="1"></p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+            <input type="radio" name="i2" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+            <input type="radio" name="i2" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+            <input type="radio" name="i2" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+            <input type="radio" name="i2" value="5"></p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">3.组内成员意见不一致</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i3" value="1"></p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i3" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i3" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i3" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input type="radio" name="i3" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">4.组内存在着纠纷（矛盾）</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i4" value="1" onmouseover="tip.start(this)" tips="强烈不赞同"></p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i4" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i4" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input type="radio" name="i4" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i4" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">5.组内成员相互支持对方的意见</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i5" value="1" id="radio7">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i5" value="2" id="radio8">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i5" value="3" id="radio9">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i5" value="4" id="radio10">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input type="radio" name="i5" value="5" id="radio11">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">6.组内成员间存在着冲突</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i6" type="radio" id="radio12" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i6" type="radio" id="radio13" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        </td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i6" type="radio" id="radio14" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i6" type="radio" id="radio15" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i6" type="radio" id="radio16" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">7.成员之间存在着友谊</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i7" type="radio" id="radio17" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i7" type="radio" id="radio" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i7" type="radio" id="radio2" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i7" type="radio" id="radio3" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i7" type="radio" id="radio4" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">8.有"大家是一个整体"的感受</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input name="i8" type="radio" id="radio22" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i8" type="radio" id="radio23" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <p align="center" class="STYLE58">&nbsp; </p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i8" type="radio" id="radio24" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i8" type="radio" id="radio25" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input name="i8" type="radio" id="radio26" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">9.同其他组间有争执</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i9" type="radio" id="radio27" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i9" type="radio" id="radio28" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i9" type="radio" id="radio29" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i9" type="radio" id="radio30" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i9" type="radio" id="radio31" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">10.同其他组，对问题的看法一致</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i10" type="radio" id="radio32" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div>
+        <p align="center" class="STYLE58">&nbsp; </p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i10" type="radio" id="radio33" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i10" type="radio" id="radio34" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i10" type="radio" id="radio35" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i10" type="radio" id="radio36" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div>
+        <p align="center" class="STYLE58">&nbsp; </p></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">11.其他组拒绝提供，你们组完成任务所必须的信息</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i11" type="radio" id="radio37" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i11" type="radio" id="radio38" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input name="i11" type="radio" id="radio39" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input name="i11" type="radio" id="radio40" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div>
+        <p align="center" class="STYLE58">&nbsp; </p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input name="i11" type="radio" id="radio41" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">12.同其他组的关系是和谐的</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+      <input name="i12" type="radio" id="radio42" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i12" type="radio" id="radio43" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i12" type="radio" id="radio44" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i12" type="radio" id="radio45" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i12" type="radio" id="radio46" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">13.同其他组之间缺乏相互支持</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i13" type="radio" id="radio47" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i13" type="radio" id="radio48" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i13" type="radio" id="radio49" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i13" type="radio" id="radio50" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i13" type="radio" id="radio51" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">14.与其他组之间合作较好</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i14" type="radio" id="radio52" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i14" type="radio" id="radio53" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i14" type="radio" id="radio54" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i14" type="radio" id="radio55" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i14" type="radio" id="radio56" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">15.与其他组之间存在着个性冲突</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i15" type="radio" id="radio57" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i15" type="radio" id="radio58" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i15" type="radio" id="radio59" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i15" type="radio" id="radio60" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i15" type="radio" id="radio61" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+    <tr>
+      <td valign="middle"><p class="STYLE57">16.其他工作组制造麻烦</p></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i16" type="radio" id="radio66" value="1">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">强烈</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i16" type="radio" id="radio65" value="2">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i16" type="radio" id="radio64" value="3">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">不赞同</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">不反对</span></div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i16" type="radio" id="radio63" value="4">
+      </p>
+        <div align="center" class="STYLE58"><span class="STYLE59">中等度</span> </div>
+        <div align="center" class="STYLE58"><span class="STYLE59">赞同</span> </div></td>
+      <td valign="top"><p align="center" class="STYLE58">
+        <input name="i16" type="radio" id="radio62" value="5">
+      </p>
+        <div align="center" class="STYLE58"><strong>强烈 </strong></div>
+        <div align="center" class="STYLE58"><strong>赞同</strong></div></td>
+    </tr>
+  </tbody></table>
+  <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

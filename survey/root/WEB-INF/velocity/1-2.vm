@@ -3096,6 +3096,6 @@
         }
     }
     function getAnswer() {
-        return undefined;
+        return 'answer';
     }
 </script>

@@ -1,0 +1,129 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （2）
+       	      工作满意度二
+       	      <div align="center" class="STYLE55"></div>
+   	        </div>
+       	    <p align="center">&nbsp;</p>
+       	    <p align="center"><span class="STYLE11">二、我们希望您考虑您所做的工作类型</span></p>
+       	    <p align="center" class="STYLE51">&nbsp;</p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=15" method="post" onsubmit="return check(4);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+                <tbody><tr>
+                  <td width="255" valign="middle"><span class="STYLE59">1．您现在工作能应付自如，如果不得不重新决定是否做现在所从事的工作的话，您将如何决定？</span></td>
+                  <td valign="top"><span class="STYLE59">毫不犹虑的决定做现在的工作</span></td>
+                  <td valign="top"><span class="STYLE59">一定程度上要重新考虑一下</span></td>
+                  <td colspan="2" valign="top"><span class="STYLE59">肯定不做现在的工作</span></td>
+                  </tr>
+          <tr>
+            <td width="255" valign="middle"><p><strong><strong></strong></strong></p></td>
+            <td width="108" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i1" value="1">
+            </p></td>
+            <td width="95" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i1" value="2">
+            </p></td>
+            <td colspan="2" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i1" value="3">
+              </p>              <p align="center" class="STYLE59">&nbsp;</p></td>
+            </tr>
+          <tr>
+            <td width="255" valign="middle"><p class="STYLE59">2．如果您马上可以从事自己想做的其他工作，您如何选择？</p></td>
+            <td width="108" valign="top"><p align="center" class="STYLE59">还做现在的工作</p></td>
+            <td width="95" valign="top"><span class="STYLE59">做其他工作</span></td>
+            <td colspan="2" valign="top"><span class="STYLE59">不想工作</span></td>
+            </tr>
+          <tr>
+            <td width="255" valign="middle"><p><strong><strong></strong></strong></p></td>
+            <td width="108" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="1">
+            </p></td>
+            <td width="95" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="2">
+            </p></td>
+            <td colspan="2" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i2" value="3">
+              </p>              <p align="center" class="STYLE59">&nbsp;</p></td>
+            </tr>
+          <tr>
+            <td width="255" valign="middle"><p class="STYLE59">3．如果一位朋友告诉您，他（她）对您所从事的工作感兴趣的话，您如何告诉他（她）？</p></td>
+            <td width="108" valign="top"><p align="center" class="STYLE59">将很肯定的向他（她）介绍这种工作</p></td>
+            <td width="95" valign="top"><span class="STYLE59">向他（她）介绍这种工作时，有疑虑</span></td>
+            <td colspan="2" valign="top"><span class="STYLE59">劝告他（她）不要做这种工作</span></td>
+            </tr>
+          <tr>
+            <td width="255" valign="middle"><p><strong><strong></strong></strong></p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+                <input type="radio" name="i3" value="2">
+              </p></td>
+            <td colspan="2" valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i3" value="3">
+              </p></td>
+            </tr>
+          <tr>
+            <td width="255" valign="middle"><p class="STYLE59">4．总的说来，您对自己的工作满意吗？</p></td>
+            <td valign="top"><p align="center" class="STYLE59">十分满意</p></td>
+            <td valign="top"><p align="center" class="STYLE59">有些满意</p></td>
+            <td width="60" valign="top"><p align="center" class="STYLE59">不太满意</p></td>
+            <td width="70" valign="top"><p align="center" class="STYLE59">根本不满意</p></td>
+            </tr>
+          <tr>
+            <td width="255" valign="middle"><p><strong><strong></strong></strong></p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="1">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="2">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="3">
+            </p></td>
+            <td valign="top"><p align="center" class="STYLE59">
+              <input type="radio" name="i4" value="4">
+            </p></td>
+            </tr>
+        </tbody></table>
+      </div>
+    </div>
+    <p>&nbsp;    </p>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>

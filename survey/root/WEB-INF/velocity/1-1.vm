@@ -348,18 +348,24 @@
 <script language="javascript" type="text/javascript">
     function q_${questionnaireId}_getAnswer() {
         var answer = getAnswer();
-        if (answer == undefined) {
+	    return { finished: true, answer: answer };// should be dlt
+        /*
+		if (answer == undefined) {
             return { finished: false, answer: undefined };
         } else {
             return { finished: true, answer: answer };
         }
+		*/
     }
     function getAnswer() {
-        var realName = $('#realName').text();
+		return 'answer'; // should be dlt
+        /*
+		var realName = $('#realName').text();
         if (realName == '') {
             return undefined;
         } else {
             return realName;
         }
+		*/
     }
 </script>

@@ -1,0 +1,237 @@
+<div class="services_section">
+        <div>
+          <div class="center">
+       	    <p>&nbsp;&nbsp;&nbsp;</p>
+       	    <div align="center"><span class="STYLE54">第二部分</span> </div>
+       	    <div align="center" class="STYLE55">
+              
+       	      （14）自尊感</div>
+       	    <p align="center">&nbsp;</p>
+            <p align="center" class="STYLE51"><span class="STYLE11">十四、请表明您对下列陈述的赞同或不赞同的程度</span>。</p>
+            <div align="center">
+              
+   	        </div>
+          </div>
+          <div align="center">
+            <div align="center">
+  <form action="post.php?flag2=27" method="post" onsubmit="return check(10);">
+    <div align="center">
+      <div align="center">
+        <table border="1" cellspacing="0" cellpadding="0" width="600">
+           <tbody><tr>
+                  <td width="322" valign="top">&nbsp;</td>
+                  <td width="62"><span class="STYLE61">强烈 不赞同</span></td>
+                  <td width="59"><span class="STYLE61">中等度不赞同</span></td>
+                  <td width="58"><span class="STYLE61">不赞同不反对</span></td>
+                  <td width="46"><span class="STYLE61">中等赞同</span></td>
+                  <td width="39"><span class="STYLE61">强烈赞同</span></td>
+                  </tr>
+                <tr>
+                  <td width="322" valign="middle"><span class="STYLE59">1．总的说来，您对自己是满意的 </span></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="1">
+                  </strong></p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="2">
+                  </strong></p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="3">
+                  </strong></p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="4">
+                  </strong></p></td>
+                  <td valign="top"><p align="center"><strong>
+                    <input type="radio" name="i1" value="5">
+                  </strong></p></td>
+                  </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">2．您感到没有太多值得自豪的</p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="1">
+            </strong></p></td>
+            <td width="59" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="2">
+            </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="3">
+            </strong></p></td>
+            <td width="46" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="4">
+            </strong></p></td>
+            <td width="39" valign="top"><p align="center"><strong>
+              <input type="radio" name="i2" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">3．有时您确实感到自己无用</p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="1">
+            </strong></p></td>
+            <td width="59" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="2">
+            </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="3">
+            </strong></p></td>
+            <td width="46" valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i3" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">4．您感到自己是一个有价值的人,至少同其他人一样</p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="1">
+            </strong></p></td>
+            <td width="59" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="2">
+            </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="3">
+            </strong></p></td>
+            <td width="46" valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i4" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">5．您感到自己有很多好的品质</p></td>
+            <td width="62" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="1">
+            </strong></p></td>
+            <td width="59" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="2">
+            </strong></p></td>
+            <td width="58" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="3">
+            </strong></p></td>
+            <td width="46" valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i5" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">6．总的说来，您倾向于认为自己是一个失败者</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i6" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">7．您希望能为自己赢得更多的尊重</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i7" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">8．您能同其他大多数人一样把事情做好</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i8" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">9．有时，您认为自己一无是处</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i9" value="5">
+            </strong></p></td>
+            </tr>
+          <tr>
+            <td width="322" valign="middle"><p class="STYLE59">10．您对自已持肯定态度</p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="1">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="2">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="3">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="4">
+            </strong></p></td>
+            <td valign="top"><p align="center"><strong>
+              <input type="radio" name="i10" value="5">
+            </strong></p></td>
+            </tr>
+        </tbody></table>
+        
+      </div>
+    </div>
+  </form>
+</div>
+          </div>
+          <p>&nbsp;
+          </p>
+         
+          <div class="cleaner"></div>
+        </div>
+            
+            
+
+      </div>
+<script language="javascript" type="text/javascript">
+    function q_${questionnaireId}_getAnswer() {
+        var answer = getAnswer();
+        if (answer == undefined) {
+            return { finished: false, answer: undefined };
+        } else {
+            return { finished: true, answer: answer };
+        }
+    }
+    function getAnswer() {
+        return 'answer';
+    }
+</script>
