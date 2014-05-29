@@ -57,18 +57,20 @@ public class PageController extends AbstractController {
 					String pageName = questionnaire.getPageName();
 					Map<String, Object> context = new HashMap<String, Object>();
 					context.put("questionnaireId", questionnaire.getId());
-					String page = VelocityEngineUtils.mergeTemplateIntoString(velocityConfigurer.getVelocityEngine(), pageName, context);
+					String page = VelocityEngineUtils.mergeTemplateIntoString(
+							velocityConfigurer.getVelocityEngine(), pageName,
+							context);
 					status = 0;
 					object.put("page", page);
 					object.put("questionnaireId", questionnaire.getId());
 				} else {
-					status = 1;// ÌâÄ¿ÒÑ´ğÍê
+					status = 1;// é¢˜ç›®å·²ç­”å®Œ
 				}
 			} else {
-				status = 3;// ÓÃ»§²»´æÔÚ
+				status = 3;// ç”¨æˆ·ä¸å­˜åœ¨
 			}
 		} else {
-			status = 2;// ÓÃ»§Î´µÇÂ¼
+			status = 2;// ç”¨æˆ·æœªç™»å½•
 		}
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());
@@ -93,18 +95,20 @@ public class PageController extends AbstractController {
 					String pageName = questionnaire.getPageName();
 					Map<String, Object> context = new HashMap<String, Object>();
 					context.put("questionnaireId", questionnaire.getId());
-					String page = VelocityEngineUtils.mergeTemplateIntoString(velocityConfigurer.getVelocityEngine(), pageName, context);
+					String page = VelocityEngineUtils.mergeTemplateIntoString(
+							velocityConfigurer.getVelocityEngine(), pageName,
+							context);
 					status = 0;
 					object.put("page", page);
 					object.put("questionnaireId", questionnaire.getId());
 				} else {
-					status = 1;// ÎÊ¾í²»´æÔÚ
+					status = 1;// é—®å·ä¸å­˜åœ¨
 				}
 			} else {
-				status = 3;// ÓÃ»§²»´æÔÚ
+				status = 3;// ç”¨æˆ·ä¸å­˜åœ¨
 			}
 		} else {
-			status = 2;// ÓÃ»§Î´µÇÂ¼
+			status = 2;// ç”¨æˆ·æœªç™»å½•
 		}
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());
@@ -133,13 +137,13 @@ public class PageController extends AbstractController {
 					object.put("submitTime", submitDetail.getSubmitTime());
 					status = 0;
 				} else {
-					status = 1;// Î´Ôø´ğÌâ
+					status = 1;// æœªæ›¾ç­”é¢˜
 				}
 			} else {
-				status = 3;// ÓÃ»§²»´æÔÚ
+				status = 3;// ç”¨æˆ·ä¸å­˜åœ¨
 			}
 		} else {
-			status = 2;// ÓÃ»§Î´µÇÂ¼
+			status = 2;// ç”¨æˆ·æœªç™»å½•
 		}
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());
@@ -159,10 +163,10 @@ public class PageController extends AbstractController {
 				object.put("menu", menuString);
 				status = 0;
 			} else {
-				status = 2;// ÓÃ»§²»´æÔÚ
+				status = 2;// ç”¨æˆ·ä¸å­˜åœ¨
 			}
 		} else {
-			status = 1;// ÓÃ»§Î´µÇÂ¼
+			status = 1;// ç”¨æˆ·æœªç™»å½•
 		}
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());
@@ -180,7 +184,7 @@ public class PageController extends AbstractController {
 		QuestionnairePojo questionnaire = questionnaireService
 				.getQuestionnaireById(questionnaireId);
 		if (questionnaire == null) {
-			status = 3;// ÎÊ¾í²»´æÔÚ
+			status = 3;// é—®å·ä¸å­˜åœ¨
 
 		} else if (userId != null) {
 			User user = userService.getUserById(userId);
@@ -188,10 +192,10 @@ public class PageController extends AbstractController {
 				submitDetailService.submit(questionnaireId, userId, answer);
 				status = 0;
 			} else {
-				status = 2;// ÓÃ»§²»´æÔÚ
+				status = 2;// ç”¨æˆ·ä¸å­˜åœ¨
 			}
 		} else {
-			status = 1;// ÓÃ»§Î´µÇÂ¼
+			status = 1;// ç”¨æˆ·æœªç™»å½•
 		}
 		object.put("status", status);
 		ajaxResponse(response, object.toJSONString());

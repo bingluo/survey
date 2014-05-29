@@ -45,7 +45,7 @@ public class CatalogService {
 			CatalogPojo catalog = catalogs.get(i);
 			sb.append("<li>");
 			sb.append("<p>").append(catalog.getTitle()).append("</p>");
-			sb.append("<ul class='survey-menu-inner-list'>");
+			sb.append("<ul class='survey-menu-inner-list' style='display:none'>");
 			for (QuestionnairePojo questionnaire : catalog.getQuestionnaires()) {
 				String didBefore = "";
 				SubmitDetail submitDetail = questionnaire.getSubmitDetail();

@@ -24,6 +24,10 @@ $(document).ready(function () {
     $('body,html').animate({ scrollTop: 0 }, function () {
         isInited = true;
     });
+	
+	$(document).on("click","#survey-menu-list li p", function(){
+		$(this).next(".survey-menu-inner-list").slideToggle();
+	});
 });
 $(window).resize(function () {
     $('#survey-container').css('min-height', $(window).height());
