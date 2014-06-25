@@ -10,7 +10,7 @@
           </div>
           <div align="center">
             <div align="center">
-  <form action="post.php?flag2=2" method="post" onsubmit="return check(16);">
+  <form id="form-${questionnaireId}" action="post.php?flag2=2" method="post" onsubmit="return check(16);">
   <table width="600" border="1" align="center" cellpadding="0" cellspacing="0">
     <tbody><tr>
       <td width="249" valign="middle"> <p class="STYLE57">1.您的工作组（部门）内关系和谐 </p></td>

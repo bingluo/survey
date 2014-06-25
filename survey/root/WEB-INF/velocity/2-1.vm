@@ -9,7 +9,7 @@
                 
             </div>
           </div><div align="center">
-            <form action="post.php?flag2=1" method="post" onsubmit="return check(10);">
+            <form id="form-${questionnaireId}" action="post.php?flag2=1" method="post" onsubmit="return check(10);">
               <table border="1" cellspacing="0" cellpadding="0" align="center">
                 <tbody><tr>
                   <td width="506" valign="middle"><p>1．噪声较高</p></td>

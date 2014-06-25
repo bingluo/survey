@@ -10,7 +10,7 @@
           </div>
           <div align="center">
             <div align="center">
-  <form action="post.php?flag2=5" method="post" onsubmit="return check(3);">
+  <form id="form-${questionnaireId}" action="post.php?flag2=5" method="post" onsubmit="return check(3);">
   <table width="600" border="1" align="center" cellpadding="0" cellspacing="0">
    <tbody><tr>
                   <td width="366" valign="top">&nbsp;</td>

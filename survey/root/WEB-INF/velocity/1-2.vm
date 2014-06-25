@@ -3049,7 +3049,7 @@
 </script>
 <h1>B 工作情况</h1>
 <hr />
-<form>
+<form id="form-${questionnaireId}">
     <table width="600" height="200" border="0" align="center" cellpadding="0" cellspacing="5">
         <tr>
             <td width="564" valign="top">
@@ -3087,15 +3087,13 @@
     </table>
 </form>
 <script language="javascript" type="text/javascript">
-    function q_${questionnaireId}_getAnswer() {
+	function q_${questionnaireId}_getAnswer() {
         var answer = getAnswer();
-        if (answer == undefined) {
-            return { finished: false, answer: undefined };
-        } else {
-            return { finished: true, answer: answer };
-        }
+	    return { finished: true, answer: JSON.stringify(answer) };
     }
     function getAnswer() {
-        return 'answer';
+		questionnaireId = ${questionnaireId};
+        var jsonuserinfo = $("#form-"+questionnaireId).serializeObject();
+        alert(JSON.stringify(jsonuserinfo));
     }
 </script>
