@@ -3,6 +3,10 @@
  PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
  "http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
+	<listener>
+	      <listener-class>cn.edu.seu.cse.survey.listener.InitSystemListener</listener-class>
+	</listener>
+	
 	<servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>

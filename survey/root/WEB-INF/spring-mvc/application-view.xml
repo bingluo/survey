@@ -30,8 +30,8 @@
 		<!-- 避免乱码 -->
 		<property name="contentType" value="text/html;charset=UTF-8" />
 		<property name="toolboxConfigLocation" value="/WEB-INF/spring-mvc/velocity-tools.xml" />
-		<!--配置工具类 
+		<!--配置工具类 -->
         <property name="viewClass"
-            value="cn.seu.cose.view.velocity.VelocityLayoutView" />-->
+            value="cn.edu.seu.cse.survey.view.velocity.VelocityLayoutView" />
     </bean>
 </beans>

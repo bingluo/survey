@@ -16,7 +16,7 @@ $(document).ready(function () {
     $('#survey-menu').scrollToFixed({ marginTop: 65 });
     $.pnotify.defaults.styling = "jqueryui";
     $(".after-login").hide();
-    $.get("http://localhost:8088/current-user", function (data) {
+    $.get(contextPath+"/current-user", function (data) {
         if (data.status == 0) {
             userLogin(data.email);
         }
@@ -82,7 +82,7 @@ $('#survey-login').click(function () {
         });
         return;
     }
-    $.get("http://localhost:8088/sign-in", { email: email, password: password }, function (data) {
+    $.get(contextPath+"/sign-in", { email: email, password: password }, function (data) {
         if (data.status == 0) {
             userLogin(data.email);
         } else {
@@ -97,7 +97,7 @@ $('#survey-login').click(function () {
 });
 
 $('#survey-logout').click(function () {
-    $.get("http://localhost:8088/log-out", function (data) {
+    $.get(contextPath+"/log-out", function (data) {
         if (data.status == 0) {
             isLogin = false;
             $(".after-login").hide();
@@ -118,7 +118,7 @@ function userLogin(email) {
 
 function getNewQuestionnaire() {
     isBusy = true;
-    $.get("http://localhost:8088/next-page", function (data) {
+    $.get(contextPath+"/next-page", function (data) {
         if (data.status == 0) {
             currentQuestionnaireId = data.questionnaireId;
             var nextPage = "<div id= \"" + currentQuestionnaireId + "\"class=\"survey-questionnaire\">" + data.page + "</div>";
@@ -136,7 +136,7 @@ function getNewQuestionnaire() {
 
 function updateMenu() {
     isBusy = true;
-    $.get("http://localhost:8088/get-menu", function (data) {
+    $.get(contextPath+"/get-menu", function (data) {
         if (data.status == 0) {
             var menuData = data.menu;
             $('#survey-menu').html(menuData);
@@ -155,7 +155,7 @@ function submitCurrentQuestionnaire() {
             //submit ajax
             var answer = result.answer;
             isBusy = true;
-            $.post("http://localhost:8088/submit-answer",
+            $.post(contextPath+"/submit-answer",
                 { questionnaireId: currentQuestionnaireId, answer: answer },
                 function (data) {
                     if (data.status == 0) {
