@@ -3094,6 +3094,6 @@
     function getAnswer() {
 		questionnaireId = ${questionnaireId};
         var jsonuserinfo = $("#form-"+questionnaireId).serializeObject();
-        alert(JSON.stringify(jsonuserinfo));
+		return jsonuserinfo;
     }
 </script>

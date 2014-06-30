@@ -997,15 +997,13 @@
 
       </div>
 <script language="javascript" type="text/javascript">
-    function q_${questionnaireId}_getAnswer() {
+	function q_${questionnaireId}_getAnswer() {
         var answer = getAnswer();
-        if (answer == undefined) {
-            return { finished: false, answer: undefined };
-        } else {
-            return { finished: true, answer: answer };
-        }
+	    return { finished: true, answer: JSON.stringify(answer) };
     }
     function getAnswer() {
-        return 'answer';
+		questionnaireId = ${questionnaireId};
+        var jsonuserinfo = $("#form-"+questionnaireId).serializeObject();
+		return jsonuserinfo;
     }
 </script>
