@@ -115,7 +115,7 @@ public class PageController extends AbstractController {
 	}
 
 	@SuppressWarnings("unchecked")
-	@RequestMapping(value = "/get-answer", method = RequestMethod.POST)
+	@RequestMapping(value = "/get-answer", method = RequestMethod.GET)
 	public void getAnswer(HttpServletResponse response, HttpSession session,
 			@RequestParam("questionnaireId") int questionnaireId) {
 
