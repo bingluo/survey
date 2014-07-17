@@ -11,6 +11,7 @@ var isShowingLoginFailInfo = false;
 var isShowingSubmitFailInfo = false;
 
 $(document).ready(function () {
+    $('.popbox').popbox();
     $('#survey-container').css('min-height', $(window).height());
     $('#survey-userinfo').scrollToFixed();
     $('#survey-menu').scrollToFixed({ marginTop: 65 });
@@ -108,6 +109,52 @@ $('#survey-logout').click(function () {
     });
 });
 
+$('#survey-signup').click(function(){
+	var nickname = $("#r-name").val();
+	var email = $("#r-mail").val();
+	var pwd1 = $("#r-pwd1").val();
+	var pwd2 = $("#r-pwd2").val();
+	if((nickname == "")||(email == "")||(pwd1 == "")||(pwd2 == "")) {
+		$.pnotify({
+                title: '注册失败...',
+                text: '请填写完整信息...',
+                icon: false,
+                type: 'error'
+        });
+		return;
+	}
+	if(!checkMail(email)) {
+		$.pnotify({
+                title: '注册失败...',
+                text: '请填写正确的邮箱信息...',
+                icon: false,
+                type: 'error'
+        });
+		return;
+	}
+	if(pwd1 != pwd2) {
+		$.pnotify({
+                title: '注册失败...',
+                text: '请保证两次输入的密码一致...',
+                icon: false,
+                type: 'error'
+        });
+		return;
+	}
+	$.post(contextPath+"/sign-up", { nickname: nickname, email: email, password: pwd1 }, function (data) {
+		if(data.status == 0) {
+            location.reload();
+		} else {
+			$.pnotify({
+                title: '注册失败...',
+                text: '服务器异常，请稍候...',
+                icon: false,
+                type: 'error'
+        });
+		}
+	});
+});
+
 function userLogin(email) {
     isLogin = true;
     updateMenu();
@@ -181,4 +228,9 @@ function submitCurrentQuestionnaire() {
             }
         }
     }
+}
+
+function checkMail(mailToCheck) {
+	var reg = /^[A-Za-zd]+([-_.][A-Za-zd]+)*@([A-Za-zd]+[-.])+[A-Za-zd]{2,5}$/; 
+	return reg.test(mailToCheck);
 }

@@ -6,9 +6,16 @@
     <link rel="stylesheet" type="text/css" href="assets/css/survey.main.css" />
     <link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery.pnotify.default.css" />
     <link rel="stylesheet" type="text/css" media="all" href="assets/css/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="assets/css/popbox.css" />
     <script type="text/javascript" language="javascript" src="assets/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" language="javascript" src="assets/js/jquery-scrolltofixed-min.js"></script>
     <script type="text/javascript" language="javascript" src="assets/js/jquery.pnotify.min.js"></script>
+	<script type="text/javascript" language="javascript" src="assets/js/popbox.min.js"></script>
+	<style type="text/css" media="screen">
+	form { margin: 25px; text-align:left }
+    form input[type=text] { padding:5px; width:90%; border:solid 1px #CCC;}
+	form input[type=password] { padding:5px; width:90%; border:solid 1px #CCC;}
+	</style>
 </head>
 <body>
     <div id="survey-wrapper">
@@ -25,7 +32,34 @@
                     <li class="before-login"><input id="survey-email" class="line" type="text" placeholder="您的邮箱地址..." /></li>
                     <li class="before-login"><input id="survey-password" class="line" type="password" placeholder="您的密码..." /></li>
                     <li class="before-login"><a id="survey-login" href="#">登录</a></li>
-                    <li class="before-login"><a id="survey-register" href="#">注册</a></li>
+                    <li class="before-login">
+					<div class="popbox">
+						<a class="open" id="survey-register" href="#">注册</a>
+						<div class='collapse'>
+							<div class='box' style="width:300px">
+								<div class='arrow'></div>
+								<div class='arrow-border'></div>
+								<p>请先进行注册，注册后才能使用本系统</p>
+								<form>
+								<div class="input">
+									<input type="text" id="r-name" placeholder="昵称..." />
+								</div>
+								<div class="input">
+									<input type="text" id="r-mail" placeholder="邮箱..." />
+								</div>
+								<div class="input">
+									<input type="password" id="r-pwd1" placeholder="密码..." />
+								</div>
+								<div class="input">
+									<input type="password" id="r-pwd2" placeholder="重复密码..." />
+								</div>
+								<a href="#" id="survey-signup">注册</a> 
+								<a href="#" class="close">取消</a>
+								</form>
+							</div>
+						</div>
+					</div>
+					</li>
                     <li class="after-login"><div id="survey-userlogin-info"></div></li>
                     <li class="after-login"><a id="survey-logout" href="#">退出登录</a></li>
                 </ul>
