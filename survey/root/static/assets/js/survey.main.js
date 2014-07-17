@@ -55,6 +55,7 @@ $(window).scroll(function () {
         }
         if (currentQuestionnaireId == undefined) {
             getNewQuestionnaire();
+            renderQuestionnaire();
             return;
         }
         //Update the anchor information
@@ -179,6 +180,24 @@ function getNewQuestionnaire() {
         }
         isBusy = false;
     });
+}
+
+function renderQuestionnaire() {
+	isBusy = true;
+	$.get(contextPath+"/get-answer", function(data){
+		if(data.status == 0) {
+			//success
+			var renderQuestionnaireId = data.questionnaireId;
+			var jsonString = data.content;
+			$("#form-"+renderQuestionnaireId).unSerializeObjectFromJson(jsonString);
+		}else if (data.status == 1) {
+			//not submit yet
+		}else if (data.status == 2) {
+			//need to sign in
+		}else if (data.status == 3) {
+			//user does not exist
+		}
+	});
 }
 
 function updateMenu() {
