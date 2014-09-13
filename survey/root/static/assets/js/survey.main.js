@@ -183,6 +183,7 @@ function getNewQuestionnaire() {
 }
 
 function renderQuestionnaire() {
+    /*
 	isBusy = true;
 	$.get(contextPath+"/get-answer", function(data){
 		if(data.status == 0) {
@@ -198,6 +199,7 @@ function renderQuestionnaire() {
 			//user does not exist
 		}
 	});
+	*/
 }
 
 function updateMenu() {
